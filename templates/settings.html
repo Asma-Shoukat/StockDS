@@ -1,0 +1,325 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>StockFlow Risk Engine - Settings</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    <style>
+        :root {
+            --bg-primary: #0a0a0f; --bg-secondary: #12121a; --bg-card: rgba(255, 255, 255, 0.03);
+            --bg-card-hover: rgba(255, 255, 255, 0.06); --border-color: rgba(255, 255, 255, 0.08);
+            --text-primary: #ffffff; --text-secondary: #a0a0a0; --text-muted: #6b6b6b;
+            --accent-blue: #3b82f6; --accent-purple: #8b5cf6; --accent-green: #10b981; 
+            --accent-yellow: #f59e0b; --accent-red: #ef4444; --accent-cyan: #06b6d4;
+            --gradient-1: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+            --gradient-2: linear-gradient(135deg, #10b981 0%, #06b6d4 100%);
+            --sidebar-width: 280px; --sidebar-collapsed: 70px;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Inter, sans-serif; background: var(--bg-primary); color: var(--text-primary); min-height: 100vh; overflow-x: hidden; }
+        .sidebar { position: fixed; left: 0; top: 0; height: 100vh; width: var(--sidebar-collapsed); background: var(--bg-secondary); border-right: 1px solid var(--border-color); display: flex; flex-direction: column; transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1); z-index: 1000; overflow: hidden; }
+        .sidebar:hover { width: var(--sidebar-width); }
+        .sidebar-nav { flex: 1; padding: 1.5rem 0.5rem; display: flex; flex-direction: column; gap: 0.5rem; }
+        .nav-item { display: flex; align-items: center; gap: 0.75rem; padding: 0.875rem; border-radius: 12px; text-decoration: none; color: var(--text-secondary); transition: all 0.2s; }
+        .nav-item:hover { background: var(--bg-card-hover); color: var(--text-primary); }
+        .nav-item.active { background: var(--gradient-1); color: white; }
+        .nav-item .material-symbols-outlined { font-size: 1.5rem; flex-shrink: 0; font-variation-settings: '\''FILL'\'' 0, '\''wght'\'' 400; }
+        .nav-item.active .material-symbols-outlined { font-variation-settings: '\''FILL'\'' 1, '\''wght'\'' 500; }
+        .nav-item span:last-child { white-space: nowrap; opacity: 0; transition: opacity 0.2s; }
+        .sidebar:hover .nav-item span:last-child { opacity: 1; }
+        .sidebar-footer { padding: 1rem; border-top: 1px solid var(--border-color); }
+        .top-header { position: fixed; top: 0; left: var(--sidebar-collapsed); right: 0; height: 70px; background: rgba(10, 10, 15, 0.8); backdrop-filter: blur(20px); border-bottom: 1px solid var(--border-color); display: flex; align-items: center; justify-content: center; z-index: 100; transition: left 0.3s; }
+        .sidebar:hover ~ .main-wrapper .top-header, .sidebar:hover ~ .top-header { left: var(--sidebar-width); }
+        .header-brand { display: flex; align-items: center; gap: 0.75rem; }
+        .header-logo { width: 42px; height: 42px; background: var(--gradient-1); border-radius: 12px; display: flex; align-items: center; justify-content: center; }
+        .header-logo .material-symbols-outlined { font-size: 1.5rem; color: white; }
+        .header-title { font-size: 1.5rem; font-weight: 800; background: var(--gradient-1); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .header-right { position: absolute; right: 1.5rem; display: flex; gap: 1rem; }
+        .status-indicator { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 20px; font-size: 0.875rem; color: var(--accent-green); }
+        .status-dot { width: 8px; height: 8px; background: var(--accent-green); border-radius: 50%; animation: pulse 2s infinite; }
+        @keyframes pulse { 0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.4); } 50% { opacity: 0.8; box-shadow: 0 0 0 8px rgba(16, 185, 129, 0); } }
+        .main-wrapper { margin-left: var(--sidebar-collapsed); padding-top: 70px; min-height: 100vh; transition: margin-left 0.3s; }
+        .sidebar:hover ~ .main-wrapper { margin-left: var(--sidebar-width); }
+        .main-content { padding: 2rem; max-width: 900px; margin: 0 auto; }
+        .page-header { margin-bottom: 2rem; }
+        .page-title { font-size: 2rem; font-weight: 800; margin-bottom: 0.5rem; }
+        .page-subtitle { color: var(--text-secondary); font-size: 1rem; }
+        .settings-section { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 20px; padding: 2rem; margin-bottom: 1.5rem; }
+        .section-header { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border-color); }
+        .section-icon { width: 48px; height: 48px; background: rgba(59, 130, 246, 0.15); border-radius: 12px; display: flex; align-items: center; justify-content: center; color: var(--accent-blue); }
+        .section-title { font-size: 1.25rem; font-weight: 700; }
+        .setting-group { margin-bottom: 1.5rem; }
+        .setting-group:last-child { margin-bottom: 0; }
+        .setting-label { display: block; font-weight: 600; margin-bottom: 0.5rem; color: var(--text-primary); }
+        .setting-description { font-size: 0.875rem; color: var(--text-secondary); margin-bottom: 0.75rem; }
+        .setting-input { width: 100%; padding: 0.875rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 12px; color: var(--text-primary); font-size: 0.9375rem; transition: all 0.2s; }
+        .setting-input:focus { outline: none; border-color: var(--accent-blue); box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1); }
+        .setting-select { width: 100%; padding: 0.875rem 1rem; background: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 12px; color: var(--text-primary); font-size: 0.9375rem; cursor: pointer; transition: all 0.2s; }
+        .setting-select:focus { outline: none; border-color: var(--accent-blue); box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1); }
+        .toggle-switch { position: relative; display: inline-block; width: 52px; height: 28px; }
+        .toggle-switch input { opacity: 0; width: 0; height: 0; }
+        .toggle-slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 28px; transition: 0.3s; }
+        .toggle-slider:before { position: absolute; content: ""; height: 20px; width: 20px; left: 4px; bottom: 3px; background: var(--text-muted); border-radius: 50%; transition: 0.3s; }
+        .toggle-switch input:checked + .toggle-slider { background: var(--accent-blue); border-color: var(--accent-blue); }
+        .toggle-switch input:checked + .toggle-slider:before { transform: translateX(24px); background: white; }
+        .setting-row { display: flex; align-items: center; justify-content: space-between; padding: 1rem 0; }
+        .setting-row + .setting-row { border-top: 1px solid var(--border-color); }
+        .setting-info { flex: 1; }
+        .setting-control { margin-left: 1rem; }
+        .btn-group { display: flex; gap: 1rem; margin-top: 2rem; }
+        .btn { padding: 0.875rem 1.75rem; border: none; border-radius: 12px; font-weight: 600; font-size: 0.9375rem; cursor: pointer; transition: all 0.2s; display: inline-flex; align-items: center; gap: 0.5rem; }
+        .btn-primary { background: var(--gradient-1); color: white; }
+        .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 16px rgba(59, 130, 246, 0.3); }
+        .btn-secondary { background: var(--bg-secondary); color: var(--text-primary); border: 1px solid var(--border-color); }
+        .btn-secondary:hover { background: var(--bg-card-hover); }
+        .alert-box { display: flex; align-items: center; gap: 1rem; padding: 1rem 1.25rem; background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 12px; margin-bottom: 1.5rem; }
+        .alert-icon { color: var(--accent-green); }
+        .alert-text { color: var(--text-primary); font-size: 0.9375rem; }
+        ::-webkit-scrollbar { width: 8px; height: 8px; }
+        ::-webkit-scrollbar-track { background: var(--bg-secondary); }
+        ::-webkit-scrollbar-thumb { background: var(--border-color); border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <aside class="sidebar">
+        <nav class="sidebar-nav">
+            <a href="/" class="nav-item"><span class="material-symbols-outlined">dashboard</span><span>Dashboard</span></a>
+            <a href="/inventory" class="nav-item"><span class="material-symbols-outlined">inventory</span><span>Inventory</span></a>
+            <a href="/analysis" class="nav-item"><span class="material-symbols-outlined">analytics</span><span>Analysis</span></a>
+            <a href="/settings" class="nav-item active"><span class="material-symbols-outlined">settings</span><span>Settings</span></a>
+        </nav>
+        <div class="sidebar-footer">
+            <a href="#" class="nav-item"><span class="material-symbols-outlined">help</span><span>Help & Support</span></a>
+        </div>
+    </aside>
+    <header class="top-header">
+        <div class="header-brand">
+            <div class="header-logo"><span class="material-symbols-outlined">inventory_2</span></div>
+            <span class="header-title">StockFlow Risk Engine</span>
+        </div>
+        <div class="header-right">
+            <div class="status-indicator"><span class="status-dot"></span>System Online</div>
+        </div>
+    </header>
+    <div class="main-wrapper">
+        <main class="main-content">
+            <div class="page-header">
+                <h1 class="page-title">Settings</h1>
+                <p class="page-subtitle">Configure your inventory management system</p>
+            </div>
+            <div class="settings-section">
+                <div class="section-header">
+                    <div class="section-icon"><span class="material-symbols-outlined">tune</span></div>
+                    <h2 class="section-title">General Settings</h2>
+                </div>
+                <div class="setting-group">
+                    <label class="setting-label">Company Name</label>
+                    <p class="setting-description">The name displayed across the system</p>
+                    <input type="text" id="companyName" class="setting-input" value="{{company_name}}" />
+                </div>
+                <div class="setting-group">
+                    <label class="setting-label">Default Currency</label>
+                    <p class="setting-description">Currency used for all financial transactions</p>
+                    <select class="setting-select">
+                        <option>USD ($)</option>
+                        <option>EUR ()</option>
+                        <option>GBP ()</option>
+                        <option>JPY ()</option>
+                    </select>
+                </div>
+                <div class="setting-group">
+                    <label class="setting-label">Time Zone</label>
+                    <p class="setting-description">System time zone for logs and reports</p>
+                    <select class="setting-select">
+                        <option>UTC (GMT+0)</option>
+                        <option>EST (GMT-5)</option>
+                        <option>PST (GMT-8)</option>
+                        <option>JST (GMT+9)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="settings-section">
+                <div class="section-header">
+                    <div class="section-icon"><span class="material-symbols-outlined">notifications</span></div>
+                    <h2 class="section-title">Notifications</h2>
+                </div>
+                <div class="setting-row">
+                    <div class="setting-info">
+                        <div class="setting-label">Low Stock Alerts</div>
+                        <p class="setting-description">Receive alerts when inventory falls below threshold</p>
+                    </div>
+                    <div class="setting-control">
+                        <label class="toggle-switch">
+                            <input type="checkbox" checked />
+                            <span class="toggle-slider"></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="setting-row">
+                    <div class="setting-info">
+                        <div class="setting-label">Critical Alerts</div>
+                        <p class="setting-description">High-priority notifications for urgent issues</p>
+                    </div>
+                    <div class="setting-control">
+                        <label class="toggle-switch">
+                            <input type="checkbox" checked />
+                            <span class="toggle-slider"></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="setting-row">
+                    <div class="setting-info">
+                        <div class="setting-label">Email Notifications</div>
+                        <p class="setting-description">Send notifications to your email address</p>
+                    </div>
+                    <div class="setting-control">
+                        <label class="toggle-switch">
+                            <input type="checkbox" />
+                            <span class="toggle-slider"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="settings-section">
+                <div class="section-header">
+                    <div class="section-icon"><span class="material-symbols-outlined">inventory_2</span></div>
+                    <h2 class="section-title">Inventory Management</h2>
+                </div>
+                <div class="setting-group">
+                    <label class="setting-label">Low Stock Threshold</label>
+                    <p class="setting-description">Trigger alerts when stock falls below this value</p>
+                    <input type="number" id="lowThreshold" class="setting-input" value="{{low_threshold}}" />
+                </div>
+                <div class="setting-group">
+                    <label class="setting-label">Critical Stock Level</label>
+                    <p class="setting-description">Mark items as critical below this quantity</p>
+                    <input type="number" id="criticalThreshold" class="setting-input" value="{{critical_threshold}}" />
+                </div>
+               
+            <div class="settings-section">
+                <div class="section-header">
+                    <div class="section-icon"><span class="material-symbols-outlined">analytics</span></div>
+                    <h2 class="section-title">Data & Analytics</h2>
+                </div>
+                <div class="setting-group">
+                    <label class="setting-label">Forecast Window</label>
+                    <p class="setting-description">Number of days for demand forecasting</p>
+                    <input type="number" id="forecastWindow" class="setting-input" value="{{forecast_window}}" />
+                </div>
+                <div class="setting-row">
+                    <div class="setting-info">
+                        <div class="setting-label">Advanced Analytics</div>
+                        <p class="setting-description">Enable all 5 data structure algorithms</p>
+                    </div>
+                    <div class="setting-control">
+                        <label class="toggle-switch">
+                            <input type="checkbox" checked />
+                            <span class="toggle-slider"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-primary" id="saveBtn">
+                    <span class="material-symbols-outlined">save</span>
+                    Save Changes
+                </button>
+                <button class="btn btn-secondary" id="resetBtn">
+                    <span class="material-symbols-outlined">restart_alt</span>
+                    Reset to Defaults
+                </button>
+            </div>
+        </main>
+    </div>
+    <script>
+        // Default values for reference
+        const DEFAULTS = {
+            companyName: 'StockFlow Inc.',
+            lowThreshold: 20,
+            criticalThreshold: 5,
+            forecastWindow: 7
+        };
+
+        // Save Settings
+        document.getElementById('saveBtn').addEventListener('click', async function() {
+            const companyNameVal = document.getElementById('companyName').value.trim();
+            const lowThresholdVal = parseInt(document.getElementById('lowThreshold').value) || DEFAULTS.lowThreshold;
+            const criticalThresholdVal = parseInt(document.getElementById('criticalThreshold').value) || DEFAULTS.criticalThreshold;
+            const forecastWindowVal = parseInt(document.getElementById('forecastWindow').value) || DEFAULTS.forecastWindow;
+            
+            const settings = {
+                companyName: companyNameVal || DEFAULTS.companyName,
+                lowThreshold: lowThresholdVal,
+                criticalThreshold: criticalThresholdVal,
+                forecastWindow: forecastWindowVal
+            };
+            
+            console.log('Saving settings:', settings);
+            
+            try {
+                const response = await fetch('/api/save-settings', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(settings)
+                });
+                
+                console.log('Response status:', response.status);
+                
+                if (response.ok) {
+                    alert('Settings saved successfully!');
+                    location.reload();
+                } else {
+                    const text = await response.text();
+                    console.error('Error response:', text);
+                    alert('Failed to save settings: ' + text);
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert('Error saving settings: ' + error.message);
+            }
+        });
+        
+        // Reset to Defaults
+        document.getElementById('resetBtn').addEventListener('click', async function() {
+            if (!confirm('Are you sure you want to reset all settings to defaults?')) return;
+            
+            try {
+                const response = await fetch('/api/reset-settings', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' }
+                });
+                
+                if (response.ok) {
+                    alert('Settings reset to defaults!');
+                    location.reload();
+                } else {
+                    const text = await response.text();
+                    alert('Failed to reset settings: ' + text);
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert('Error resetting settings: ' + error.message);
+            }
+        });
+
+        // Load current settings on page load to ensure values are displayed
+        window.addEventListener('DOMContentLoaded', async function() {
+            try {
+                const response = await fetch('/api/get-settings');
+                if (response.ok) {
+                    const data = await response.json();
+                    // Update form fields with current values
+                    if (data.companyName) document.getElementById('companyName').value = data.companyName;
+                    if (data.lowThreshold) document.getElementById('lowThreshold').value = data.lowThreshold;
+                    if (data.criticalThreshold) document.getElementById('criticalThreshold').value = data.criticalThreshold;
+                    if (data.forecastWindow) document.getElementById('forecastWindow').value = data.forecastWindow;
+                }
+            } catch (error) {
+                console.log('Using template values');
+            }
+        });
+    </script>
+</body>
+</html>

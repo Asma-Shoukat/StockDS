@@ -1,0 +1,1459 @@
+alert_id,type,title,message,item_id,time_ago,risk_score
+ALT-0007,critical,Critical Stock Level,Long Grain Rice has dropped to 12 units (threshold: 59),71-594-6552,5 mins ago,100
+ALT-0025,critical,Critical Stock Level,Bread Flour has dropped to 27 units (threshold: 93),55-936-2406,1 hour ago,100
+ALT-0099,critical,Critical Stock Level,Cucumber has dropped to 13 units (threshold: 60),66-993-4234,43 mins ago,100
+ALT-0186,critical,Critical Stock Level,Heavy Cream has dropped to 14 units (threshold: 99),70-149-6756,1 hour ago,100
+ALT-0204,critical,Critical Stock Level,Pomegranate has dropped to 19 units (threshold: 65),28-840-6096,1 hour ago,100
+ALT-0222,critical,Critical Stock Level,Sourdough Bread has dropped to 12 units (threshold: 86),73-561-2867,20 mins ago,100
+ALT-0269,critical,Critical Stock Level,Green Tea has dropped to 15 units (threshold: 66),06-706-6490,1 hour ago,100
+ALT-0274,critical,Critical Stock Level,Avocado Oil has dropped to 10 units (threshold: 86),00-357-2313,1 hour ago,100
+ALT-0294,critical,Critical Stock Level,Pomegranate has dropped to 14 units (threshold: 66),63-822-5278,51 mins ago,100
+ALT-0315,critical,Critical Stock Level,Egg (Goose) has dropped to 14 units (threshold: 63),00-215-7434,10 mins ago,100
+ALT-0337,critical,Critical Stock Level,Mozzarella Cheese has dropped to 16 units (threshold: 56),79-400-6216,1 hour ago,100
+ALT-0401,critical,Critical Stock Level,Short Grain Rice has dropped to 18 units (threshold: 62),92-791-0606,1 hour ago,100
+ALT-0403,critical,Critical Stock Level,Arabica Coffee has dropped to 22 units (threshold: 89),84-629-1532,1 hour ago,100
+ALT-0412,critical,Critical Stock Level,Brown Rice has dropped to 17 units (threshold: 88),30-591-7275,26 mins ago,100
+ALT-0423,critical,Critical Stock Level,Trout has dropped to 19 units (threshold: 94),28-824-9017,1 hour ago,100
+ALT-0432,critical,Critical Stock Level,Evaporated Milk has dropped to 23 units (threshold: 100),59-857-6577,15 mins ago,100
+ALT-0473,critical,Critical Stock Level,Sourdough Bread has dropped to 12 units (threshold: 59),56-635-6764,1 hour ago,100
+ALT-0524,critical,Critical Stock Level,Egg (Turkey) has dropped to 19 units (threshold: 100),67-512-9754,1 hour ago,100
+ALT-0559,critical,Critical Stock Level,Cauliflower has dropped to 19 units (threshold: 73),37-666-3902,1 hour ago,100
+ALT-0570,critical,Critical Stock Level,Pear has dropped to 26 units (threshold: 95),65-644-1394,40 mins ago,100
+ALT-0578,critical,Critical Stock Level,Butter has dropped to 21 units (threshold: 87),19-672-8982,1 hour ago,100
+ALT-0586,critical,Critical Stock Level,Whole Wheat Bread has dropped to 17 units (threshold: 63),88-183-5781,1 hour ago,100
+ALT-0603,critical,Critical Stock Level,Papaya has dropped to 20 units (threshold: 91),45-172-7012,43 mins ago,100
+ALT-0630,critical,Critical Stock Level,Watermelon has dropped to 23 units (threshold: 85),28-505-8317,1 hour ago,100
+ALT-0646,critical,Critical Stock Level,Black Coffee has dropped to 11 units (threshold: 72),88-951-9038,21 mins ago,100
+ALT-0682,critical,Critical Stock Level,Raw Sugar has dropped to 19 units (threshold: 81),92-551-8504,1 hour ago,100
+ALT-0690,critical,Critical Stock Level,Whipped Cream has dropped to 14 units (threshold: 87),26-134-9069,1 hour ago,100
+ALT-0738,critical,Critical Stock Level,Milk has dropped to 18 units (threshold: 64),37-606-0510,12 mins ago,100
+ALT-0749,critical,Critical Stock Level,Grapes has dropped to 13 units (threshold: 61),95-356-1566,48 mins ago,100
+ALT-0761,critical,Critical Stock Level,Rice Flour has dropped to 15 units (threshold: 76),62-816-8794,21 mins ago,100
+ALT-0784,critical,Critical Stock Level,Coconut Sugar has dropped to 17 units (threshold: 85),10-626-8536,1 hour ago,100
+ALT-0819,critical,Critical Stock Level,Sesame Oil has dropped to 14 units (threshold: 84),72-810-9753,1 hour ago,100
+ALT-0875,critical,Critical Stock Level,Evaporated Milk has dropped to 15 units (threshold: 75),76-070-1411,1 hour ago,100
+ALT-0881,critical,Critical Stock Level,Avocado Oil has dropped to 14 units (threshold: 75),05-899-1428,43 mins ago,100
+ALT-0905,critical,Critical Stock Level,Vegetable Oil has dropped to 18 units (threshold: 72),48-289-0604,5 mins ago,100
+ALT-0927,critical,Critical Stock Level,Corn Oil has dropped to 26 units (threshold: 100),87-391-9658,1 hour ago,100
+ALT-0945,critical,Critical Stock Level,Green Coffee has dropped to 20 units (threshold: 68),35-031-1497,1 hour ago,100
+ALT-0963,critical,Critical Stock Level,Black Tea has dropped to 19 units (threshold: 78),95-262-6208,1 hour ago,100
+ALT-0978,critical,Critical Stock Level,White Rice has dropped to 18 units (threshold: 86),86-273-9377,2 hours ago,100
+ALT-0987,critical,Critical Stock Level,Wild Rice has dropped to 19 units (threshold: 77),50-329-3360,1 hour ago,100
+ALT-1000,critical,Critical Stock Level,Milk has dropped to 12 units (threshold: 54),50-329-3145,1 hour ago,100
+ALT-1008,critical,Critical Stock Level,Watermelon has dropped to 13 units (threshold: 88),19-854-3663,23 mins ago,100
+ALT-1078,critical,Critical Stock Level,Green Beans has dropped to 19 units (threshold: 92),93-014-4256,53 mins ago,100
+ALT-1085,critical,Critical Stock Level,Rice Flour has dropped to 25 units (threshold: 95),53-710-7630,12 mins ago,100
+ALT-1123,critical,Critical Stock Level,Strawberries has dropped to 26 units (threshold: 97),80-039-1261,1 hour ago,100
+ALT-1125,critical,Critical Stock Level,Arabica Coffee has dropped to 13 units (threshold: 55),48-427-0551,1 hour ago,100
+ALT-1127,critical,Critical Stock Level,Plum has dropped to 11 units (threshold: 58),02-575-1980,1 hour ago,100
+ALT-1150,critical,Critical Stock Level,Tilapia has dropped to 14 units (threshold: 52),94-355-3070,6 mins ago,100
+ALT-1157,critical,Critical Stock Level,Haddock has dropped to 11 units (threshold: 87),88-807-8431,1 hour ago,100
+ALT-1212,critical,Critical Stock Level,Canola Oil has dropped to 25 units (threshold: 97),24-143-4957,42 mins ago,100
+ALT-1221,critical,Critical Stock Level,Pineapple has dropped to 14 units (threshold: 81),27-269-5260,23 mins ago,100
+ALT-1235,critical,Critical Stock Level,Bread Flour has dropped to 11 units (threshold: 77),58-946-5152,11 mins ago,100
+ALT-1256,critical,Critical Stock Level,Cucumber has dropped to 12 units (threshold: 93),79-884-8810,1 hour ago,100
+ALT-1261,critical,Critical Stock Level,Evaporated Milk has dropped to 23 units (threshold: 99),39-913-2999,7 mins ago,100
+ALT-1269,critical,Critical Stock Level,Black Rice has dropped to 11 units (threshold: 58),80-020-8041,37 mins ago,100
+ALT-1276,critical,Critical Stock Level,Canola Oil has dropped to 19 units (threshold: 80),42-134-9798,58 mins ago,100
+ALT-1293,critical,Critical Stock Level,Almond Flour has dropped to 12 units (threshold: 56),74-234-0628,32 mins ago,100
+ALT-1321,critical,Critical Stock Level,Haddock has dropped to 19 units (threshold: 99),57-167-0669,52 mins ago,100
+ALT-1346,critical,Critical Stock Level,Black Rice has dropped to 18 units (threshold: 78),45-050-4720,29 mins ago,100
+ALT-1420,critical,Critical Stock Level,Short Grain Rice has dropped to 22 units (threshold: 77),29-377-7040,55 mins ago,100
+ALT-1431,critical,Critical Stock Level,Halibut has dropped to 14 units (threshold: 67),37-610-1999,1 hour ago,100
+ALT-1438,critical,Critical Stock Level,Lime has dropped to 14 units (threshold: 75),43-851-9440,37 mins ago,100
+ALT-1440,critical,Critical Stock Level,Avocado Oil has dropped to 24 units (threshold: 89),14-331-3739,55 mins ago,100
+ALT-0071,critical,Critical Stock Level,Bread Flour has dropped to 14 units (threshold: 74),05-334-2923,33 mins ago,99
+ALT-0245,critical,Critical Stock Level,Sesame Oil has dropped to 27 units (threshold: 92),76-325-9093,33 mins ago,99
+ALT-0747,critical,Critical Stock Level,Corn Oil has dropped to 17 units (threshold: 63),12-046-2988,31 mins ago,99
+ALT-0934,critical,Critical Stock Level,Onion has dropped to 16 units (threshold: 75),53-667-4109,1 hour ago,99
+ALT-0442,critical,Critical Stock Level,Plum has dropped to 11 units (threshold: 56),07-074-1196,1 hour ago,98
+ALT-0613,critical,Critical Stock Level,Robusta Coffee has dropped to 14 units (threshold: 77),41-735-9837,37 mins ago,98
+ALT-0108,critical,Critical Stock Level,Heavy Cream has dropped to 12 units (threshold: 60),65-464-5070,1 hour ago,97
+ALT-0276,critical,Critical Stock Level,Arabica Coffee has dropped to 21 units (threshold: 87),83-704-6367,1 hour ago,97
+ALT-0755,critical,Critical Stock Level,Cabbage has dropped to 12 units (threshold: 95),21-013-3508,47 mins ago,97
+ALT-0156,critical,Critical Stock Level,Almond Flour has dropped to 13 units (threshold: 88),62-509-0666,51 mins ago,96
+ALT-0302,critical,Critical Stock Level,Rye Bread has dropped to 28 units (threshold: 94),97-710-2449,1 hour ago,96
+ALT-0922,critical,Critical Stock Level,Basmati Rice has dropped to 11 units (threshold: 87),83-727-0814,1 hour ago,96
+ALT-0002,critical,Product Expired,Sushi Rice expired on 9/19/2024,29-205-1132,11 hours ago,95
+ALT-0004,critical,Product Expired,Arabica Coffee expired on 5/8/2024,40-681-9981,6 hours ago,95
+ALT-0006,critical,Product Expired,Black Rice expired on 9/22/2024,06-955-3428,15 hours ago,95
+ALT-0008,critical,Product Expired,Long Grain Rice expired on 4/17/2024,71-594-6552,7 hours ago,95
+ALT-0009,critical,Product Expired,Plum expired on 10/5/2024,57-437-1828,5 hours ago,95
+ALT-0010,critical,Product Expired,All-Purpose Flour expired on 9/5/2024,21-120-6238,2 hours ago,95
+ALT-0011,critical,Product Expired,Corn Oil expired on 6/20/2024,71-516-1996,20 hours ago,95
+ALT-0013,critical,Product Expired,Egg (Goose) expired on 2/5/2025,39-629-5554,7 hours ago,95
+ALT-0014,critical,Product Expired,Greek Yogurt expired on 1/8/2025,66-268-8345,5 hours ago,95
+ALT-0015,critical,Product Expired,Egg (Duck) expired on 7/8/2024,46-452-9419,11 hours ago,95
+ALT-0017,critical,Product Expired,Long Grain Rice expired on 1/7/2025,51-469-4611,5 hours ago,95
+ALT-0019,critical,Product Expired,White Sugar expired on 10/14/2024,42-220-9305,10 hours ago,95
+ALT-0021,critical,Product Expired,Rye Bread expired on 7/18/2024,75-094-1179,22 hours ago,95
+ALT-0022,critical,Product Expired,Plum expired on 5/6/2024,11-073-0189,20 hours ago,95
+ALT-0023,critical,Product Expired,Strawberries expired on 6/14/2024,22-621-2774,22 hours ago,95
+ALT-0024,critical,Product Expired,Feta Cheese expired on 10/5/2024,39-449-0772,9 hours ago,95
+ALT-0026,critical,Product Expired,Bread Flour expired on 4/5/2024,55-936-2406,19 hours ago,95
+ALT-0028,critical,Product Expired,Swiss Cheese expired on 7/1/2024,82-041-7211,4 hours ago,95
+ALT-0030,critical,Product Expired,Arabica Coffee expired on 5/5/2024,48-414-6162,18 hours ago,95
+ALT-0031,critical,Product Expired,White Sugar expired on 12/28/2024,76-854-0095,9 hours ago,95
+ALT-0032,critical,Product Expired,Spinach expired on 6/22/2024,25-349-7974,12 hours ago,95
+ALT-0034,critical,Product Expired,Trout expired on 9/3/2024,66-627-9752,7 hours ago,95
+ALT-0036,critical,Product Expired,Green Beans expired on 4/25/2024,78-614-4402,7 hours ago,95
+ALT-0037,critical,Product Expired,Cabbage expired on 8/12/2024,67-025-1245,21 hours ago,95
+ALT-0038,critical,Product Expired,Parmesan Cheese expired on 9/30/2024,68-418-6724,13 hours ago,95
+ALT-0040,critical,Product Expired,Raw Sugar expired on 5/30/2024,40-795-0753,4 hours ago,95
+ALT-0041,critical,Product Expired,Egg (Quail) expired on 6/26/2024,02-508-3777,19 hours ago,95
+ALT-0043,critical,Product Expired,Mushrooms expired on 3/17/2024,79-741-0770,2 hours ago,95
+ALT-0044,critical,Product Expired,Oatmeal Biscuit expired on 2/7/2025,31-211-5803,8 hours ago,95
+ALT-0045,critical,Product Expired,Pear expired on 12/20/2024,16-499-5059,17 hours ago,95
+ALT-0047,critical,Product Expired,Cucumber expired on 3/6/2024,76-340-4432,12 hours ago,95
+ALT-0049,critical,Product Expired,Pineapple expired on 9/28/2024,38-732-7667,13 hours ago,95
+ALT-0051,critical,Product Expired,Olive Oil expired on 3/5/2024,04-240-2226,1 hour ago,95
+ALT-0052,critical,Product Expired,Herbal Tea expired on 6/23/2024,79-136-9840,23 hours ago,95
+ALT-0053,critical,Product Expired,Haddock expired on 12/26/2024,73-401-5721,22 hours ago,95
+ALT-0054,critical,Product Expired,Onion expired on 10/28/2024,91-848-0606,18 hours ago,95
+ALT-0055,critical,Product Expired,Sushi Rice expired on 2/16/2025,54-109-8062,20 hours ago,95
+ALT-0057,critical,Product Expired,Pineapple expired on 10/30/2024,70-612-2531,13 hours ago,95
+ALT-0059,critical,Product Expired,Zucchini expired on 9/19/2024,26-161-6692,12 hours ago,95
+ALT-0061,critical,Product Expired,Short Grain Rice expired on 8/24/2024,43-893-5408,23 hours ago,95
+ALT-0063,critical,Product Expired,Mango expired on 11/25/2024,11-316-8405,4 hours ago,95
+ALT-0064,critical,Product Expired,Lemon expired on 6/5/2024,34-086-3222,1 hour ago,95
+ALT-0065,critical,Product Expired,Black Coffee expired on 7/22/2024,21-816-1004,21 hours ago,95
+ALT-0067,critical,Product Expired,Butter expired on 9/22/2024,43-693-2092,2 hours ago,95
+ALT-0068,critical,Product Expired,Multigrain Bread expired on 1/24/2025,63-270-7076,14 hours ago,95
+ALT-0070,critical,Product Expired,Long Grain Rice expired on 11/17/2024,90-230-9767,21 hours ago,95
+ALT-0072,critical,Product Expired,Bread Flour expired on 5/16/2024,05-334-2923,20 hours ago,95
+ALT-0073,critical,Product Expired,Kiwi expired on 2/15/2025,52-481-5224,1 hour ago,95
+ALT-0074,critical,Product Expired,Mango expired on 3/26/2024,11-325-7396,15 hours ago,95
+ALT-0076,critical,Product Expired,Sourdough Bread expired on 11/12/2024,70-854-6891,1 hour ago,95
+ALT-0077,critical,Product Expired,Short Grain Rice expired on 5/15/2024,46-520-1819,10 hours ago,95
+ALT-0078,critical,Product Expired,Orange expired on 2/2/2025,91-105-7317,5 hours ago,95
+ALT-0080,critical,Product Expired,Pineapple expired on 3/5/2024,40-751-8635,13 hours ago,95
+ALT-0081,critical,Product Expired,White Bread expired on 5/22/2024,02-920-4829,15 hours ago,95
+ALT-0083,critical,Product Expired,Green Coffee expired on 11/28/2024,36-918-2937,15 hours ago,95
+ALT-0084,critical,Product Expired,Zucchini expired on 2/2/2025,68-761-6907,19 hours ago,95
+ALT-0086,critical,Product Expired,Sourdough Bread expired on 11/26/2024,69-468-5468,7 hours ago,95
+ALT-0087,critical,Product Expired,Orange expired on 3/19/2024,27-635-8394,3 hours ago,95
+ALT-0088,critical,Product Expired,Sardines expired on 6/26/2024,41-729-5410,19 hours ago,95
+ALT-0089,critical,Product Expired,Olive Oil expired on 8/27/2024,33-335-9140,20 hours ago,95
+ALT-0091,critical,Product Expired,Carrot expired on 9/26/2024,11-581-9869,18 hours ago,95
+ALT-0092,critical,Product Expired,Black Tea expired on 1/13/2025,78-237-0277,8 hours ago,95
+ALT-0093,critical,Product Expired,Pear expired on 8/8/2024,75-152-8731,1 hour ago,95
+ALT-0094,critical,Product Expired,Olive Oil expired on 2/16/2025,65-718-0492,4 hours ago,95
+ALT-0096,critical,Product Expired,Ricotta Cheese expired on 9/24/2024,55-697-5242,17 hours ago,95
+ALT-0097,critical,Product Expired,Black Coffee expired on 3/3/2024,14-844-4138,22 hours ago,95
+ALT-0098,critical,Product Expired,White Tea expired on 3/17/2024,20-225-3930,14 hours ago,95
+ALT-0100,critical,Product Expired,Cucumber expired on 6/24/2024,66-993-4234,4 hours ago,95
+ALT-0102,critical,Product Expired,Mozzarella Cheese expired on 2/9/2025,87-762-1317,5 hours ago,95
+ALT-0104,critical,Product Expired,Broccoli expired on 5/11/2024,81-844-2979,20 hours ago,95
+ALT-0105,critical,Product Expired,Eggplant expired on 1/8/2025,44-408-7594,16 hours ago,95
+ALT-0107,critical,Product Expired,Trout expired on 1/9/2025,26-010-9519,21 hours ago,95
+ALT-0109,critical,Product Expired,Heavy Cream expired on 9/1/2024,65-464-5070,20 hours ago,95
+ALT-0110,critical,Product Expired,Bell Pepper expired on 7/12/2024,07-970-9352,2 hours ago,95
+ALT-0112,critical,Product Expired,Onion expired on 11/14/2024,88-746-9468,21 hours ago,95
+ALT-0113,critical,Product Expired,Sardines expired on 8/24/2024,06-336-5482,19 hours ago,95
+ALT-0114,critical,Product Expired,Mango expired on 12/20/2024,03-276-3931,13 hours ago,95
+ALT-0116,critical,Product Expired,Arborio Rice expired on 2/15/2025,39-232-5341,8 hours ago,95
+ALT-0118,critical,Product Expired,Potato expired on 10/27/2024,12-239-9399,7 hours ago,95
+ALT-0120,critical,Product Expired,Corn Oil expired on 9/9/2024,75-080-4909,11 hours ago,95
+ALT-0122,critical,Product Expired,Butter Biscuit expired on 8/30/2024,70-815-4015,2 hours ago,95
+ALT-0123,critical,Product Expired,Peas expired on 8/19/2024,11-032-9778,20 hours ago,95
+ALT-0124,critical,Product Expired,Cream expired on 3/21/2024,54-374-9986,5 hours ago,95
+ALT-0125,critical,Product Expired,Spinach expired on 10/1/2024,77-312-6317,12 hours ago,95
+ALT-0127,critical,Product Expired,Sardines expired on 3/24/2024,13-844-2178,4 hours ago,95
+ALT-0128,critical,Product Expired,White Sugar expired on 4/30/2024,22-141-9798,11 hours ago,95
+ALT-0130,critical,Product Expired,Bread Flour expired on 2/22/2025,20-022-3173,9 hours ago,95
+ALT-0131,critical,Product Expired,Cucumber expired on 1/21/2025,26-177-5690,4 hours ago,95
+ALT-0132,critical,Product Expired,Swiss Cheese expired on 6/17/2024,70-871-4536,21 hours ago,95
+ALT-0133,critical,Product Expired,Peanut Oil expired on 11/16/2024,06-611-5454,1 hour ago,95
+ALT-0134,critical,Product Expired,Blueberries expired on 2/6/2025,89-543-3456,5 hours ago,95
+ALT-0136,critical,Product Expired,Chocolate Biscuit expired on 2/20/2025,82-395-5070,11 hours ago,95
+ALT-0138,critical,Product Expired,Cheese expired on 3/20/2024,14-305-5348,18 hours ago,95
+ALT-0140,critical,Product Expired,Palm Oil expired on 2/11/2025,82-243-3180,23 hours ago,95
+ALT-0141,critical,Product Expired,Eggplant expired on 7/31/2024,25-010-9478,5 hours ago,95
+ALT-0142,critical,Product Expired,Garlic expired on 5/20/2024,13-202-4809,8 hours ago,95
+ALT-0143,critical,Product Expired,Jasmine Rice expired on 12/7/2024,67-270-7464,19 hours ago,95
+ALT-0145,critical,Product Expired,Rice Flour expired on 2/24/2025,11-733-1756,7 hours ago,95
+ALT-0147,critical,Product Expired,Zucchini expired on 4/19/2024,80-988-4653,1 hour ago,95
+ALT-0149,critical,Product Expired,Multigrain Bread expired on 4/9/2024,60-343-7973,12 hours ago,95
+ALT-0150,critical,Product Expired,Ricotta Cheese expired on 1/6/2025,34-861-4446,17 hours ago,95
+ALT-0152,critical,Product Expired,Bread Flour expired on 2/25/2024,67-710-5120,16 hours ago,95
+ALT-0153,critical,Product Expired,Cottage Cheese expired on 11/28/2024,49-891-4927,1 hour ago,95
+ALT-0155,critical,Product Expired,Whipped Cream expired on 9/7/2024,55-522-8242,8 hours ago,95
+ALT-0157,critical,Product Expired,Almond Flour expired on 7/3/2024,62-509-0666,12 hours ago,95
+ALT-0159,critical,Product Expired,Lemon expired on 11/19/2024,64-478-4745,4 hours ago,95
+ALT-0160,critical,Product Expired,Tilapia expired on 3/8/2024,35-835-5591,16 hours ago,95
+ALT-0161,critical,Product Expired,Lettuce expired on 4/6/2024,26-690-3784,10 hours ago,95
+ALT-0162,critical,Product Expired,Peanut Oil expired on 3/28/2024,67-546-1568,2 hours ago,95
+ALT-0163,critical,Product Expired,Sardines expired on 7/18/2024,67-625-9704,3 hours ago,95
+ALT-0165,critical,Product Expired,Arabica Coffee expired on 1/15/2025,31-969-4614,2 hours ago,95
+ALT-0166,critical,Product Expired,Coconut expired on 12/23/2024,50-364-5828,16 hours ago,95
+ALT-0168,critical,Product Expired,Cod expired on 3/24/2024,61-827-4098,9 hours ago,95
+ALT-0169,critical,Product Expired,Banana expired on 2/2/2025,87-698-0944,12 hours ago,95
+ALT-0171,critical,Product Expired,Black Rice expired on 5/30/2024,36-636-4873,5 hours ago,95
+ALT-0173,critical,Product Expired,Pomegranate expired on 8/27/2024,98-556-5323,5 hours ago,95
+ALT-0174,critical,Product Expired,Pineapple expired on 7/14/2024,97-772-2336,18 hours ago,95
+ALT-0176,critical,Product Expired,Peach expired on 4/30/2024,19-047-4239,3 hours ago,95
+ALT-0177,critical,Product Expired,Arborio Rice expired on 9/21/2024,41-316-8427,20 hours ago,95
+ALT-0179,critical,Product Expired,Plum expired on 2/20/2025,15-907-3681,10 hours ago,95
+ALT-0180,critical,Product Expired,Sushi Rice expired on 3/10/2024,14-305-9690,4 hours ago,95
+ALT-0181,critical,Product Expired,Arabica Coffee expired on 2/5/2025,40-860-4532,9 hours ago,95
+ALT-0182,critical,Product Expired,Pear expired on 1/19/2025,44-552-3909,12 hours ago,95
+ALT-0184,critical,Product Expired,Sourdough Bread expired on 4/1/2024,75-029-9003,21 hours ago,95
+ALT-0185,critical,Product Expired,Pear expired on 3/2/2024,74-587-2065,11 hours ago,95
+ALT-0187,critical,Product Expired,Heavy Cream expired on 6/26/2024,70-149-6756,15 hours ago,95
+ALT-0189,critical,Product Expired,White Rice expired on 5/6/2024,29-896-7926,21 hours ago,95
+ALT-0190,critical,Product Expired,Cauliflower expired on 1/3/2025,54-822-9009,19 hours ago,95
+ALT-0191,critical,Product Expired,Canola Oil expired on 2/22/2025,84-075-7647,17 hours ago,95
+ALT-0192,critical,Product Expired,Avocado Oil expired on 9/28/2024,88-602-8210,20 hours ago,95
+ALT-0194,critical,Product Expired,Bread Flour expired on 12/22/2024,04-542-3863,4 hours ago,95
+ALT-0195,critical,Product Expired,Gouda Cheese expired on 8/29/2024,57-613-5779,14 hours ago,95
+ALT-0197,critical,Product Expired,Black Rice expired on 5/17/2024,90-737-0044,6 hours ago,95
+ALT-0198,critical,Product Expired,Greek Yogurt expired on 9/5/2024,28-956-1320,22 hours ago,95
+ALT-0200,critical,Product Expired,Tuna expired on 9/1/2024,87-791-5803,21 hours ago,95
+ALT-0201,critical,Product Expired,Buttermilk expired on 3/6/2024,14-521-4167,10 hours ago,95
+ALT-0203,critical,Product Expired,Orange expired on 4/28/2024,51-572-5497,22 hours ago,95
+ALT-0205,critical,Product Expired,Pomegranate expired on 9/12/2024,28-840-6096,12 hours ago,95
+ALT-0207,critical,Product Expired,Tuna expired on 3/30/2024,44-538-3366,15 hours ago,95
+ALT-0209,critical,Product Expired,Sour Cream expired on 12/14/2024,51-459-5630,10 hours ago,95
+ALT-0210,critical,Product Expired,Rice Flour expired on 6/20/2024,02-655-3240,12 hours ago,95
+ALT-0212,critical,Product Expired,Long Grain Rice expired on 3/30/2024,42-887-6557,3 hours ago,95
+ALT-0213,critical,Product Expired,Bell Pepper expired on 7/7/2024,96-316-7600,11 hours ago,95
+ALT-0214,critical,Product Expired,Bell Pepper expired on 9/22/2024,58-063-8633,7 hours ago,95
+ALT-0216,critical,Product Expired,Pineapple expired on 2/17/2025,43-703-9939,2 hours ago,95
+ALT-0218,critical,Product Expired,Cod expired on 5/1/2024,88-069-5486,2 hours ago,95
+ALT-0220,critical,Product Expired,Green Tea expired on 4/29/2024,74-845-3299,1 hour ago,95
+ALT-0221,critical,Product Expired,Sardines expired on 3/6/2024,81-605-6246,7 hours ago,95
+ALT-0223,critical,Product Expired,Sourdough Bread expired on 9/29/2024,73-561-2867,9 hours ago,95
+ALT-0225,critical,Product Expired,Short Grain Rice expired on 11/6/2024,19-967-0632,12 hours ago,95
+ALT-0226,critical,Product Expired,Powdered Sugar expired on 12/28/2024,23-070-2433,9 hours ago,95
+ALT-0227,critical,Product Expired,Swiss Cheese expired on 10/9/2024,27-262-2437,2 hours ago,95
+ALT-0228,critical,Product Expired,Tuna expired on 4/4/2024,39-479-5147,4 hours ago,95
+ALT-0230,critical,Product Expired,Cucumber expired on 12/4/2024,71-085-4290,7 hours ago,95
+ALT-0232,critical,Product Expired,Eggplant expired on 8/5/2024,48-957-6116,12 hours ago,95
+ALT-0234,critical,Product Expired,Garlic expired on 5/11/2024,83-917-7384,2 hours ago,95
+ALT-0236,critical,Product Expired,Vegetable Oil expired on 4/19/2024,26-031-8070,21 hours ago,95
+ALT-0238,critical,Product Expired,Whipped Cream expired on 3/26/2024,03-149-9760,12 hours ago,95
+ALT-0239,critical,Product Expired,Cheddar Cheese expired on 8/24/2024,53-680-5293,14 hours ago,95
+ALT-0240,critical,Product Expired,Coconut expired on 8/10/2024,49-861-7823,13 hours ago,95
+ALT-0242,critical,Product Expired,Egg (Turkey) expired on 9/25/2024,24-364-3341,19 hours ago,95
+ALT-0244,critical,Product Expired,Herbal Tea expired on 12/7/2024,80-374-5711,8 hours ago,95
+ALT-0246,critical,Product Expired,Sesame Oil expired on 12/18/2024,76-325-9093,22 hours ago,95
+ALT-0248,critical,Product Expired,Black Rice expired on 1/15/2025,30-429-2162,14 hours ago,95
+ALT-0250,critical,Product Expired,Orange expired on 4/23/2024,53-446-8243,10 hours ago,95
+ALT-0251,critical,Product Expired,Black Tea expired on 4/19/2024,67-473-7093,17 hours ago,95
+ALT-0253,critical,Product Expired,Asparagus expired on 1/26/2025,98-235-2711,14 hours ago,95
+ALT-0254,critical,Product Expired,Palm Oil expired on 11/8/2024,07-219-8017,6 hours ago,95
+ALT-0256,critical,Product Expired,Swiss Cheese expired on 5/17/2024,97-040-3822,19 hours ago,95
+ALT-0258,critical,Product Expired,Mango expired on 11/11/2024,10-002-6494,5 hours ago,95
+ALT-0259,critical,Product Expired,Egg (Turkey) expired on 5/26/2024,12-998-3882,8 hours ago,95
+ALT-0260,critical,Product Expired,Whole Wheat Flour expired on 9/6/2024,31-746-4951,9 hours ago,95
+ALT-0262,critical,Product Expired,Robusta Coffee expired on 3/26/2024,87-097-5691,6 hours ago,95
+ALT-0263,critical,Product Expired,Watermelon expired on 12/3/2024,34-075-0371,6 hours ago,95
+ALT-0264,critical,Product Expired,Green Coffee expired on 5/23/2024,40-810-9261,13 hours ago,95
+ALT-0266,critical,Product Expired,Cream expired on 9/15/2024,46-931-6897,9 hours ago,95
+ALT-0268,critical,Product Expired,Oatmeal Biscuit expired on 11/15/2024,58-182-6781,9 hours ago,95
+ALT-0270,critical,Product Expired,Green Tea expired on 3/15/2024,06-706-6490,10 hours ago,95
+ALT-0271,critical,Product Expired,Anchovies expired on 9/14/2024,47-578-4161,1 hour ago,95
+ALT-0273,critical,Product Expired,Cheddar Cheese expired on 10/30/2024,18-199-5799,10 hours ago,95
+ALT-0275,critical,Product Expired,Avocado Oil expired on 12/13/2024,00-357-2313,18 hours ago,95
+ALT-0277,critical,Product Expired,Arabica Coffee expired on 9/7/2024,83-704-6367,14 hours ago,95
+ALT-0278,critical,Product Expired,Trout expired on 7/13/2024,01-144-5960,19 hours ago,95
+ALT-0279,critical,Product Expired,Cod expired on 10/22/2024,96-774-0457,20 hours ago,95
+ALT-0280,critical,Product Expired,Rye Bread expired on 4/8/2024,24-310-9184,7 hours ago,95
+ALT-0281,critical,Product Expired,Basmati Rice expired on 1/28/2025,10-255-8579,17 hours ago,95
+ALT-0283,critical,Product Expired,White Sugar expired on 12/23/2024,38-417-4656,23 hours ago,95
+ALT-0285,critical,Product Expired,Sourdough Bread expired on 11/20/2024,53-080-8252,22 hours ago,95
+ALT-0287,critical,Product Expired,White Tea expired on 5/18/2024,14-681-7035,15 hours ago,95
+ALT-0288,critical,Product Expired,White Bread expired on 1/19/2025,96-503-7712,9 hours ago,95
+ALT-0289,critical,Product Expired,Mozzarella Cheese expired on 11/11/2024,98-064-4465,10 hours ago,95
+ALT-0291,critical,Product Expired,Peanut Oil expired on 6/15/2024,84-198-7276,23 hours ago,95
+ALT-0292,critical,Product Expired,Gouda Cheese expired on 7/2/2024,18-278-2383,20 hours ago,95
+ALT-0293,critical,Product Expired,Chocolate Biscuit expired on 2/25/2024,20-054-3716,18 hours ago,95
+ALT-0295,critical,Product Expired,Pomegranate expired on 2/27/2024,63-822-5278,4 hours ago,95
+ALT-0297,critical,Product Expired,Sunflower Oil expired on 12/9/2024,01-439-6231,23 hours ago,95
+ALT-0298,critical,Product Expired,Jasmine Rice expired on 5/7/2024,06-690-2335,21 hours ago,95
+ALT-0299,critical,Product Expired,Haddock expired on 4/17/2024,47-554-5780,17 hours ago,95
+ALT-0301,critical,Product Expired,Black Rice expired on 6/23/2024,70-587-1204,12 hours ago,95
+ALT-0303,critical,Product Expired,Rye Bread expired on 6/19/2024,97-710-2449,8 hours ago,95
+ALT-0305,critical,Product Expired,Lime expired on 3/10/2024,51-462-0747,11 hours ago,95
+ALT-0307,critical,Product Expired,Pomegranate expired on 7/20/2024,90-492-0564,19 hours ago,95
+ALT-0308,critical,Product Expired,Robusta Coffee expired on 12/22/2024,63-956-0739,16 hours ago,95
+ALT-0309,critical,Product Expired,Multigrain Bread expired on 9/17/2024,30-832-5429,2 hours ago,95
+ALT-0310,critical,Product Expired,Cucumber expired on 3/31/2024,38-822-8005,11 hours ago,95
+ALT-0312,critical,Product Expired,Olive Oil expired on 11/13/2024,73-118-1117,1 hour ago,95
+ALT-0314,critical,Product Expired,Mushrooms expired on 1/15/2025,60-285-3783,23 hours ago,95
+ALT-0316,critical,Product Expired,Egg (Goose) expired on 11/28/2024,00-215-7434,7 hours ago,95
+ALT-0317,critical,Product Expired,Greek Yogurt expired on 7/13/2024,68-734-1585,1 hour ago,95
+ALT-0319,critical,Product Expired,Peach expired on 6/21/2024,08-703-1382,3 hours ago,95
+ALT-0321,critical,Product Expired,White Tea expired on 12/5/2024,65-282-0419,5 hours ago,95
+ALT-0322,critical,Product Expired,Sushi Rice expired on 11/5/2024,62-777-6010,22 hours ago,95
+ALT-0324,critical,Product Expired,Strawberries expired on 5/21/2024,87-675-1506,22 hours ago,95
+ALT-0325,critical,Product Expired,Mushrooms expired on 11/9/2024,67-027-7269,21 hours ago,95
+ALT-0327,critical,Product Expired,Broccoli expired on 12/13/2024,72-066-4597,17 hours ago,95
+ALT-0329,critical,Product Expired,White Bread expired on 1/20/2025,31-627-6025,3 hours ago,95
+ALT-0330,critical,Product Expired,Greek Yogurt expired on 12/15/2024,09-286-8107,5 hours ago,95
+ALT-0331,critical,Product Expired,Canola Oil expired on 8/20/2024,77-013-1553,14 hours ago,95
+ALT-0333,critical,Product Expired,Lime expired on 1/4/2025,15-762-1058,14 hours ago,95
+ALT-0335,critical,Product Expired,Canola Oil expired on 6/9/2024,48-193-1199,18 hours ago,95
+ALT-0336,critical,Product Expired,Blueberries expired on 4/12/2024,01-173-0029,11 hours ago,95
+ALT-0338,critical,Product Expired,Mozzarella Cheese expired on 10/2/2024,79-400-6216,11 hours ago,95
+ALT-0340,critical,Product Expired,Tuna expired on 10/15/2024,80-072-8774,16 hours ago,95
+ALT-0342,critical,Product Expired,White Tea expired on 3/29/2024,78-689-8958,20 hours ago,95
+ALT-0344,critical,Product Expired,Black Coffee expired on 2/4/2025,57-562-2358,5 hours ago,95
+ALT-0345,critical,Product Expired,Bread Flour expired on 1/7/2025,56-191-6497,18 hours ago,95
+ALT-0346,critical,Product Expired,Feta Cheese expired on 8/5/2024,46-753-8430,2 hours ago,95
+ALT-0347,critical,Product Expired,Kiwi expired on 1/23/2025,48-461-3742,2 hours ago,95
+ALT-0349,critical,Product Expired,Digestive Biscuit expired on 11/27/2024,16-354-8122,16 hours ago,95
+ALT-0350,critical,Product Expired,Arabica Coffee expired on 3/18/2024,76-954-1442,4 hours ago,95
+ALT-0352,critical,Product Expired,Lemon expired on 3/14/2024,44-476-0390,10 hours ago,95
+ALT-0353,critical,Product Expired,Arabica Coffee expired on 3/6/2024,35-617-3857,3 hours ago,95
+ALT-0354,critical,Product Expired,Broccoli expired on 6/9/2024,94-029-2717,4 hours ago,95
+ALT-0355,critical,Product Expired,Kale expired on 5/1/2024,49-526-7806,11 hours ago,95
+ALT-0357,critical,Product Expired,Bread Flour expired on 10/18/2024,99-137-1730,19 hours ago,95
+ALT-0358,critical,Product Expired,Herbal Tea expired on 12/3/2024,27-442-3654,2 hours ago,95
+ALT-0360,critical,Product Expired,Blueberries expired on 4/15/2024,32-933-0329,7 hours ago,95
+ALT-0361,critical,Product Expired,Digestive Biscuit expired on 6/22/2024,93-813-2419,18 hours ago,95
+ALT-0362,critical,Product Expired,Gouda Cheese expired on 9/9/2024,85-440-3667,14 hours ago,95
+ALT-0363,critical,Product Expired,Almond Flour expired on 10/26/2024,77-224-2227,7 hours ago,95
+ALT-0364,critical,Product Expired,Chocolate Biscuit expired on 1/26/2025,60-632-8752,3 hours ago,95
+ALT-0366,critical,Product Expired,Haddock expired on 7/28/2024,99-561-4871,23 hours ago,95
+ALT-0368,critical,Product Expired,Egg (Duck) expired on 1/15/2025,61-607-7622,5 hours ago,95
+ALT-0370,critical,Product Expired,Peach expired on 9/3/2024,11-745-3025,15 hours ago,95
+ALT-0371,critical,Product Expired,Mackerel expired on 9/4/2024,56-810-0550,20 hours ago,95
+ALT-0372,critical,Product Expired,Egg (Goose) expired on 11/10/2024,59-075-2457,12 hours ago,95
+ALT-0373,critical,Product Expired,Zucchini expired on 5/11/2024,40-021-2400,8 hours ago,95
+ALT-0375,critical,Product Expired,Bell Pepper expired on 1/31/2025,29-017-6255,20 hours ago,95
+ALT-0376,critical,Product Expired,Cheese expired on 5/6/2024,92-291-7089,18 hours ago,95
+ALT-0378,critical,Product Expired,Zucchini expired on 12/16/2024,69-287-9113,7 hours ago,95
+ALT-0379,critical,Product Expired,Orange expired on 12/13/2024,76-540-6407,19 hours ago,95
+ALT-0380,critical,Product Expired,Kiwi expired on 5/11/2024,85-561-4694,1 hour ago,95
+ALT-0382,critical,Product Expired,Coconut expired on 1/28/2025,34-928-2775,15 hours ago,95
+ALT-0383,critical,Product Expired,Butter expired on 6/12/2024,90-773-9557,6 hours ago,95
+ALT-0385,critical,Product Expired,Bread Flour expired on 10/30/2024,57-394-1587,11 hours ago,95
+ALT-0386,critical,Product Expired,Broccoli expired on 5/20/2024,28-008-2951,1 hour ago,95
+ALT-0387,critical,Product Expired,Sushi Rice expired on 6/1/2024,74-711-7160,17 hours ago,95
+ALT-0389,critical,Product Expired,Rice Flour expired on 11/21/2024,22-895-6595,15 hours ago,95
+ALT-0391,critical,Product Expired,Pear expired on 10/13/2024,19-214-5762,23 hours ago,95
+ALT-0392,critical,Product Expired,Feta Cheese expired on 2/6/2025,95-349-0828,3 hours ago,95
+ALT-0394,critical,Product Expired,Milk expired on 12/23/2024,00-963-2193,13 hours ago,95
+ALT-0395,critical,Product Expired,Palm Oil expired on 5/24/2024,76-459-2392,23 hours ago,95
+ALT-0397,critical,Product Expired,Bread Flour expired on 5/28/2024,10-034-7654,8 hours ago,95
+ALT-0398,critical,Product Expired,Cheese expired on 6/13/2024,24-972-6969,14 hours ago,95
+ALT-0400,critical,Product Expired,Carrot expired on 4/9/2024,94-190-5193,6 hours ago,95
+ALT-0402,critical,Product Expired,Short Grain Rice expired on 9/6/2024,92-791-0606,10 hours ago,95
+ALT-0404,critical,Product Expired,Arabica Coffee expired on 7/20/2024,84-629-1532,1 hour ago,95
+ALT-0406,critical,Product Expired,Grapes expired on 7/21/2024,68-977-2498,6 hours ago,95
+ALT-0407,critical,Product Expired,Tilapia expired on 7/5/2024,91-257-3672,2 hours ago,95
+ALT-0408,critical,Product Expired,Olive Oil expired on 3/21/2024,09-536-2626,1 hour ago,95
+ALT-0410,critical,Product Expired,Robusta Coffee expired on 6/24/2024,61-801-8665,15 hours ago,95
+ALT-0411,critical,Product Expired,Peas expired on 12/10/2024,38-296-6634,23 hours ago,95
+ALT-0413,critical,Product Expired,Brown Rice expired on 1/18/2025,30-591-7275,10 hours ago,95
+ALT-0415,critical,Product Expired,Buttermilk expired on 10/23/2024,83-763-5038,15 hours ago,95
+ALT-0416,critical,Product Expired,Mushrooms expired on 5/11/2024,37-709-3532,4 hours ago,95
+ALT-0418,critical,Product Expired,Palm Oil expired on 11/23/2024,62-795-7801,7 hours ago,95
+ALT-0419,critical,Product Expired,Cucumber expired on 9/17/2024,98-575-4736,16 hours ago,95
+ALT-0420,critical,Product Expired,Swiss Cheese expired on 2/4/2025,57-861-4379,4 hours ago,95
+ALT-0422,critical,Product Expired,Halibut expired on 3/4/2024,00-119-8780,17 hours ago,95
+ALT-0424,critical,Product Expired,Trout expired on 6/14/2024,28-824-9017,18 hours ago,95
+ALT-0426,critical,Product Expired,Vegetable Oil expired on 8/3/2024,56-668-5370,8 hours ago,95
+ALT-0427,critical,Product Expired,Digestive Biscuit expired on 5/7/2024,29-756-7042,5 hours ago,95
+ALT-0429,critical,Product Expired,Digestive Biscuit expired on 7/31/2024,41-538-3129,22 hours ago,95
+ALT-0430,critical,Product Expired,Apricot expired on 5/8/2024,16-380-0753,19 hours ago,95
+ALT-0431,critical,Product Expired,Tilapia expired on 4/29/2024,26-535-4727,15 hours ago,95
+ALT-0433,critical,Product Expired,Evaporated Milk expired on 3/4/2024,59-857-6577,11 hours ago,95
+ALT-0434,critical,Product Expired,Green Tea expired on 11/17/2024,14-550-2152,19 hours ago,95
+ALT-0436,critical,Product Expired,Heavy Cream expired on 8/10/2024,39-315-3936,14 hours ago,95
+ALT-0438,critical,Product Expired,Papaya expired on 11/12/2024,87-199-2743,13 hours ago,95
+ALT-0439,critical,Product Expired,Blueberries expired on 5/3/2024,60-771-0879,17 hours ago,95
+ALT-0441,critical,Product Expired,Blueberries expired on 12/20/2024,00-440-9568,1 hour ago,95
+ALT-0443,critical,Product Expired,Plum expired on 10/10/2024,07-074-1196,20 hours ago,95
+ALT-0444,critical,Product Expired,Yogurt expired on 2/1/2025,69-674-5387,14 hours ago,95
+ALT-0445,critical,Product Expired,Onion expired on 11/22/2024,08-940-8578,14 hours ago,95
+ALT-0447,critical,Product Expired,Tuna expired on 5/4/2024,94-020-6982,1 hour ago,95
+ALT-0448,critical,Product Expired,Anchovies expired on 8/22/2024,42-879-9478,15 hours ago,95
+ALT-0449,critical,Product Expired,Apple expired on 1/12/2025,00-405-7428,16 hours ago,95
+ALT-0450,critical,Product Expired,Watermelon expired on 12/27/2024,87-997-0228,20 hours ago,95
+ALT-0451,critical,Product Expired,Cauliflower expired on 3/24/2024,05-498-7751,21 hours ago,95
+ALT-0453,critical,Product Expired,Greek Yogurt expired on 1/21/2025,55-631-7937,15 hours ago,95
+ALT-0454,critical,Product Expired,Haddock expired on 3/9/2024,27-389-3529,19 hours ago,95
+ALT-0456,critical,Product Expired,Blueberries expired on 7/29/2024,84-272-0790,12 hours ago,95
+ALT-0457,critical,Product Expired,Strawberries expired on 6/21/2024,01-903-5373,2 hours ago,95
+ALT-0459,critical,Product Expired,Kiwi expired on 7/3/2024,49-311-3063,13 hours ago,95
+ALT-0461,critical,Product Expired,Coconut Sugar expired on 6/18/2024,04-277-5245,20 hours ago,95
+ALT-0462,critical,Product Expired,Tomato expired on 4/2/2024,04-453-5485,14 hours ago,95
+ALT-0463,critical,Product Expired,Cheese expired on 12/26/2024,42-141-5718,11 hours ago,95
+ALT-0465,critical,Product Expired,Milk expired on 7/17/2024,89-602-6755,12 hours ago,95
+ALT-0466,critical,Product Expired,Green Coffee expired on 3/27/2024,15-045-8444,21 hours ago,95
+ALT-0467,critical,Product Expired,Eggplant expired on 4/26/2024,15-240-6267,23 hours ago,95
+ALT-0468,critical,Product Expired,Grapes expired on 7/8/2024,05-193-8096,3 hours ago,95
+ALT-0470,critical,Product Expired,Bread Flour expired on 11/22/2024,93-342-8794,6 hours ago,95
+ALT-0472,critical,Product Expired,Halibut expired on 9/13/2024,83-716-2177,11 hours ago,95
+ALT-0474,critical,Product Expired,Sourdough Bread expired on 8/5/2024,56-635-6764,20 hours ago,95
+ALT-0475,critical,Product Expired,Black Rice expired on 11/3/2024,10-249-7928,10 hours ago,95
+ALT-0477,critical,Product Expired,Butter Biscuit expired on 12/28/2024,65-759-3721,18 hours ago,95
+ALT-0479,critical,Product Expired,Tilapia expired on 3/15/2024,08-725-8156,8 hours ago,95
+ALT-0481,critical,Product Expired,Grapes expired on 2/20/2025,15-679-3935,12 hours ago,95
+ALT-0483,critical,Product Expired,Gouda Cheese expired on 4/6/2024,81-578-7404,4 hours ago,95
+ALT-0484,critical,Product Expired,Cheese expired on 3/7/2024,82-380-5378,11 hours ago,95
+ALT-0485,critical,Product Expired,Lemon expired on 4/10/2024,78-362-8578,19 hours ago,95
+ALT-0486,critical,Product Expired,Heavy Cream expired on 7/18/2024,32-261-0008,17 hours ago,95
+ALT-0488,critical,Product Expired,White Bread expired on 5/6/2024,74-943-9034,5 hours ago,95
+ALT-0490,critical,Product Expired,Arabica Coffee expired on 3/30/2024,86-330-0214,1 hour ago,95
+ALT-0491,critical,Product Expired,Grapes expired on 6/22/2024,80-334-0215,17 hours ago,95
+ALT-0492,critical,Product Expired,Banana expired on 10/18/2024,48-957-8596,21 hours ago,95
+ALT-0494,critical,Product Expired,Broccoli expired on 4/11/2024,37-246-0018,9 hours ago,95
+ALT-0496,critical,Product Expired,Green Beans expired on 10/29/2024,17-002-4721,21 hours ago,95
+ALT-0498,critical,Product Expired,Cod expired on 6/7/2024,47-802-5023,13 hours ago,95
+ALT-0500,critical,Product Expired,White Sugar expired on 6/21/2024,22-319-1377,22 hours ago,95
+ALT-0502,critical,Product Expired,Tomato expired on 3/23/2024,57-903-6434,16 hours ago,95
+ALT-0504,critical,Product Expired,Long Grain Rice expired on 4/30/2024,22-083-3347,3 hours ago,95
+ALT-0505,critical,Product Expired,Long Grain Rice expired on 5/26/2024,65-145-9672,1 hour ago,95
+ALT-0506,critical,Product Expired,Carrot expired on 11/9/2024,95-252-9619,3 hours ago,95
+ALT-0507,critical,Product Expired,Peanut Oil expired on 11/27/2024,74-294-3760,16 hours ago,95
+ALT-0508,critical,Product Expired,Pomegranate expired on 8/16/2024,06-797-4963,9 hours ago,95
+ALT-0510,critical,Product Expired,Egg (Turkey) expired on 11/29/2024,39-768-8205,10 hours ago,95
+ALT-0512,critical,Product Expired,Strawberries expired on 2/8/2025,03-043-9933,6 hours ago,95
+ALT-0514,critical,Product Expired,Zucchini expired on 3/10/2024,29-823-6004,4 hours ago,95
+ALT-0515,critical,Product Expired,Trout expired on 11/19/2024,40-462-2952,13 hours ago,95
+ALT-0517,critical,Product Expired,Mango expired on 1/29/2025,71-999-2404,16 hours ago,95
+ALT-0518,critical,Product Expired,Halibut expired on 7/25/2024,03-919-9890,15 hours ago,95
+ALT-0520,critical,Product Expired,Rye Bread expired on 9/17/2024,94-525-6925,15 hours ago,95
+ALT-0522,critical,Product Expired,Sour Cream expired on 8/26/2024,08-213-2058,2 hours ago,95
+ALT-0523,critical,Product Expired,Cheddar Cheese expired on 4/29/2024,51-312-8608,2 hours ago,95
+ALT-0525,critical,Product Expired,Egg (Turkey) expired on 3/22/2024,67-512-9754,1 hour ago,95
+ALT-0527,critical,Product Expired,Swiss Cheese expired on 7/14/2024,45-402-0421,6 hours ago,95
+ALT-0528,critical,Product Expired,Eggplant expired on 12/10/2024,85-207-4164,3 hours ago,95
+ALT-0529,critical,Product Expired,Sunflower Oil expired on 4/17/2024,72-780-6006,13 hours ago,95
+ALT-0531,critical,Product Expired,White Tea expired on 1/2/2025,93-166-3169,4 hours ago,95
+ALT-0533,critical,Product Expired,Coconut expired on 6/6/2024,21-718-6746,14 hours ago,95
+ALT-0534,critical,Product Expired,Pineapple expired on 9/27/2024,93-966-7754,18 hours ago,95
+ALT-0536,critical,Product Expired,Basmati Rice expired on 9/14/2024,47-663-5703,23 hours ago,95
+ALT-0538,critical,Product Expired,Bell Pepper expired on 6/24/2024,34-110-1040,19 hours ago,95
+ALT-0539,critical,Product Expired,Vanilla Biscuit expired on 3/4/2024,82-342-7339,18 hours ago,95
+ALT-0541,critical,Product Expired,Orange expired on 10/7/2024,43-670-8544,21 hours ago,95
+ALT-0542,critical,Product Expired,Eggplant expired on 5/31/2024,12-439-8428,23 hours ago,95
+ALT-0543,critical,Product Expired,Evaporated Milk expired on 10/10/2024,49-919-8798,18 hours ago,95
+ALT-0545,critical,Product Expired,Whipped Cream expired on 9/8/2024,73-567-6194,20 hours ago,95
+ALT-0547,critical,Product Expired,Sesame Oil expired on 7/18/2024,83-573-4586,23 hours ago,95
+ALT-0548,critical,Product Expired,Cream expired on 5/25/2024,12-798-9401,22 hours ago,95
+ALT-0550,critical,Product Expired,Coconut Sugar expired on 1/24/2025,02-895-7781,6 hours ago,95
+ALT-0551,critical,Product Expired,Asparagus expired on 7/4/2024,83-625-3618,4 hours ago,95
+ALT-0552,critical,Product Expired,Wild Rice expired on 12/22/2024,89-181-4523,6 hours ago,95
+ALT-0553,critical,Product Expired,Long Grain Rice expired on 10/20/2024,95-354-8583,21 hours ago,95
+ALT-0554,critical,Product Expired,Onion expired on 10/5/2024,90-303-1821,8 hours ago,95
+ALT-0555,critical,Product Expired,Salmon expired on 10/25/2024,71-631-5875,6 hours ago,95
+ALT-0556,critical,Product Expired,Potato expired on 8/19/2024,02-275-6061,3 hours ago,95
+ALT-0557,critical,Product Expired,Green Coffee expired on 4/9/2024,04-001-1793,20 hours ago,95
+ALT-0558,critical,Product Expired,Powdered Sugar expired on 9/13/2024,47-749-3277,18 hours ago,95
+ALT-0560,critical,Product Expired,Cauliflower expired on 6/12/2024,37-666-3902,17 hours ago,95
+ALT-0562,critical,Product Expired,Kale expired on 10/4/2024,73-942-0508,1 hour ago,95
+ALT-0563,critical,Product Expired,Garlic expired on 12/19/2024,57-359-3397,9 hours ago,95
+ALT-0564,critical,Product Expired,Green Tea expired on 4/16/2024,46-436-5351,16 hours ago,95
+ALT-0566,critical,Product Expired,Green Tea expired on 11/23/2024,27-881-1177,19 hours ago,95
+ALT-0567,critical,Product Expired,Green Tea expired on 11/3/2024,85-237-3505,21 hours ago,95
+ALT-0568,critical,Product Expired,Cottage Cheese expired on 12/10/2024,80-371-3695,19 hours ago,95
+ALT-0569,critical,Product Expired,Wild Rice expired on 5/2/2024,04-758-0410,10 hours ago,95
+ALT-0571,critical,Product Expired,Pear expired on 2/10/2025,65-644-1394,19 hours ago,95
+ALT-0573,critical,Product Expired,Peach expired on 8/20/2024,04-293-6969,11 hours ago,95
+ALT-0575,critical,Product Expired,Yogurt expired on 10/14/2024,40-997-2786,7 hours ago,95
+ALT-0576,critical,Product Expired,Feta Cheese expired on 4/12/2024,91-553-1774,14 hours ago,95
+ALT-0577,critical,Product Expired,Sweet Potato expired on 2/10/2025,13-980-8804,16 hours ago,95
+ALT-0579,critical,Product Expired,Butter expired on 3/31/2024,19-672-8982,12 hours ago,95
+ALT-0581,critical,Product Expired,Coconut Oil expired on 4/21/2024,35-299-0889,11 hours ago,95
+ALT-0583,critical,Product Expired,Apple expired on 1/12/2025,17-022-9721,20 hours ago,95
+ALT-0584,critical,Product Expired,Mushrooms expired on 9/8/2024,22-849-2551,21 hours ago,95
+ALT-0585,critical,Product Expired,Mackerel expired on 2/15/2025,53-050-8242,14 hours ago,95
+ALT-0587,critical,Product Expired,Whole Wheat Bread expired on 12/27/2024,88-183-5781,9 hours ago,95
+ALT-0589,critical,Product Expired,Sushi Rice expired on 8/31/2024,09-101-1740,13 hours ago,95
+ALT-0591,critical,Product Expired,Cod expired on 5/30/2024,98-445-7372,14 hours ago,95
+ALT-0592,critical,Product Expired,Papaya expired on 8/22/2024,29-875-6900,23 hours ago,95
+ALT-0594,critical,Product Expired,Egg (Goose) expired on 7/4/2024,27-757-4489,4 hours ago,95
+ALT-0595,critical,Product Expired,Bread Flour expired on 5/30/2024,51-069-0489,21 hours ago,95
+ALT-0597,critical,Product Expired,Coconut expired on 5/21/2024,20-325-1965,3 hours ago,95
+ALT-0599,critical,Product Expired,Ricotta Cheese expired on 4/16/2024,76-090-4411,7 hours ago,95
+ALT-0600,critical,Product Expired,Raw Sugar expired on 6/21/2024,01-703-8441,11 hours ago,95
+ALT-0602,critical,Product Expired,Haddock expired on 6/15/2024,09-622-7119,16 hours ago,95
+ALT-0604,critical,Product Expired,Papaya expired on 12/1/2024,45-172-7012,7 hours ago,95
+ALT-0605,critical,Product Expired,Sesame Oil expired on 7/15/2024,06-849-4869,10 hours ago,95
+ALT-0607,critical,Product Expired,Green Beans expired on 9/7/2024,30-996-2526,16 hours ago,95
+ALT-0609,critical,Product Expired,Sourdough Bread expired on 10/17/2024,71-074-6292,23 hours ago,95
+ALT-0611,critical,Product Expired,Cottage Cheese expired on 12/7/2024,98-909-9395,9 hours ago,95
+ALT-0612,critical,Product Expired,Ricotta Cheese expired on 8/14/2024,61-796-6540,4 hours ago,95
+ALT-0614,critical,Product Expired,Robusta Coffee expired on 9/1/2024,41-735-9837,17 hours ago,95
+ALT-0616,critical,Product Expired,Tilapia expired on 5/3/2024,60-343-3288,6 hours ago,95
+ALT-0617,critical,Product Expired,Feta Cheese expired on 3/16/2024,27-783-5470,18 hours ago,95
+ALT-0619,critical,Product Expired,Cheddar Cheese expired on 2/25/2024,60-456-8169,3 hours ago,95
+ALT-0621,critical,Product Expired,Butter Biscuit expired on 11/13/2024,99-420-3592,10 hours ago,95
+ALT-0622,critical,Product Expired,Ricotta Cheese expired on 1/22/2025,35-836-6718,3 hours ago,95
+ALT-0623,critical,Product Expired,Multigrain Bread expired on 6/20/2024,51-273-4240,3 hours ago,95
+ALT-0625,critical,Product Expired,Peas expired on 4/17/2024,38-924-3007,22 hours ago,95
+ALT-0627,critical,Product Expired,Pomegranate expired on 1/16/2025,52-123-8039,8 hours ago,95
+ALT-0629,critical,Product Expired,Yogurt expired on 12/22/2024,34-131-8805,22 hours ago,95
+ALT-0631,critical,Product Expired,Watermelon expired on 1/28/2025,28-505-8317,3 hours ago,95
+ALT-0632,critical,Product Expired,Egg (Duck) expired on 3/21/2024,41-594-5069,13 hours ago,95
+ALT-0633,critical,Product Expired,Sweet Potato expired on 5/8/2024,94-658-4945,21 hours ago,95
+ALT-0634,critical,Product Expired,Banana expired on 12/9/2024,69-561-2496,15 hours ago,95
+ALT-0635,critical,Product Expired,Swiss Cheese expired on 11/16/2024,98-858-6323,4 hours ago,95
+ALT-0637,critical,Product Expired,Cheddar Cheese expired on 3/6/2024,92-995-8689,9 hours ago,95
+ALT-0639,critical,Product Expired,Butter expired on 11/23/2024,43-164-5984,16 hours ago,95
+ALT-0640,critical,Product Expired,Black Tea expired on 6/12/2024,58-122-2282,2 hours ago,95
+ALT-0641,critical,Product Expired,Long Grain Rice expired on 8/2/2024,84-269-9130,4 hours ago,95
+ALT-0643,critical,Product Expired,Black Coffee expired on 3/4/2024,11-922-3342,5 hours ago,95
+ALT-0645,critical,Product Expired,Haddock expired on 8/24/2024,60-550-4771,23 hours ago,95
+ALT-0647,critical,Product Expired,Black Coffee expired on 2/11/2025,88-951-9038,19 hours ago,95
+ALT-0649,critical,Product Expired,Anchovies expired on 2/15/2025,08-114-3922,4 hours ago,95
+ALT-0650,critical,Product Expired,Lemon expired on 8/6/2024,70-145-2550,11 hours ago,95
+ALT-0652,critical,Product Expired,Egg (Goose) expired on 6/22/2024,51-761-6320,6 hours ago,95
+ALT-0654,critical,Product Expired,Bread Flour expired on 10/30/2024,55-803-3964,5 hours ago,95
+ALT-0655,critical,Product Expired,Parmesan Cheese expired on 8/6/2024,11-815-7923,19 hours ago,95
+ALT-0656,critical,Product Expired,Mackerel expired on 9/20/2024,83-966-3280,2 hours ago,95
+ALT-0657,critical,Product Expired,Arborio Rice expired on 9/22/2024,29-592-7315,10 hours ago,95
+ALT-0658,critical,Product Expired,Whole Wheat Bread expired on 6/3/2024,65-235-7676,3 hours ago,95
+ALT-0660,critical,Product Expired,White Sugar expired on 5/23/2024,40-683-0283,7 hours ago,95
+ALT-0662,critical,Product Expired,Buttermilk expired on 1/28/2025,83-553-9523,15 hours ago,95
+ALT-0663,critical,Product Expired,Sour Cream expired on 5/19/2024,40-793-7235,16 hours ago,95
+ALT-0664,critical,Product Expired,Tuna expired on 5/4/2024,74-666-5671,9 hours ago,95
+ALT-0665,critical,Product Expired,Powdered Sugar expired on 7/9/2024,90-865-9150,2 hours ago,95
+ALT-0667,critical,Product Expired,Tilapia expired on 7/11/2024,46-255-3073,22 hours ago,95
+ALT-0668,critical,Product Expired,Arabica Coffee expired on 12/26/2024,11-155-7826,11 hours ago,95
+ALT-0670,critical,Product Expired,Lemon expired on 7/29/2024,99-543-5039,3 hours ago,95
+ALT-0671,critical,Product Expired,Rice Flour expired on 9/25/2024,99-033-5661,22 hours ago,95
+ALT-0672,critical,Product Expired,Lemon expired on 4/15/2024,28-608-0039,9 hours ago,95
+ALT-0673,critical,Product Expired,Broccoli expired on 7/13/2024,35-529-2933,2 hours ago,95
+ALT-0675,critical,Product Expired,Egg (Duck) expired on 8/2/2024,83-321-7887,8 hours ago,95
+ALT-0677,critical,Product Expired,Plum expired on 7/19/2024,43-910-2342,16 hours ago,95
+ALT-0679,critical,Product Expired,Coconut Sugar expired on 5/26/2024,21-633-8696,16 hours ago,95
+ALT-0681,critical,Product Expired,Pomegranate expired on 7/31/2024,76-401-7083,15 hours ago,95
+ALT-0683,critical,Product Expired,Raw Sugar expired on 12/24/2024,92-551-8504,17 hours ago,95
+ALT-0684,critical,Product Expired,Eggplant expired on 1/9/2025,76-264-0748,1 hour ago,95
+ALT-0685,critical,Product Expired,Grapes expired on 2/9/2025,88-586-8797,15 hours ago,95
+ALT-0687,critical,Product Expired,Watermelon expired on 10/23/2024,21-993-5632,20 hours ago,95
+ALT-0688,critical,Product Expired,Anchovies expired on 12/7/2024,27-681-5588,20 hours ago,95
+ALT-0689,critical,Product Expired,Yogurt expired on 10/25/2024,23-265-8144,22 hours ago,95
+ALT-0691,critical,Product Expired,Whipped Cream expired on 1/30/2025,26-134-9069,17 hours ago,95
+ALT-0693,critical,Product Expired,Egg (Quail) expired on 5/15/2024,76-623-7844,21 hours ago,95
+ALT-0694,critical,Product Expired,Chocolate Biscuit expired on 7/19/2024,88-977-0175,6 hours ago,95
+ALT-0695,critical,Product Expired,Ricotta Cheese expired on 4/25/2024,12-714-5135,12 hours ago,95
+ALT-0696,critical,Product Expired,Vegetable Oil expired on 10/2/2024,43-153-8268,20 hours ago,95
+ALT-0697,critical,Product Expired,Heavy Cream expired on 1/21/2025,95-130-9020,8 hours ago,95
+ALT-0699,critical,Product Expired,Cottage Cheese expired on 4/5/2024,82-678-8097,3 hours ago,95
+ALT-0701,critical,Product Expired,Corn Oil expired on 10/27/2024,21-693-8216,15 hours ago,95
+ALT-0702,critical,Product Expired,Salmon expired on 8/14/2024,56-831-6199,19 hours ago,95
+ALT-0703,critical,Product Expired,Mackerel expired on 6/14/2024,81-268-5905,14 hours ago,95
+ALT-0704,critical,Product Expired,Cheese expired on 2/6/2025,41-237-5498,9 hours ago,95
+ALT-0706,critical,Product Expired,Green Tea expired on 5/15/2024,32-987-5559,3 hours ago,95
+ALT-0708,critical,Product Expired,Cauliflower expired on 6/25/2024,71-436-5841,21 hours ago,95
+ALT-0709,critical,Product Expired,Oatmeal Biscuit expired on 10/9/2024,63-890-1246,21 hours ago,95
+ALT-0710,critical,Product Expired,Egg (Turkey) expired on 10/7/2024,65-368-2479,8 hours ago,95
+ALT-0711,critical,Product Expired,Vanilla Biscuit expired on 11/1/2024,74-562-7431,19 hours ago,95
+ALT-0713,critical,Product Expired,Digestive Biscuit expired on 2/18/2025,51-583-6029,17 hours ago,95
+ALT-0714,critical,Product Expired,Evaporated Milk expired on 6/10/2024,06-996-3221,2 hours ago,95
+ALT-0715,critical,Product Expired,White Tea expired on 11/19/2024,96-334-2593,11 hours ago,95
+ALT-0716,critical,Product Expired,Avocado Oil expired on 6/4/2024,58-219-0241,20 hours ago,95
+ALT-0717,critical,Product Expired,Egg (Goose) expired on 2/13/2025,87-272-6544,12 hours ago,95
+ALT-0718,critical,Product Expired,Arborio Rice expired on 5/20/2024,95-357-2870,9 hours ago,95
+ALT-0719,critical,Product Expired,Cauliflower expired on 1/20/2025,88-401-3700,21 hours ago,95
+ALT-0720,critical,Product Expired,Almond Flour expired on 2/8/2025,72-404-5581,21 hours ago,95
+ALT-0722,critical,Product Expired,Watermelon expired on 3/22/2024,11-766-8738,3 hours ago,95
+ALT-0724,critical,Product Expired,Rye Bread expired on 5/29/2024,15-796-3130,13 hours ago,95
+ALT-0725,critical,Product Expired,Onion expired on 3/23/2024,73-751-4393,18 hours ago,95
+ALT-0727,critical,Product Expired,Sourdough Bread expired on 7/12/2024,62-100-2245,23 hours ago,95
+ALT-0728,critical,Product Expired,Cheese expired on 9/8/2024,08-961-3009,10 hours ago,95
+ALT-0729,critical,Product Expired,Bell Pepper expired on 2/24/2025,33-440-2588,4 hours ago,95
+ALT-0730,critical,Product Expired,White Tea expired on 2/6/2025,24-009-1208,12 hours ago,95
+ALT-0731,critical,Product Expired,Broccoli expired on 5/1/2024,71-300-2191,18 hours ago,95
+ALT-0733,critical,Product Expired,Peach expired on 3/6/2024,74-430-8245,22 hours ago,95
+ALT-0735,critical,Product Expired,Carrot expired on 2/19/2025,68-636-4774,15 hours ago,95
+ALT-0736,critical,Product Expired,Kale expired on 10/18/2024,38-655-2312,20 hours ago,95
+ALT-0737,critical,Product Expired,Arabica Coffee expired on 11/21/2024,16-632-1308,12 hours ago,95
+ALT-0739,critical,Product Expired,Milk expired on 11/9/2024,37-606-0510,2 hours ago,95
+ALT-0741,critical,Product Expired,Sunflower Oil expired on 12/1/2024,36-296-9609,21 hours ago,95
+ALT-0742,critical,Product Expired,Watermelon expired on 9/19/2024,22-329-7791,14 hours ago,95
+ALT-0743,critical,Product Expired,Yogurt expired on 2/2/2025,56-894-3733,13 hours ago,95
+ALT-0745,critical,Product Expired,Sesame Oil expired on 1/16/2025,06-858-5680,13 hours ago,95
+ALT-0746,critical,Product Expired,Anchovies expired on 7/26/2024,71-954-4501,2 hours ago,95
+ALT-0748,critical,Product Expired,Corn Oil expired on 11/21/2024,12-046-2988,1 hour ago,95
+ALT-0750,critical,Product Expired,Grapes expired on 1/29/2025,95-356-1566,16 hours ago,95
+ALT-0752,critical,Product Expired,Digestive Biscuit expired on 2/13/2025,34-291-4939,20 hours ago,95
+ALT-0754,critical,Product Expired,Swiss Cheese expired on 2/15/2025,35-621-2546,1 hour ago,95
+ALT-0756,critical,Product Expired,Cabbage expired on 11/10/2024,21-013-3508,18 hours ago,95
+ALT-0757,critical,Product Expired,Oatmeal Biscuit expired on 5/9/2024,38-049-9319,11 hours ago,95
+ALT-0759,critical,Product Expired,Sourdough Bread expired on 7/7/2024,94-697-2396,15 hours ago,95
+ALT-0760,critical,Product Expired,Mozzarella Cheese expired on 1/3/2025,33-807-7247,20 hours ago,95
+ALT-0762,critical,Product Expired,Rice Flour expired on 2/6/2025,62-816-8794,13 hours ago,95
+ALT-0763,critical,Product Expired,Pineapple expired on 6/27/2024,33-507-9886,15 hours ago,95
+ALT-0765,critical,Product Expired,White Sugar expired on 10/11/2024,40-003-7322,18 hours ago,95
+ALT-0766,critical,Product Expired,Sesame Oil expired on 8/26/2024,95-090-2788,21 hours ago,95
+ALT-0767,critical,Product Expired,Egg (Goose) expired on 3/16/2024,06-503-5891,13 hours ago,95
+ALT-0768,critical,Product Expired,Black Coffee expired on 3/8/2024,38-555-9147,3 hours ago,95
+ALT-0769,critical,Product Expired,Peanut Oil expired on 8/30/2024,64-854-8664,18 hours ago,95
+ALT-0771,critical,Product Expired,Peas expired on 12/10/2024,50-942-2409,21 hours ago,95
+ALT-0772,critical,Product Expired,Almond Flour expired on 5/28/2024,17-493-4579,4 hours ago,95
+ALT-0773,critical,Product Expired,Canola Oil expired on 11/26/2024,10-854-5467,7 hours ago,95
+ALT-0774,critical,Product Expired,Canola Oil expired on 5/29/2024,11-604-6002,15 hours ago,95
+ALT-0776,critical,Product Expired,Butter expired on 8/29/2024,44-305-1866,22 hours ago,95
+ALT-0777,critical,Product Expired,Cream expired on 8/26/2024,49-730-0159,13 hours ago,95
+ALT-0778,critical,Product Expired,Zucchini expired on 1/17/2025,70-534-7796,20 hours ago,95
+ALT-0779,critical,Product Expired,Green Coffee expired on 10/30/2024,95-738-4658,11 hours ago,95
+ALT-0781,critical,Product Expired,Milk expired on 9/18/2024,20-405-4865,17 hours ago,95
+ALT-0783,critical,Product Expired,Cabbage expired on 12/30/2024,79-428-8753,4 hours ago,95
+ALT-0785,critical,Product Expired,Coconut Sugar expired on 3/30/2024,10-626-8536,4 hours ago,95
+ALT-0786,critical,Product Expired,Sesame Oil expired on 6/4/2024,27-216-9671,17 hours ago,95
+ALT-0788,critical,Product Expired,All-Purpose Flour expired on 5/13/2024,14-489-8669,4 hours ago,95
+ALT-0789,critical,Product Expired,Whipped Cream expired on 5/23/2024,46-632-8420,9 hours ago,95
+ALT-0790,critical,Product Expired,Herbal Tea expired on 3/16/2024,39-192-3521,10 hours ago,95
+ALT-0791,critical,Product Expired,Haddock expired on 3/8/2024,94-528-8088,22 hours ago,95
+ALT-0793,critical,Product Expired,Green Coffee expired on 8/16/2024,74-305-1263,17 hours ago,95
+ALT-0795,critical,Product Expired,Grapes expired on 4/20/2024,53-151-5726,20 hours ago,95
+ALT-0796,critical,Product Expired,Cheddar Cheese expired on 1/28/2025,02-085-7218,3 hours ago,95
+ALT-0798,critical,Product Expired,Basmati Rice expired on 4/4/2024,77-777-4536,2 hours ago,95
+ALT-0799,critical,Product Expired,White Tea expired on 8/10/2024,86-482-6451,2 hours ago,95
+ALT-0800,critical,Product Expired,Ricotta Cheese expired on 7/31/2024,36-127-4273,8 hours ago,95
+ALT-0801,critical,Product Expired,Trout expired on 6/27/2024,03-061-1344,8 hours ago,95
+ALT-0803,critical,Product Expired,Egg (Duck) expired on 3/21/2024,97-300-7511,11 hours ago,95
+ALT-0804,critical,Product Expired,White Bread expired on 12/25/2024,83-108-1174,23 hours ago,95
+ALT-0805,critical,Product Expired,Cauliflower expired on 5/30/2024,38-664-2155,9 hours ago,95
+ALT-0806,critical,Product Expired,Arabica Coffee expired on 3/20/2024,80-459-5950,13 hours ago,95
+ALT-0807,critical,Product Expired,Pineapple expired on 6/26/2024,93-015-0811,10 hours ago,95
+ALT-0808,critical,Product Expired,Cauliflower expired on 2/4/2025,02-888-9412,4 hours ago,95
+ALT-0810,critical,Product Expired,Egg (Turkey) expired on 1/3/2025,10-218-2680,16 hours ago,95
+ALT-0812,critical,Product Expired,Peas expired on 6/30/2024,30-964-2694,16 hours ago,95
+ALT-0813,critical,Product Expired,Strawberries expired on 7/29/2024,15-144-9413,11 hours ago,95
+ALT-0815,critical,Product Expired,Greek Yogurt expired on 6/20/2024,17-253-5688,14 hours ago,95
+ALT-0816,critical,Product Expired,Papaya expired on 12/14/2024,31-608-1445,20 hours ago,95
+ALT-0818,critical,Product Expired,Sardines expired on 1/31/2025,51-934-9117,19 hours ago,95
+ALT-0820,critical,Product Expired,Sesame Oil expired on 12/12/2024,72-810-9753,13 hours ago,95
+ALT-0821,critical,Product Expired,Powdered Sugar expired on 8/8/2024,53-146-9979,4 hours ago,95
+ALT-0823,critical,Product Expired,Jasmine Rice expired on 7/23/2024,46-622-3434,20 hours ago,95
+ALT-0825,critical,Product Expired,Cauliflower expired on 12/27/2024,47-843-8207,3 hours ago,95
+ALT-0826,critical,Product Expired,Jasmine Rice expired on 1/11/2025,29-135-0791,6 hours ago,95
+ALT-0828,critical,Product Expired,Plum expired on 10/10/2024,45-194-4094,13 hours ago,95
+ALT-0829,critical,Product Expired,Grapes expired on 9/30/2024,09-712-3630,21 hours ago,95
+ALT-0831,critical,Product Expired,Papaya expired on 9/17/2024,56-213-0577,6 hours ago,95
+ALT-0832,critical,Product Expired,Sushi Rice expired on 4/18/2024,78-956-4737,21 hours ago,95
+ALT-0833,critical,Product Expired,Digestive Biscuit expired on 9/17/2024,29-436-6570,18 hours ago,95
+ALT-0834,critical,Product Expired,Rye Bread expired on 6/8/2024,04-038-1547,21 hours ago,95
+ALT-0836,critical,Product Expired,Chocolate Biscuit expired on 12/6/2024,76-476-9996,7 hours ago,95
+ALT-0837,critical,Product Expired,Arabica Coffee expired on 1/25/2025,43-469-7551,15 hours ago,95
+ALT-0839,critical,Product Expired,Bread Flour expired on 4/18/2024,15-169-8058,5 hours ago,95
+ALT-0841,critical,Product Expired,Almond Flour expired on 7/20/2024,37-567-3218,17 hours ago,95
+ALT-0843,critical,Product Expired,Robusta Coffee expired on 2/25/2024,92-455-2959,2 hours ago,95
+ALT-0844,critical,Product Expired,Pomegranate expired on 6/5/2024,75-672-4378,2 hours ago,95
+ALT-0845,critical,Product Expired,Yogurt expired on 5/23/2024,66-806-6051,11 hours ago,95
+ALT-0847,critical,Product Expired,Grapes expired on 10/10/2024,65-527-9488,22 hours ago,95
+ALT-0848,critical,Product Expired,Mackerel expired on 3/14/2024,36-840-2728,23 hours ago,95
+ALT-0850,critical,Product Expired,Egg (Quail) expired on 7/17/2024,07-389-5740,23 hours ago,95
+ALT-0852,critical,Product Expired,Eggplant expired on 9/7/2024,13-144-2169,5 hours ago,95
+ALT-0853,critical,Product Expired,Egg (Turkey) expired on 12/20/2024,13-798-3397,5 hours ago,95
+ALT-0854,critical,Product Expired,Oatmeal Biscuit expired on 4/26/2024,85-806-0613,11 hours ago,95
+ALT-0855,critical,Product Expired,Cauliflower expired on 12/22/2024,67-248-6306,14 hours ago,95
+ALT-0857,critical,Product Expired,Egg (Duck) expired on 7/27/2024,47-866-6589,11 hours ago,95
+ALT-0858,critical,Product Expired,Orange expired on 8/4/2024,91-127-7489,13 hours ago,95
+ALT-0860,critical,Product Expired,Avocado Oil expired on 10/6/2024,90-343-9640,20 hours ago,95
+ALT-0861,critical,Product Expired,Chocolate Biscuit expired on 7/16/2024,01-018-6418,17 hours ago,95
+ALT-0862,critical,Product Expired,Swiss Cheese expired on 6/19/2024,80-375-9075,2 hours ago,95
+ALT-0863,critical,Product Expired,Garlic expired on 6/14/2024,80-227-6886,6 hours ago,95
+ALT-0865,critical,Product Expired,Cauliflower expired on 10/28/2024,15-562-3712,2 hours ago,95
+ALT-0866,critical,Product Expired,Watermelon expired on 3/10/2024,10-137-9759,14 hours ago,95
+ALT-0867,critical,Product Expired,Brown Rice expired on 10/11/2024,69-171-1305,16 hours ago,95
+ALT-0868,critical,Product Expired,Asparagus expired on 12/19/2024,83-117-7658,20 hours ago,95
+ALT-0869,critical,Product Expired,Cauliflower expired on 4/8/2024,74-642-2435,1 hour ago,95
+ALT-0870,critical,Product Expired,Anchovies expired on 3/31/2024,10-445-0741,11 hours ago,95
+ALT-0871,critical,Product Expired,Mango expired on 12/10/2024,80-658-6456,23 hours ago,95
+ALT-0872,critical,Product Expired,Haddock expired on 4/28/2024,81-354-4203,21 hours ago,95
+ALT-0873,critical,Product Expired,Pomegranate expired on 12/2/2024,08-573-9997,12 hours ago,95
+ALT-0874,critical,Product Expired,Green Coffee expired on 9/26/2024,74-610-2295,19 hours ago,95
+ALT-0876,critical,Product Expired,Evaporated Milk expired on 2/14/2025,76-070-1411,10 hours ago,95
+ALT-0878,critical,Product Expired,Apricot expired on 7/22/2024,61-582-7399,15 hours ago,95
+ALT-0880,critical,Product Expired,Whole Wheat Flour expired on 6/6/2024,42-674-3917,11 hours ago,95
+ALT-0882,critical,Product Expired,Avocado Oil expired on 7/1/2024,05-899-1428,11 hours ago,95
+ALT-0883,critical,Product Expired,Mango expired on 2/12/2025,74-548-9313,3 hours ago,95
+ALT-0884,critical,Product Expired,Asparagus expired on 9/16/2024,20-448-2972,23 hours ago,95
+ALT-0886,critical,Product Expired,Eggplant expired on 5/17/2024,63-162-9244,10 hours ago,95
+ALT-0888,critical,Product Expired,Grapes expired on 12/4/2024,91-417-0366,8 hours ago,95
+ALT-0890,critical,Product Expired,Sesame Oil expired on 7/17/2024,60-311-5701,9 hours ago,95
+ALT-0891,critical,Product Expired,Orange expired on 12/19/2024,36-899-5324,16 hours ago,95
+ALT-0893,critical,Product Expired,Sardines expired on 4/8/2024,22-266-9291,8 hours ago,95
+ALT-0895,critical,Product Expired,Peanut Oil expired on 1/1/2025,76-584-4790,15 hours ago,95
+ALT-0897,critical,Product Expired,Kiwi expired on 11/21/2024,82-948-2298,2 hours ago,95
+ALT-0898,critical,Product Expired,Palm Oil expired on 2/24/2025,97-283-4840,21 hours ago,95
+ALT-0899,critical,Product Expired,Plum expired on 12/3/2024,17-395-1121,14 hours ago,95
+ALT-0900,critical,Product Expired,Cauliflower expired on 1/22/2025,74-132-5528,3 hours ago,95
+ALT-0902,critical,Product Expired,Coconut Oil expired on 4/8/2024,52-029-2382,7 hours ago,95
+ALT-0903,critical,Product Expired,Cherry expired on 6/28/2024,11-053-0107,23 hours ago,95
+ALT-0904,critical,Product Expired,Cauliflower expired on 5/14/2024,99-194-5600,18 hours ago,95
+ALT-0906,critical,Product Expired,Vegetable Oil expired on 6/20/2024,48-289-0604,10 hours ago,95
+ALT-0908,critical,Product Expired,Tuna expired on 4/29/2024,73-010-8323,22 hours ago,95
+ALT-0910,critical,Product Expired,Buttermilk expired on 8/15/2024,06-068-6793,23 hours ago,95
+ALT-0912,critical,Product Expired,Lemon expired on 3/3/2024,56-054-8664,5 hours ago,95
+ALT-0913,critical,Product Expired,Salmon expired on 5/17/2024,36-330-5036,9 hours ago,95
+ALT-0914,critical,Product Expired,Egg (Quail) expired on 12/18/2024,65-674-6076,21 hours ago,95
+ALT-0915,critical,Product Expired,Sushi Rice expired on 4/14/2024,87-013-6488,2 hours ago,95
+ALT-0917,critical,Product Expired,Egg (Chicken) expired on 9/8/2024,95-449-1286,6 hours ago,95
+ALT-0918,critical,Product Expired,Arborio Rice expired on 2/7/2025,95-640-0293,9 hours ago,95
+ALT-0919,critical,Product Expired,Heavy Cream expired on 8/14/2024,08-495-6853,3 hours ago,95
+ALT-0921,critical,Product Expired,Sushi Rice expired on 7/22/2024,42-495-7698,20 hours ago,95
+ALT-0923,critical,Product Expired,Basmati Rice expired on 6/5/2024,83-727-0814,10 hours ago,95
+ALT-0924,critical,Product Expired,Grapes expired on 9/8/2024,01-050-2246,15 hours ago,95
+ALT-0925,critical,Product Expired,Swiss Cheese expired on 12/29/2024,07-858-5487,20 hours ago,95
+ALT-0926,critical,Product Expired,Pear expired on 1/6/2025,20-283-0111,12 hours ago,95
+ALT-0928,critical,Product Expired,Corn Oil expired on 1/7/2025,87-391-9658,16 hours ago,95
+ALT-0930,critical,Product Expired,Raw Sugar expired on 11/17/2024,44-782-1395,16 hours ago,95
+ALT-0932,critical,Product Expired,Mozzarella Cheese expired on 8/5/2024,12-828-1063,10 hours ago,95
+ALT-0933,critical,Product Expired,Mushrooms expired on 10/28/2024,72-989-2512,18 hours ago,95
+ALT-0935,critical,Product Expired,Onion expired on 5/24/2024,53-667-4109,2 hours ago,95
+ALT-0936,critical,Product Expired,Banana expired on 1/20/2025,93-772-3085,12 hours ago,95
+ALT-0937,critical,Product Expired,Zucchini expired on 10/1/2024,92-652-3737,10 hours ago,95
+ALT-0939,critical,Product Expired,Cherry expired on 6/11/2024,74-404-0582,12 hours ago,95
+ALT-0940,critical,Product Expired,Herbal Tea expired on 11/9/2024,19-244-9890,12 hours ago,95
+ALT-0941,critical,Product Expired,Short Grain Rice expired on 9/2/2024,01-839-6534,7 hours ago,95
+ALT-0943,critical,Product Expired,Cream expired on 9/28/2024,58-229-1358,13 hours ago,95
+ALT-0944,critical,Product Expired,Grapes expired on 1/1/2025,80-025-6757,11 hours ago,95
+ALT-0946,critical,Product Expired,Green Coffee expired on 11/2/2024,35-031-1497,3 hours ago,95
+ALT-0947,critical,Product Expired,Rye Bread expired on 12/14/2024,26-629-5920,3 hours ago,95
+ALT-0949,critical,Product Expired,Green Tea expired on 11/20/2024,51-000-8113,15 hours ago,95
+ALT-0951,critical,Product Expired,Sushi Rice expired on 5/22/2024,93-571-7294,8 hours ago,95
+ALT-0952,critical,Product Expired,Egg (Duck) expired on 2/2/2025,48-770-6319,15 hours ago,95
+ALT-0954,critical,Product Expired,Spinach expired on 5/9/2024,74-818-3306,23 hours ago,95
+ALT-0955,critical,Product Expired,Apricot expired on 5/7/2024,15-082-9124,21 hours ago,95
+ALT-0956,critical,Product Expired,Kiwi expired on 5/10/2024,66-854-5736,11 hours ago,95
+ALT-0957,critical,Product Expired,Black Rice expired on 3/13/2024,90-128-7973,14 hours ago,95
+ALT-0959,critical,Product Expired,Green Tea expired on 3/19/2024,60-198-7050,21 hours ago,95
+ALT-0960,critical,Product Expired,Egg (Quail) expired on 9/17/2024,70-206-4860,17 hours ago,95
+ALT-0961,critical,Product Expired,Papaya expired on 7/25/2024,25-353-2067,17 hours ago,95
+ALT-0962,critical,Product Expired,Heavy Cream expired on 11/17/2024,93-218-8108,12 hours ago,95
+ALT-0964,critical,Product Expired,Black Tea expired on 7/29/2024,95-262-6208,17 hours ago,95
+ALT-0966,critical,Product Expired,Short Grain Rice expired on 8/2/2024,02-484-0206,2 hours ago,95
+ALT-0968,critical,Product Expired,Bell Pepper expired on 4/27/2024,08-226-5155,16 hours ago,95
+ALT-0969,critical,Product Expired,Parmesan Cheese expired on 1/20/2025,47-581-0363,9 hours ago,95
+ALT-0970,critical,Product Expired,Buttermilk expired on 10/15/2024,04-104-6993,12 hours ago,95
+ALT-0971,critical,Product Expired,Cabbage expired on 2/16/2025,45-380-4627,4 hours ago,95
+ALT-0972,critical,Product Expired,Haddock expired on 1/10/2025,41-240-8856,6 hours ago,95
+ALT-0974,critical,Product Expired,Egg (Chicken) expired on 11/14/2024,81-573-0943,21 hours ago,95
+ALT-0975,critical,Product Expired,Brown Rice expired on 6/18/2024,67-725-6830,8 hours ago,95
+ALT-0976,critical,Product Expired,Arabica Coffee expired on 3/29/2024,55-154-4728,9 hours ago,95
+ALT-0977,critical,Product Expired,Whipped Cream expired on 1/29/2025,41-526-4036,19 hours ago,95
+ALT-0979,critical,Product Expired,White Rice expired on 11/29/2024,86-273-9377,11 hours ago,95
+ALT-0980,critical,Product Expired,Parmesan Cheese expired on 11/21/2024,98-499-2220,7 hours ago,95
+ALT-0981,critical,Product Expired,Salmon expired on 2/25/2024,50-930-4751,3 hours ago,95
+ALT-0983,critical,Product Expired,Pineapple expired on 2/12/2025,88-304-2855,8 hours ago,95
+ALT-0984,critical,Product Expired,Bread Flour expired on 11/21/2024,69-743-0161,8 hours ago,95
+ALT-0986,critical,Product Expired,Asparagus expired on 4/1/2024,40-902-1995,10 hours ago,95
+ALT-0988,critical,Product Expired,Wild Rice expired on 8/25/2024,50-329-3360,12 hours ago,95
+ALT-0989,critical,Critical Stock Level,Yogurt has dropped to 12 units (threshold: 83),03-441-4252,1 hour ago,95
+ALT-0990,critical,Product Expired,Yogurt expired on 7/24/2024,03-441-4252,16 hours ago,95
+ALT-0992,critical,Product Expired,Buttermilk expired on 6/1/2024,97-093-4278,10 hours ago,95
+ALT-0993,critical,Product Expired,Egg (Duck) expired on 4/26/2024,01-820-5784,12 hours ago,95
+ALT-0994,critical,Product Expired,Asparagus expired on 6/1/2024,31-803-5001,5 hours ago,95
+ALT-0995,critical,Product Expired,White Bread expired on 10/29/2024,61-317-9944,21 hours ago,95
+ALT-0996,critical,Product Expired,Wild Rice expired on 3/21/2024,56-303-5256,2 hours ago,95
+ALT-0997,critical,Product Expired,Egg (Goose) expired on 2/8/2025,86-672-4191,13 hours ago,95
+ALT-0998,critical,Product Expired,White Rice expired on 7/5/2024,34-547-0827,12 hours ago,95
+ALT-0999,critical,Product Expired,Powdered Sugar expired on 10/27/2024,20-387-7746,4 hours ago,95
+ALT-1001,critical,Product Expired,Milk expired on 4/21/2024,50-329-3145,21 hours ago,95
+ALT-1002,critical,Product Expired,Mango expired on 7/25/2024,02-559-8196,16 hours ago,95
+ALT-1004,critical,Product Expired,Oatmeal Biscuit expired on 10/7/2024,69-834-2874,10 hours ago,95
+ALT-1005,critical,Product Expired,Spinach expired on 6/19/2024,27-474-0056,16 hours ago,95
+ALT-1006,critical,Product Expired,Blueberries expired on 5/6/2024,66-378-7532,3 hours ago,95
+ALT-1007,critical,Product Expired,Robusta Coffee expired on 10/22/2024,28-185-7303,3 hours ago,95
+ALT-1009,critical,Product Expired,Watermelon expired on 12/14/2024,19-854-3663,14 hours ago,95
+ALT-1011,critical,Product Expired,Pomegranate expired on 9/9/2024,42-175-1648,4 hours ago,95
+ALT-1013,critical,Product Expired,White Bread expired on 6/22/2024,56-657-4387,5 hours ago,95
+ALT-1015,critical,Product Expired,Carrot expired on 10/26/2024,05-720-8792,16 hours ago,95
+ALT-1017,critical,Product Expired,Brown Rice expired on 8/11/2024,84-151-2114,22 hours ago,95
+ALT-1018,critical,Product Expired,Cabbage expired on 9/21/2024,10-378-9729,13 hours ago,95
+ALT-1019,critical,Product Expired,Egg (Goose) expired on 7/9/2024,53-930-2215,16 hours ago,95
+ALT-1021,critical,Product Expired,Sour Cream expired on 10/8/2024,02-034-6209,15 hours ago,95
+ALT-1022,critical,Product Expired,Almond Flour expired on 1/28/2025,28-003-8065,12 hours ago,95
+ALT-1024,critical,Product Expired,Broccoli expired on 5/7/2024,19-021-5024,21 hours ago,95
+ALT-1026,critical,Product Expired,Jasmine Rice expired on 9/25/2024,07-846-4804,5 hours ago,95
+ALT-1027,critical,Product Expired,Gouda Cheese expired on 4/17/2024,70-542-4269,20 hours ago,95
+ALT-1029,critical,Product Expired,Tilapia expired on 6/17/2024,52-797-6961,5 hours ago,95
+ALT-1030,critical,Product Expired,Palm Oil expired on 5/27/2024,66-327-2821,19 hours ago,95
+ALT-1031,critical,Product Expired,Arborio Rice expired on 6/26/2024,12-093-9863,2 hours ago,95
+ALT-1032,critical,Product Expired,White Sugar expired on 5/10/2024,08-396-2704,22 hours ago,95
+ALT-1034,critical,Product Expired,Sesame Oil expired on 7/18/2024,72-970-0239,20 hours ago,95
+ALT-1036,critical,Product Expired,Sunflower Oil expired on 4/3/2024,03-940-0630,4 hours ago,95
+ALT-1037,critical,Product Expired,Bell Pepper expired on 1/24/2025,67-130-4114,12 hours ago,95
+ALT-1039,critical,Product Expired,Greek Yogurt expired on 8/8/2024,32-270-1385,16 hours ago,95
+ALT-1040,critical,Product Expired,White Bread expired on 10/9/2024,85-510-2915,23 hours ago,95
+ALT-1042,critical,Product Expired,Egg (Goose) expired on 12/28/2024,00-842-9790,7 hours ago,95
+ALT-1043,critical,Product Expired,Lime expired on 4/19/2024,49-377-9731,10 hours ago,95
+ALT-1044,critical,Product Expired,Egg (Chicken) expired on 9/17/2024,96-682-8546,22 hours ago,95
+ALT-1046,critical,Product Expired,Vegetable Oil expired on 8/18/2024,92-837-8839,18 hours ago,95
+ALT-1048,critical,Product Expired,Jasmine Rice expired on 5/17/2024,68-732-5919,19 hours ago,95
+ALT-1050,critical,Product Expired,Robusta Coffee expired on 9/22/2024,37-064-7275,5 hours ago,95
+ALT-1052,critical,Product Expired,Mozzarella Cheese expired on 9/23/2024,43-193-9915,21 hours ago,95
+ALT-1053,critical,Product Expired,Whole Wheat Flour expired on 10/19/2024,45-992-5653,6 hours ago,95
+ALT-1054,critical,Product Expired,Salmon expired on 11/29/2024,45-852-2446,10 hours ago,95
+ALT-1056,critical,Product Expired,White Tea expired on 10/16/2024,57-394-4703,2 hours ago,95
+ALT-1058,critical,Product Expired,Onion expired on 10/15/2024,07-679-1199,11 hours ago,95
+ALT-1059,critical,Product Expired,Black Coffee expired on 9/12/2024,47-221-3391,11 hours ago,95
+ALT-1060,critical,Product Expired,Butter Biscuit expired on 5/25/2024,80-698-0324,20 hours ago,95
+ALT-1062,critical,Product Expired,Corn Oil expired on 2/2/2025,36-383-3677,22 hours ago,95
+ALT-1063,critical,Product Expired,Coconut Oil expired on 8/31/2024,42-907-6946,3 hours ago,95
+ALT-1065,critical,Product Expired,Evaporated Milk expired on 2/29/2024,96-209-1739,23 hours ago,95
+ALT-1066,critical,Product Expired,Bell Pepper expired on 1/13/2025,36-679-4670,8 hours ago,95
+ALT-1067,critical,Product Expired,Lettuce expired on 7/25/2024,08-637-9335,2 hours ago,95
+ALT-1068,critical,Product Expired,Brown Rice expired on 5/3/2024,56-875-3717,17 hours ago,95
+ALT-1070,critical,Product Expired,Whole Wheat Flour expired on 9/15/2024,86-978-6666,23 hours ago,95
+ALT-1071,critical,Product Expired,Rye Bread expired on 9/12/2024,41-475-5305,22 hours ago,95
+ALT-1072,critical,Product Expired,Orange expired on 8/29/2024,25-911-7736,3 hours ago,95
+ALT-1073,critical,Product Expired,Multigrain Bread expired on 2/2/2025,28-433-8533,23 hours ago,95
+ALT-1075,critical,Product Expired,Bread Flour expired on 1/20/2025,84-624-0201,12 hours ago,95
+ALT-1077,critical,Product Expired,Haddock expired on 8/27/2024,45-634-0679,19 hours ago,95
+ALT-1079,critical,Product Expired,Green Beans expired on 10/13/2024,93-014-4256,8 hours ago,95
+ALT-1081,critical,Product Expired,Coconut expired on 7/30/2024,24-989-3302,14 hours ago,95
+ALT-1082,critical,Product Expired,Apple expired on 1/2/2025,46-415-8633,2 hours ago,95
+ALT-1084,critical,Product Expired,Brown Rice expired on 1/23/2025,73-117-6105,3 hours ago,95
+ALT-1086,critical,Product Expired,Rice Flour expired on 1/14/2025,53-710-7630,2 hours ago,95
+ALT-1087,critical,Product Expired,Peanut Oil expired on 6/17/2024,10-617-7581,23 hours ago,95
+ALT-1089,critical,Product Expired,Anchovies expired on 12/15/2024,66-312-5511,2 hours ago,95
+ALT-1090,critical,Product Expired,Powdered Sugar expired on 3/9/2024,87-423-8486,17 hours ago,95
+ALT-1091,critical,Product Expired,Palm Oil expired on 5/22/2024,64-493-5270,23 hours ago,95
+ALT-1092,critical,Product Expired,Tuna expired on 3/16/2024,31-255-9616,23 hours ago,95
+ALT-1093,critical,Product Expired,Robusta Coffee expired on 4/6/2024,26-799-3714,6 hours ago,95
+ALT-1094,critical,Product Expired,Bell Pepper expired on 12/29/2024,64-119-7804,2 hours ago,95
+ALT-1095,critical,Product Expired,Egg (Chicken) expired on 9/17/2024,74-181-4135,7 hours ago,95
+ALT-1097,critical,Product Expired,Apricot expired on 6/6/2024,34-369-7712,2 hours ago,95
+ALT-1098,critical,Product Expired,Ricotta Cheese expired on 1/28/2025,31-157-1822,11 hours ago,95
+ALT-1099,critical,Product Expired,Feta Cheese expired on 2/24/2025,27-459-0724,2 hours ago,95
+ALT-1101,critical,Product Expired,Digestive Biscuit expired on 11/30/2024,47-441-7682,20 hours ago,95
+ALT-1102,critical,Product Expired,Salmon expired on 4/16/2024,32-676-1026,16 hours ago,95
+ALT-1104,critical,Product Expired,Lettuce expired on 6/12/2024,77-959-1018,6 hours ago,95
+ALT-1105,critical,Product Expired,Black Rice expired on 1/18/2025,60-911-3745,2 hours ago,95
+ALT-1107,critical,Product Expired,Whole Wheat Flour expired on 9/11/2024,57-101-0060,4 hours ago,95
+ALT-1108,critical,Product Expired,Chocolate Biscuit expired on 11/21/2024,54-758-4622,16 hours ago,95
+ALT-1110,critical,Product Expired,Black Tea expired on 6/24/2024,92-152-5820,16 hours ago,95
+ALT-1111,critical,Product Expired,Watermelon expired on 5/26/2024,44-637-5512,9 hours ago,95
+ALT-1113,critical,Product Expired,Black Rice expired on 4/22/2024,65-854-9364,4 hours ago,95
+ALT-1115,critical,Product Expired,Papaya expired on 8/22/2024,60-747-8704,14 hours ago,95
+ALT-1117,critical,Product Expired,Egg (Goose) expired on 5/12/2024,85-835-3445,9 hours ago,95
+ALT-1119,critical,Product Expired,Cheddar Cheese expired on 1/17/2025,66-716-8221,13 hours ago,95
+ALT-1121,critical,Product Expired,Blueberries expired on 5/27/2024,01-026-2772,10 hours ago,95
+ALT-1122,critical,Product Expired,Corn Oil expired on 7/4/2024,21-252-1360,13 hours ago,95
+ALT-1124,critical,Product Expired,Strawberries expired on 6/12/2024,80-039-1261,13 hours ago,95
+ALT-1126,critical,Product Expired,Arabica Coffee expired on 11/3/2024,48-427-0551,8 hours ago,95
+ALT-1128,critical,Product Expired,Plum expired on 11/24/2024,02-575-1980,13 hours ago,95
+ALT-1129,critical,Product Expired,Salmon expired on 4/4/2024,61-293-6327,11 hours ago,95
+ALT-1130,critical,Product Expired,Broccoli expired on 8/16/2024,08-519-5579,15 hours ago,95
+ALT-1132,critical,Product Expired,Mackerel expired on 7/5/2024,33-670-6797,8 hours ago,95
+ALT-1133,critical,Product Expired,Kale expired on 6/3/2024,29-741-8132,7 hours ago,95
+ALT-1134,critical,Product Expired,Sesame Oil expired on 11/25/2024,89-713-6071,22 hours ago,95
+ALT-1135,critical,Product Expired,Black Coffee expired on 8/30/2024,00-641-8691,11 hours ago,95
+ALT-1136,critical,Product Expired,Apricot expired on 3/2/2024,68-977-6854,6 hours ago,95
+ALT-1137,critical,Product Expired,Jasmine Rice expired on 8/5/2024,86-257-4613,5 hours ago,95
+ALT-1139,critical,Product Expired,Wild Rice expired on 2/29/2024,06-340-6856,19 hours ago,95
+ALT-1140,critical,Product Expired,Potato expired on 2/23/2025,11-338-4598,19 hours ago,95
+ALT-1141,critical,Product Expired,Egg (Goose) expired on 10/23/2024,82-711-0772,18 hours ago,95
+ALT-1142,critical,Product Expired,Black Coffee expired on 5/3/2024,05-184-4175,22 hours ago,95
+ALT-1144,critical,Product Expired,Whole Wheat Bread expired on 3/22/2024,17-274-6898,14 hours ago,95
+ALT-1146,critical,Product Expired,Vegetable Oil expired on 6/11/2024,79-569-8856,10 hours ago,95
+ALT-1148,critical,Product Expired,Black Coffee expired on 8/17/2024,00-534-9775,1 hour ago,95
+ALT-1149,critical,Product Expired,Pear expired on 3/30/2024,94-071-2261,5 hours ago,95
+ALT-1151,critical,Product Expired,Tilapia expired on 7/23/2024,94-355-3070,15 hours ago,95
+ALT-1152,critical,Product Expired,Orange expired on 2/10/2025,17-265-1899,22 hours ago,95
+ALT-1153,critical,Product Expired,Lime expired on 3/15/2024,13-888-0149,1 hour ago,95
+ALT-1154,critical,Product Expired,Gouda Cheese expired on 9/19/2024,21-890-2826,22 hours ago,95
+ALT-1156,critical,Product Expired,Onion expired on 6/5/2024,05-425-0746,3 hours ago,95
+ALT-1158,critical,Product Expired,Haddock expired on 2/9/2025,88-807-8431,9 hours ago,95
+ALT-1159,critical,Product Expired,Almond Flour expired on 6/19/2024,77-377-1659,12 hours ago,95
+ALT-1160,critical,Product Expired,Tomato expired on 12/25/2024,92-362-3567,17 hours ago,95
+ALT-1161,critical,Product Expired,Heavy Cream expired on 12/6/2024,99-961-0767,23 hours ago,95
+ALT-1162,critical,Product Expired,Cauliflower expired on 8/4/2024,94-092-3355,8 hours ago,95
+ALT-1163,critical,Product Expired,Lime expired on 9/19/2024,29-344-3658,11 hours ago,95
+ALT-1164,critical,Product Expired,Egg (Turkey) expired on 10/17/2024,60-327-4114,14 hours ago,95
+ALT-1165,critical,Product Expired,White Tea expired on 1/8/2025,13-409-9040,7 hours ago,95
+ALT-1167,critical,Product Expired,Cabbage expired on 7/2/2024,75-927-9108,20 hours ago,95
+ALT-1168,critical,Product Expired,Jasmine Rice expired on 3/6/2024,30-806-3823,8 hours ago,95
+ALT-1170,critical,Product Expired,Butter Biscuit expired on 5/27/2024,65-780-5622,11 hours ago,95
+ALT-1171,critical,Product Expired,Brown Rice expired on 9/1/2024,94-598-3383,4 hours ago,95
+ALT-1173,critical,Product Expired,Bread Flour expired on 7/5/2024,45-250-4679,9 hours ago,95
+ALT-1175,critical,Product Expired,Palm Oil expired on 8/20/2024,45-317-9731,19 hours ago,95
+ALT-1176,critical,Product Expired,Almond Flour expired on 3/20/2024,41-131-3841,21 hours ago,95
+ALT-1178,critical,Product Expired,Apricot expired on 9/29/2024,15-905-7750,15 hours ago,95
+ALT-1180,critical,Product Expired,Sweet Potato expired on 5/24/2024,68-973-8812,6 hours ago,95
+ALT-1181,critical,Product Expired,Sour Cream expired on 12/18/2024,49-570-8214,23 hours ago,95
+ALT-1182,critical,Product Expired,Black Rice expired on 1/20/2025,57-779-4955,8 hours ago,95
+ALT-1183,critical,Product Expired,Salmon expired on 12/28/2024,85-781-5386,6 hours ago,95
+ALT-1184,critical,Product Expired,Heavy Cream expired on 9/9/2024,72-341-1154,7 hours ago,95
+ALT-1186,critical,Product Expired,Pomegranate expired on 10/13/2024,28-986-8001,2 hours ago,95
+ALT-1187,critical,Product Expired,Olive Oil expired on 12/13/2024,82-811-7988,3 hours ago,95
+ALT-1189,critical,Product Expired,Potato expired on 5/24/2024,27-495-1912,8 hours ago,95
+ALT-1190,critical,Product Expired,Sunflower Oil expired on 3/14/2024,44-480-9446,18 hours ago,95
+ALT-1192,critical,Product Expired,White Sugar expired on 4/12/2024,77-937-1108,19 hours ago,95
+ALT-1193,critical,Product Expired,Cabbage expired on 10/24/2024,82-538-4809,17 hours ago,95
+ALT-1194,critical,Product Expired,Cucumber expired on 3/4/2024,69-895-3397,19 hours ago,95
+ALT-1195,critical,Product Expired,Tuna expired on 4/8/2024,44-112-3331,2 hours ago,95
+ALT-1196,critical,Product Expired,Lime expired on 8/16/2024,93-682-2069,12 hours ago,95
+ALT-1197,critical,Product Expired,Tomato expired on 8/24/2024,49-199-6836,6 hours ago,95
+ALT-1199,critical,Product Expired,Pomegranate expired on 10/10/2024,47-221-2470,5 hours ago,95
+ALT-1200,critical,Product Expired,Anchovies expired on 8/16/2024,71-067-3278,15 hours ago,95
+ALT-1202,critical,Product Expired,Grapes expired on 4/19/2024,89-388-3239,16 hours ago,95
+ALT-1203,critical,Product Expired,Sourdough Bread expired on 9/27/2024,10-555-5971,12 hours ago,95
+ALT-1205,critical,Product Expired,Asparagus expired on 5/12/2024,82-931-7126,7 hours ago,95
+ALT-1206,critical,Product Expired,Herbal Tea expired on 11/28/2024,24-228-6840,18 hours ago,95
+ALT-1207,critical,Product Expired,All-Purpose Flour expired on 7/24/2024,52-392-5312,17 hours ago,95
+ALT-1208,critical,Product Expired,Almond Flour expired on 3/14/2024,36-531-4087,3 hours ago,95
+ALT-1209,critical,Product Expired,Rice Flour expired on 9/5/2024,39-810-2042,19 hours ago,95
+ALT-1210,critical,Product Expired,Halibut expired on 1/8/2025,55-164-7723,7 hours ago,95
+ALT-1211,critical,Product Expired,Apple expired on 4/14/2024,61-680-9496,14 hours ago,95
+ALT-1213,critical,Product Expired,Canola Oil expired on 8/15/2024,24-143-4957,19 hours ago,95
+ALT-1215,critical,Product Expired,Tilapia expired on 7/29/2024,26-456-1992,7 hours ago,95
+ALT-1216,critical,Product Expired,Evaporated Milk expired on 10/5/2024,62-998-7250,11 hours ago,95
+ALT-1217,critical,Product Expired,Mushrooms expired on 7/13/2024,38-617-7226,5 hours ago,95
+ALT-1219,critical,Product Expired,Grapes expired on 12/28/2024,00-366-9496,8 hours ago,95
+ALT-1220,critical,Product Expired,Onion expired on 6/24/2024,76-027-4850,20 hours ago,95
+ALT-1222,critical,Product Expired,Pineapple expired on 10/22/2024,27-269-5260,22 hours ago,95
+ALT-1223,critical,Product Expired,Carrot expired on 12/18/2024,40-126-0515,5 hours ago,95
+ALT-1224,critical,Product Expired,Parmesan Cheese expired on 8/14/2024,31-387-5020,4 hours ago,95
+ALT-1226,critical,Product Expired,Peach expired on 2/23/2025,13-673-7016,20 hours ago,95
+ALT-1228,critical,Product Expired,Egg (Turkey) expired on 5/16/2024,85-212-2729,13 hours ago,95
+ALT-1230,critical,Product Expired,Tomato expired on 5/27/2024,99-048-8310,22 hours ago,95
+ALT-1231,critical,Product Expired,Lettuce expired on 6/28/2024,19-112-1616,3 hours ago,95
+ALT-1232,critical,Product Expired,Yogurt expired on 4/17/2024,98-546-7398,14 hours ago,95
+ALT-1234,critical,Product Expired,Orange expired on 11/11/2024,63-874-9747,16 hours ago,95
+ALT-1236,critical,Product Expired,Bread Flour expired on 7/10/2024,58-946-5152,12 hours ago,95
+ALT-1238,critical,Product Expired,Peach expired on 6/16/2024,65-867-4029,7 hours ago,95
+ALT-1239,critical,Product Expired,Bread Flour expired on 12/8/2024,89-328-9019,2 hours ago,95
+ALT-1240,critical,Product Expired,Raw Sugar expired on 2/23/2025,02-170-5225,5 hours ago,95
+ALT-1241,critical,Product Expired,Multigrain Bread expired on 11/26/2024,24-478-8277,7 hours ago,95
+ALT-1242,critical,Product Expired,Digestive Biscuit expired on 9/25/2024,91-290-9062,10 hours ago,95
+ALT-1243,critical,Product Expired,Peach expired on 2/13/2025,44-546-5713,20 hours ago,95
+ALT-1245,critical,Product Expired,Mango expired on 11/9/2024,20-031-0532,11 hours ago,95
+ALT-1246,critical,Product Expired,Plum expired on 6/24/2024,48-242-8445,21 hours ago,95
+ALT-1248,critical,Product Expired,Egg (Goose) expired on 2/4/2025,33-378-1365,11 hours ago,95
+ALT-1249,critical,Product Expired,Cod expired on 3/24/2024,57-763-5501,16 hours ago,95
+ALT-1251,critical,Product Expired,Pomegranate expired on 10/26/2024,71-015-9181,10 hours ago,95
+ALT-1253,critical,Product Expired,Chocolate Biscuit expired on 9/1/2024,14-115-8371,6 hours ago,95
+ALT-1255,critical,Product Expired,Halibut expired on 2/10/2025,83-568-3475,4 hours ago,95
+ALT-1257,critical,Product Expired,Cucumber expired on 8/15/2024,79-884-8810,8 hours ago,95
+ALT-1258,critical,Product Expired,Cheddar Cheese expired on 3/23/2024,50-772-2613,10 hours ago,95
+ALT-1260,critical,Product Expired,Mackerel expired on 12/24/2024,19-377-5021,13 hours ago,95
+ALT-1262,critical,Product Expired,Evaporated Milk expired on 4/10/2024,39-913-2999,10 hours ago,95
+ALT-1263,critical,Product Expired,Onion expired on 12/19/2024,46-911-1159,22 hours ago,95
+ALT-1265,critical,Product Expired,Cherry expired on 11/7/2024,40-630-1431,4 hours ago,95
+ALT-1266,critical,Product Expired,Coconut expired on 1/14/2025,15-797-4824,18 hours ago,95
+ALT-1267,critical,Product Expired,Pear expired on 5/24/2024,37-248-6266,15 hours ago,95
+ALT-1268,critical,Product Expired,Yogurt expired on 8/3/2024,22-760-4605,7 hours ago,95
+ALT-1270,critical,Product Expired,Black Rice expired on 7/8/2024,80-020-8041,13 hours ago,95
+ALT-1272,critical,Product Expired,Whole Wheat Flour expired on 1/2/2025,44-634-8292,3 hours ago,95
+ALT-1273,critical,Product Expired,Whole Wheat Bread expired on 3/19/2024,19-610-2236,3 hours ago,95
+ALT-1275,critical,Product Expired,Ricotta Cheese expired on 5/17/2024,49-579-4325,6 hours ago,95
+ALT-1277,critical,Product Expired,Canola Oil expired on 12/30/2024,42-134-9798,17 hours ago,95
+ALT-1278,critical,Product Expired,Cherry expired on 6/1/2024,84-546-7624,17 hours ago,95
+ALT-1280,critical,Product Expired,Peanut Oil expired on 11/13/2024,11-891-8213,19 hours ago,95
+ALT-1281,critical,Product Expired,Buttermilk expired on 3/28/2024,03-597-9488,15 hours ago,95
+ALT-1282,critical,Product Expired,Asparagus expired on 11/24/2024,89-624-7462,22 hours ago,95
+ALT-1284,critical,Product Expired,Brown Rice expired on 1/16/2025,89-335-0155,7 hours ago,95
+ALT-1285,critical,Product Expired,Arabica Coffee expired on 8/23/2024,59-725-4038,12 hours ago,95
+ALT-1286,critical,Product Expired,Canola Oil expired on 1/4/2025,78-953-2073,18 hours ago,95
+ALT-1288,critical,Product Expired,Haddock expired on 7/8/2024,91-426-3204,6 hours ago,95
+ALT-1289,critical,Product Expired,Egg (Chicken) expired on 5/26/2024,40-913-9772,12 hours ago,95
+ALT-1291,critical,Product Expired,Whole Wheat Flour expired on 12/27/2024,89-922-4773,12 hours ago,95
+ALT-1292,critical,Product Expired,Sweet Potato expired on 8/4/2024,17-236-0566,15 hours ago,95
+ALT-1294,critical,Product Expired,Almond Flour expired on 5/13/2024,74-234-0628,11 hours ago,95
+ALT-1295,critical,Product Expired,Wild Rice expired on 8/10/2024,80-441-7249,8 hours ago,95
+ALT-1296,critical,Product Expired,Jasmine Rice expired on 4/15/2024,54-708-7327,6 hours ago,95
+ALT-1297,critical,Product Expired,Zucchini expired on 3/20/2024,15-846-7959,16 hours ago,95
+ALT-1299,critical,Product Expired,Corn Oil expired on 12/6/2024,44-368-7112,12 hours ago,95
+ALT-1300,critical,Product Expired,Cucumber expired on 10/16/2024,03-833-3577,12 hours ago,95
+ALT-1302,critical,Product Expired,Onion expired on 12/25/2024,47-548-6500,18 hours ago,95
+ALT-1304,critical,Product Expired,Trout expired on 8/29/2024,12-342-4482,15 hours ago,95
+ALT-1305,critical,Product Expired,Egg (Quail) expired on 9/20/2024,07-834-3320,19 hours ago,95
+ALT-1307,critical,Product Expired,Black Tea expired on 3/30/2024,16-187-5729,9 hours ago,95
+ALT-1308,critical,Product Expired,Anchovies expired on 9/29/2024,64-109-7362,14 hours ago,95
+ALT-1310,critical,Product Expired,Wild Rice expired on 9/28/2024,06-655-5498,23 hours ago,95
+ALT-1312,critical,Product Expired,Green Beans expired on 8/17/2024,24-975-4231,16 hours ago,95
+ALT-1313,critical,Product Expired,Butter Biscuit expired on 6/23/2024,98-652-9569,12 hours ago,95
+ALT-1315,critical,Product Expired,Gouda Cheese expired on 2/3/2025,25-522-6043,12 hours ago,95
+ALT-1316,critical,Product Expired,Anchovies expired on 1/24/2025,28-275-5901,20 hours ago,95
+ALT-1317,critical,Product Expired,Coconut Oil expired on 10/17/2024,96-164-0607,11 hours ago,95
+ALT-1318,critical,Product Expired,Sesame Oil expired on 7/1/2024,93-815-0565,10 hours ago,95
+ALT-1320,critical,Product Expired,Mango expired on 9/29/2024,63-918-8253,2 hours ago,95
+ALT-1322,critical,Product Expired,Haddock expired on 12/30/2024,57-167-0669,4 hours ago,95
+ALT-1323,critical,Product Expired,Broccoli expired on 9/19/2024,52-402-9245,3 hours ago,95
+ALT-1324,critical,Product Expired,Cod expired on 8/20/2024,17-647-0503,3 hours ago,95
+ALT-1326,critical,Product Expired,Parmesan Cheese expired on 7/28/2024,67-984-5368,18 hours ago,95
+ALT-1327,critical,Product Expired,Sesame Oil expired on 11/9/2024,77-827-0820,22 hours ago,95
+ALT-1328,critical,Product Expired,Halibut expired on 4/9/2024,27-387-0428,1 hour ago,95
+ALT-1330,critical,Product Expired,Jasmine Rice expired on 4/17/2024,79-350-5841,11 hours ago,95
+ALT-1331,critical,Product Expired,Jasmine Rice expired on 12/30/2024,44-128-2185,4 hours ago,95
+ALT-1333,critical,Product Expired,Peach expired on 11/15/2024,48-789-9187,4 hours ago,95
+ALT-1335,critical,Product Expired,White Rice expired on 2/24/2025,21-809-7115,14 hours ago,95
+ALT-1336,critical,Product Expired,Halibut expired on 10/15/2024,19-323-0506,20 hours ago,95
+ALT-1338,critical,Product Expired,Apricot expired on 11/24/2024,04-637-8815,20 hours ago,95
+ALT-1339,critical,Product Expired,Trout expired on 11/10/2024,60-644-6596,1 hour ago,95
+ALT-1341,critical,Product Expired,Cucumber expired on 8/21/2024,58-005-5343,3 hours ago,95
+ALT-1342,critical,Product Expired,Green Beans expired on 3/2/2024,67-382-4435,20 hours ago,95
+ALT-1343,critical,Product Expired,Powdered Sugar expired on 6/1/2024,09-335-7793,4 hours ago,95
+ALT-1344,critical,Product Expired,Pomegranate expired on 8/14/2024,46-496-2930,15 hours ago,95
+ALT-1345,critical,Product Expired,Bread Flour expired on 7/5/2024,35-353-4068,19 hours ago,95
+ALT-1347,critical,Product Expired,Black Rice expired on 3/13/2024,45-050-4720,19 hours ago,95
+ALT-1349,critical,Product Expired,Whole Wheat Flour expired on 2/5/2025,87-104-0187,16 hours ago,95
+ALT-1351,critical,Product Expired,Black Tea expired on 11/21/2024,85-806-8672,19 hours ago,95
+ALT-1353,critical,Product Expired,Green Beans expired on 11/3/2024,54-281-3746,15 hours ago,95
+ALT-1355,critical,Product Expired,Parmesan Cheese expired on 4/6/2024,35-257-9312,8 hours ago,95
+ALT-1356,critical,Product Expired,Zucchini expired on 10/16/2024,63-897-8088,23 hours ago,95
+ALT-1357,critical,Product Expired,Vanilla Biscuit expired on 8/14/2024,24-986-5091,14 hours ago,95
+ALT-1358,critical,Product Expired,Sweet Potato expired on 8/17/2024,17-504-3699,14 hours ago,95
+ALT-1360,critical,Product Expired,Vegetable Oil expired on 3/16/2024,23-395-3157,8 hours ago,95
+ALT-1361,critical,Product Expired,Chocolate Biscuit expired on 10/18/2024,28-107-4953,19 hours ago,95
+ALT-1363,critical,Product Expired,Haddock expired on 6/9/2024,46-083-7058,2 hours ago,95
+ALT-1365,critical,Product Expired,Egg (Duck) expired on 7/11/2024,68-436-1268,19 hours ago,95
+ALT-1366,critical,Product Expired,Mango expired on 9/17/2024,93-198-5984,4 hours ago,95
+ALT-1367,critical,Product Expired,Kale expired on 4/11/2024,24-571-1080,22 hours ago,95
+ALT-1368,critical,Product Expired,Pomegranate expired on 12/18/2024,73-874-7534,23 hours ago,95
+ALT-1369,critical,Product Expired,Cauliflower expired on 9/29/2024,07-337-9889,3 hours ago,95
+ALT-1370,critical,Product Expired,Powdered Sugar expired on 5/23/2024,28-197-9246,7 hours ago,95
+ALT-1371,critical,Product Expired,Mozzarella Cheese expired on 2/29/2024,83-400-9746,18 hours ago,95
+ALT-1372,critical,Product Expired,Anchovies expired on 9/4/2024,24-579-6500,11 hours ago,95
+ALT-1373,critical,Product Expired,Sunflower Oil expired on 4/28/2024,64-418-8356,10 hours ago,95
+ALT-1374,critical,Product Expired,Apple expired on 4/16/2024,15-884-7413,17 hours ago,95
+ALT-1376,critical,Product Expired,Green Beans expired on 4/23/2024,79-494-2472,15 hours ago,95
+ALT-1377,critical,Product Expired,Egg (Turkey) expired on 4/13/2024,36-177-0573,7 hours ago,95
+ALT-1378,critical,Product Expired,Mushrooms expired on 7/16/2024,79-920-2395,17 hours ago,95
+ALT-1379,critical,Product Expired,Jasmine Rice expired on 11/10/2024,96-961-2193,8 hours ago,95
+ALT-1381,critical,Product Expired,Brown Rice expired on 6/5/2024,69-578-7930,20 hours ago,95
+ALT-1382,critical,Product Expired,Multigrain Bread expired on 7/14/2024,40-205-8252,22 hours ago,95
+ALT-1383,critical,Product Expired,Evaporated Milk expired on 2/27/2024,18-107-7886,8 hours ago,95
+ALT-1384,critical,Product Expired,Long Grain Rice expired on 4/21/2024,35-328-8392,13 hours ago,95
+ALT-1386,critical,Product Expired,White Bread expired on 4/24/2024,21-650-9319,18 hours ago,95
+ALT-1388,critical,Product Expired,White Sugar expired on 12/25/2024,99-894-4351,2 hours ago,95
+ALT-1390,critical,Product Expired,Cucumber expired on 5/1/2024,63-168-6018,12 hours ago,95
+ALT-1391,critical,Product Expired,Parmesan Cheese expired on 4/12/2024,26-000-1012,20 hours ago,95
+ALT-1393,critical,Product Expired,Bell Pepper expired on 9/19/2024,13-900-9016,14 hours ago,95
+ALT-1394,critical,Product Expired,Corn Oil expired on 8/26/2024,88-408-0310,10 hours ago,95
+ALT-1395,critical,Product Expired,Bell Pepper expired on 9/17/2024,73-997-6251,10 hours ago,95
+ALT-1396,critical,Product Expired,Canola Oil expired on 5/30/2024,50-679-2072,18 hours ago,95
+ALT-1398,critical,Product Expired,Digestive Biscuit expired on 1/3/2025,89-673-1543,7 hours ago,95
+ALT-1400,critical,Product Expired,Cream expired on 12/8/2024,56-937-8675,4 hours ago,95
+ALT-1402,critical,Product Expired,Apple expired on 9/25/2024,14-836-2894,3 hours ago,95
+ALT-1404,critical,Product Expired,Peanut Oil expired on 2/29/2024,87-903-3486,3 hours ago,95
+ALT-1405,critical,Product Expired,Coconut Sugar expired on 11/16/2024,07-617-6934,20 hours ago,95
+ALT-1406,critical,Product Expired,Tuna expired on 5/4/2024,31-403-6234,16 hours ago,95
+ALT-1407,critical,Product Expired,Spinach expired on 6/17/2024,29-092-3453,6 hours ago,95
+ALT-1409,critical,Product Expired,Carrot expired on 4/24/2024,34-709-9237,4 hours ago,95
+ALT-1410,critical,Product Expired,Sweet Potato expired on 11/18/2024,13-962-6263,2 hours ago,95
+ALT-1411,critical,Product Expired,Lemon expired on 7/19/2024,06-731-2162,5 hours ago,95
+ALT-1412,critical,Product Expired,Multigrain Bread expired on 12/19/2024,10-768-2443,12 hours ago,95
+ALT-1413,critical,Product Expired,Basmati Rice expired on 4/14/2024,36-372-2295,23 hours ago,95
+ALT-1415,critical,Product Expired,Sour Cream expired on 4/6/2024,34-538-1180,2 hours ago,95
+ALT-1416,critical,Product Expired,Egg (Chicken) expired on 11/5/2024,98-148-0940,11 hours ago,95
+ALT-1418,critical,Product Expired,Potato expired on 3/1/2024,38-390-2115,14 hours ago,95
+ALT-1419,critical,Product Expired,Onion expired on 8/7/2024,02-974-8526,22 hours ago,95
+ALT-1421,critical,Product Expired,Short Grain Rice expired on 7/29/2024,29-377-7040,11 hours ago,95
+ALT-1422,critical,Product Expired,Egg (Chicken) expired on 9/6/2024,84-327-7787,5 hours ago,95
+ALT-1424,critical,Product Expired,Wild Rice expired on 1/16/2025,82-231-4245,22 hours ago,95
+ALT-1425,critical,Product Expired,Apple expired on 12/24/2024,70-005-5970,2 hours ago,95
+ALT-1427,critical,Product Expired,Plum expired on 12/3/2024,63-936-0145,12 hours ago,95
+ALT-1428,critical,Product Expired,Peas expired on 10/17/2024,08-196-2703,2 hours ago,95
+ALT-1430,critical,Product Expired,Cheddar Cheese expired on 2/9/2025,22-778-3553,21 hours ago,95
+ALT-1432,critical,Product Expired,Halibut expired on 10/19/2024,37-610-1999,23 hours ago,95
+ALT-1434,critical,Product Expired,White Sugar expired on 8/6/2024,09-618-2842,14 hours ago,95
+ALT-1435,critical,Product Expired,Eggplant expired on 10/13/2024,28-968-4195,8 hours ago,95
+ALT-1437,critical,Product Expired,Green Tea expired on 8/19/2024,55-680-0982,17 hours ago,95
+ALT-1439,critical,Product Expired,Lime expired on 3/4/2024,43-851-9440,15 hours ago,95
+ALT-1441,critical,Product Expired,Avocado Oil expired on 3/28/2024,14-331-3739,12 hours ago,95
+ALT-1442,critical,Product Expired,Tilapia expired on 5/18/2024,54-830-6971,23 hours ago,95
+ALT-1443,critical,Product Expired,Jasmine Rice expired on 5/27/2024,53-008-2419,16 hours ago,95
+ALT-1444,critical,Product Expired,Basmati Rice expired on 3/14/2024,39-358-3340,18 hours ago,95
+ALT-1446,critical,Product Expired,Parmesan Cheese expired on 4/8/2024,28-146-2641,23 hours ago,95
+ALT-1447,critical,Product Expired,Powdered Sugar expired on 10/30/2024,83-556-0996,8 hours ago,95
+ALT-1448,critical,Product Expired,Sourdough Bread expired on 5/14/2024,53-805-9523,11 hours ago,95
+ALT-1449,critical,Product Expired,Spinach expired on 11/4/2024,82-977-7752,21 hours ago,95
+ALT-1450,critical,Product Expired,Cheddar Cheese expired on 10/5/2024,62-393-9939,21 hours ago,95
+ALT-1451,critical,Product Expired,Cabbage expired on 11/1/2024,31-745-6850,1 hour ago,95
+ALT-1453,critical,Product Expired,Avocado Oil expired on 4/30/2024,86-692-2312,4 hours ago,95
+ALT-1455,critical,Product Expired,Papaya expired on 8/27/2024,28-044-4102,14 hours ago,95
+ALT-1301,critical,Critical Stock Level,Onion has dropped to 20 units (threshold: 93),47-548-6500,1 hour ago,94
+ALT-0219,warning,Low Stock Warning,Green Tea stock is running low (63 units remaining),74-845-3299,3 hours ago,88
+ALT-0405,warning,Low Stock Warning,Grapes stock is running low (88 units remaining),68-977-2498,1 hour ago,88
+ALT-0487,warning,Low Stock Warning,White Bread stock is running low (30 units remaining),74-943-9034,4 hours ago,88
+ALT-0593,warning,Low Stock Warning,Egg (Goose) stock is running low (35 units remaining),27-757-4489,1 hour ago,88
+ALT-0606,warning,Low Stock Warning,Green Beans stock is running low (86 units remaining),30-996-2526,32 mins ago,88
+ALT-0144,warning,Low Stock Warning,Rice Flour stock is running low (52 units remaining),11-733-1756,52 mins ago,87
+ALT-0842,warning,Low Stock Warning,Robusta Coffee stock is running low (59 units remaining),92-455-2959,1 hour ago,87
+ALT-1138,warning,Low Stock Warning,Wild Rice stock is running low (41 units remaining),06-340-6856,2 hours ago,87
+ALT-1177,warning,Low Stock Warning,Apricot stock is running low (42 units remaining),15-905-7750,5 hours ago,87
+ALT-1340,warning,Low Stock Warning,Cucumber stock is running low (38 units remaining),58-005-5343,4 hours ago,87
+ALT-0079,warning,Low Stock Warning,Pineapple stock is running low (44 units remaining),40-751-8635,2 hours ago,86
+ALT-0249,warning,Low Stock Warning,Orange stock is running low (41 units remaining),53-446-8243,1 hour ago,86
+ALT-0365,warning,Low Stock Warning,Haddock stock is running low (17 units remaining),99-561-4871,44 mins ago,86
+ALT-0469,warning,Low Stock Warning,Bread Flour stock is running low (84 units remaining),93-342-8794,3 hours ago,86
+ALT-0509,warning,Low Stock Warning,Egg (Turkey) stock is running low (56 units remaining),39-768-8205,4 hours ago,86
+ALT-0770,warning,Low Stock Warning,Peas stock is running low (75 units remaining),50-942-2409,5 hours ago,86
+ALT-0802,warning,Low Stock Warning,Egg (Duck) stock is running low (37 units remaining),97-300-7511,3 hours ago,86
+ALT-0916,warning,Low Stock Warning,Egg (Chicken) stock is running low (10 units remaining),95-449-1286,3 hours ago,86
+ALT-1035,warning,Low Stock Warning,Sunflower Oil stock is running low (23 units remaining),03-940-0630,2 hours ago,86
+ALT-0151,warning,Low Stock Warning,Bread Flour stock is running low (84 units remaining),67-710-5120,4 hours ago,85
+ALT-0170,warning,Low Stock Warning,Black Rice stock is running low (86 units remaining),36-636-4873,2 hours ago,85
+ALT-0252,warning,Low Stock Warning,Asparagus stock is running low (22 units remaining),98-235-2711,4 hours ago,85
+ALT-0343,warning,Low Stock Warning,Black Coffee stock is running low (37 units remaining),57-562-2358,3 hours ago,85
+ALT-0740,warning,Low Stock Warning,Sunflower Oil stock is running low (24 units remaining),36-296-9609,5 hours ago,85
+ALT-1147,warning,Low Stock Warning,Black Coffee stock is running low (87 units remaining),00-534-9775,37 mins ago,85
+ALT-1259,warning,Low Stock Warning,Mackerel stock is running low (91 units remaining),19-377-5021,2 hours ago,85
+ALT-1454,warning,Low Stock Warning,Papaya stock is running low (19 units remaining),28-044-4102,3 hours ago,85
+ALT-0016,warning,Low Stock Warning,Long Grain Rice stock is running low (62 units remaining),51-469-4611,1 hour ago,84
+ALT-0042,warning,Low Stock Warning,Mushrooms stock is running low (72 units remaining),79-741-0770,40 mins ago,84
+ALT-0058,warning,Low Stock Warning,Zucchini stock is running low (61 units remaining),26-161-6692,5 hours ago,84
+ALT-0172,warning,Low Stock Warning,Pomegranate stock is running low (60 units remaining),98-556-5323,3 hours ago,84
+ALT-0211,warning,Low Stock Warning,Long Grain Rice stock is running low (26 units remaining),42-887-6557,5 hours ago,84
+ALT-0311,warning,Low Stock Warning,Olive Oil stock is running low (52 units remaining),73-118-1117,5 hours ago,84
+ALT-0339,warning,Low Stock Warning,Tuna stock is running low (89 units remaining),80-072-8774,4 hours ago,84
+ALT-0367,warning,Low Stock Warning,Egg (Duck) stock is running low (23 units remaining),61-607-7622,2 hours ago,84
+ALT-0374,warning,Low Stock Warning,Bell Pepper stock is running low (46 units remaining),29-017-6255,3 hours ago,84
+ALT-0393,warning,Low Stock Warning,Milk stock is running low (43 units remaining),00-963-2193,5 hours ago,84
+ALT-0519,warning,Low Stock Warning,Rye Bread stock is running low (50 units remaining),94-525-6925,5 hours ago,84
+ALT-0530,warning,Low Stock Warning,White Tea stock is running low (58 units remaining),93-166-3169,30 mins ago,84
+ALT-0565,warning,Low Stock Warning,Green Tea stock is running low (34 units remaining),27-881-1177,1 hour ago,84
+ALT-1179,warning,Low Stock Warning,Sweet Potato stock is running low (44 units remaining),68-973-8812,1 hour ago,84
+ALT-1264,warning,Low Stock Warning,Cherry stock is running low (29 units remaining),40-630-1431,4 hours ago,84
+ALT-1306,warning,Low Stock Warning,Black Tea stock is running low (45 units remaining),16-187-5729,5 hours ago,84
+ALT-0119,warning,Low Stock Warning,Corn Oil stock is running low (20 units remaining),75-080-4909,3 hours ago,83
+ALT-0121,warning,Low Stock Warning,Butter Biscuit stock is running low (38 units remaining),70-815-4015,31 mins ago,83
+ALT-0267,warning,Low Stock Warning,Oatmeal Biscuit stock is running low (34 units remaining),58-182-6781,1 hour ago,83
+ALT-0516,warning,Low Stock Warning,Mango stock is running low (58 units remaining),71-999-2404,1 hour ago,83
+ALT-0661,warning,Low Stock Warning,Buttermilk stock is running low (28 units remaining),83-553-9523,2 hours ago,83
+ALT-0674,warning,Low Stock Warning,Egg (Duck) stock is running low (44 units remaining),83-321-7887,2 hours ago,83
+ALT-0678,warning,Low Stock Warning,Coconut Sugar stock is running low (49 units remaining),21-633-8696,2 hours ago,83
+ALT-0864,warning,Low Stock Warning,Cauliflower stock is running low (33 units remaining),15-562-3712,1 hour ago,83
+ALT-0892,warning,Low Stock Warning,Sardines stock is running low (11 units remaining),22-266-9291,38 mins ago,83
+ALT-0958,warning,Low Stock Warning,Green Tea stock is running low (26 units remaining),60-198-7050,3 hours ago,83
+ALT-1014,warning,Low Stock Warning,Carrot stock is running low (80 units remaining),05-720-8792,5 hours ago,83
+ALT-1055,warning,Low Stock Warning,White Tea stock is running low (81 units remaining),57-394-4703,5 hours ago,83
+ALT-1109,warning,Low Stock Warning,Black Tea stock is running low (18 units remaining),92-152-5820,2 hours ago,83
+ALT-1116,warning,Low Stock Warning,Egg (Goose) stock is running low (50 units remaining),85-835-3445,2 hours ago,83
+ALT-1188,warning,Low Stock Warning,Potato stock is running low (26 units remaining),27-495-1912,2 hours ago,83
+ALT-1191,warning,Low Stock Warning,White Sugar stock is running low (39 units remaining),77-937-1108,3 hours ago,83
+ALT-1201,warning,Low Stock Warning,Grapes stock is running low (54 units remaining),89-388-3239,2 hours ago,83
+ALT-1237,warning,Low Stock Warning,Peach stock is running low (40 units remaining),65-867-4029,4 hours ago,83
+ALT-1252,warning,Low Stock Warning,Chocolate Biscuit stock is running low (23 units remaining),14-115-8371,1 hour ago,83
+ALT-1332,warning,Low Stock Warning,Peach stock is running low (45 units remaining),48-789-9187,5 hours ago,83
+ALT-0018,warning,Low Stock Warning,White Sugar stock is running low (91 units remaining),42-220-9305,2 hours ago,82
+ALT-0106,warning,Low Stock Warning,Trout stock is running low (29 units remaining),26-010-9519,4 hours ago,82
+ALT-0261,warning,Low Stock Warning,Robusta Coffee stock is running low (62 units remaining),87-097-5691,3 hours ago,82
+ALT-0381,warning,Low Stock Warning,Coconut stock is running low (19 units remaining),34-928-2775,37 mins ago,82
+ALT-0497,warning,Low Stock Warning,Cod stock is running low (16 units remaining),47-802-5023,2 hours ago,82
+ALT-0626,warning,Low Stock Warning,Pomegranate stock is running low (43 units remaining),52-123-8039,2 hours ago,82
+ALT-0753,warning,Low Stock Warning,Swiss Cheese stock is running low (85 units remaining),35-621-2546,2 hours ago,82
+ALT-0849,warning,Low Stock Warning,Egg (Quail) stock is running low (34 units remaining),07-389-5740,45 mins ago,82
+ALT-1218,warning,Low Stock Warning,Grapes stock is running low (30 units remaining),00-366-9496,1 hour ago,82
+ALT-1247,warning,Low Stock Warning,Egg (Goose) stock is running low (50 units remaining),33-378-1365,3 hours ago,82
+ALT-1354,warning,Low Stock Warning,Parmesan Cheese stock is running low (80 units remaining),35-257-9312,1 hour ago,82
+ALT-1385,warning,Low Stock Warning,White Bread stock is running low (42 units remaining),21-650-9319,4 hours ago,82
+ALT-0027,warning,Low Stock Warning,Swiss Cheese stock is running low (49 units remaining),82-041-7211,3 hours ago,81
+ALT-0154,warning,Low Stock Warning,Whipped Cream stock is running low (29 units remaining),55-522-8242,35 mins ago,81
+ALT-0175,warning,Low Stock Warning,Peach stock is running low (47 units remaining),19-047-4239,5 hours ago,81
+ALT-0229,warning,Low Stock Warning,Cucumber stock is running low (31 units remaining),71-085-4290,2 hours ago,81
+ALT-0243,warning,Low Stock Warning,Herbal Tea stock is running low (48 units remaining),80-374-5711,1 hour ago,81
+ALT-0247,warning,Low Stock Warning,Black Rice stock is running low (34 units remaining),30-429-2162,2 hours ago,81
+ALT-0265,warning,Low Stock Warning,Cream stock is running low (29 units remaining),46-931-6897,1 hour ago,81
+ALT-0326,warning,Low Stock Warning,Broccoli stock is running low (31 units remaining),72-066-4597,4 hours ago,81
+ALT-0332,warning,Low Stock Warning,Lime stock is running low (29 units remaining),15-762-1058,2 hours ago,81
+ALT-0399,warning,Low Stock Warning,Carrot stock is running low (67 units remaining),94-190-5193,5 hours ago,81
+ALT-0425,warning,Low Stock Warning,Vegetable Oil stock is running low (70 units remaining),56-668-5370,5 hours ago,81
+ALT-0489,warning,Low Stock Warning,Arabica Coffee stock is running low (36 units remaining),86-330-0214,5 hours ago,81
+ALT-0501,warning,Low Stock Warning,Tomato stock is running low (44 units remaining),57-903-6434,1 hour ago,81
+ALT-0535,warning,Low Stock Warning,Basmati Rice stock is running low (15 units remaining),47-663-5703,1 hour ago,81
+ALT-0572,warning,Low Stock Warning,Peach stock is running low (37 units remaining),04-293-6969,4 hours ago,81
+ALT-0669,warning,Low Stock Warning,Lemon stock is running low (65 units remaining),99-543-5039,1 hour ago,81
+ALT-0723,warning,Low Stock Warning,Rye Bread stock is running low (50 units remaining),15-796-3130,3 hours ago,81
+ALT-0787,warning,Low Stock Warning,All-Purpose Flour stock is running low (54 units remaining),14-489-8669,3 hours ago,81
+ALT-0851,warning,Low Stock Warning,Eggplant stock is running low (25 units remaining),13-144-2169,3 hours ago,81
+ALT-0942,warning,Low Stock Warning,Cream stock is running low (21 units remaining),58-229-1358,3 hours ago,81
+ALT-1083,warning,Low Stock Warning,Brown Rice stock is running low (44 units remaining),73-117-6105,4 hours ago,81
+ALT-1118,warning,Low Stock Warning,Cheddar Cheese stock is running low (70 units remaining),66-716-8221,2 hours ago,81
+ALT-1227,warning,Low Stock Warning,Egg (Turkey) stock is running low (42 units remaining),85-212-2729,3 hours ago,81
+ALT-1314,warning,Low Stock Warning,Gouda Cheese stock is running low (71 units remaining),25-522-6043,5 hours ago,81
+ALT-1364,warning,Low Stock Warning,Egg (Duck) stock is running low (70 units remaining),68-436-1268,3 hours ago,81
+ALT-1423,warning,Low Stock Warning,Wild Rice stock is running low (32 units remaining),82-231-4245,59 mins ago,81
+ALT-0137,warning,Low Stock Warning,Cheese stock is running low (53 units remaining),14-305-5348,2 hours ago,80
+ALT-0290,warning,Low Stock Warning,Peanut Oil stock is running low (60 units remaining),84-198-7276,2 hours ago,80
+ALT-0384,warning,Low Stock Warning,Bread Flour stock is running low (57 units remaining),57-394-1587,57 mins ago,80
+ALT-0471,warning,Low Stock Warning,Halibut stock is running low (18 units remaining),83-716-2177,5 hours ago,80
+ALT-0588,warning,Low Stock Warning,Sushi Rice stock is running low (36 units remaining),09-101-1740,1 hour ago,80
+ALT-0590,warning,Low Stock Warning,Cod stock is running low (65 units remaining),98-445-7372,5 hours ago,80
+ALT-0601,warning,Low Stock Warning,Haddock stock is running low (30 units remaining),09-622-7119,6 hours ago,80
+ALT-0608,warning,Low Stock Warning,Sourdough Bread stock is running low (65 units remaining),71-074-6292,37 mins ago,80
+ALT-0642,warning,Low Stock Warning,Black Coffee stock is running low (24 units remaining),11-922-3342,2 hours ago,80
+ALT-0712,warning,Low Stock Warning,Digestive Biscuit stock is running low (38 units remaining),51-583-6029,5 hours ago,80
+ALT-0982,warning,Low Stock Warning,Pineapple stock is running low (20 units remaining),88-304-2855,5 hours ago,80
+ALT-1033,warning,Low Stock Warning,Sesame Oil stock is running low (85 units remaining),72-970-0239,1 hour ago,80
+ALT-1080,warning,Low Stock Warning,Coconut stock is running low (85 units remaining),24-989-3302,5 hours ago,80
+ALT-1103,warning,Low Stock Warning,Lettuce stock is running low (22 units remaining),77-959-1018,2 hours ago,80
+ALT-1244,warning,Low Stock Warning,Mango stock is running low (32 units remaining),20-031-0532,2 hours ago,80
+ALT-1303,warning,Low Stock Warning,Trout stock is running low (67 units remaining),12-342-4482,5 hours ago,80
+ALT-1329,warning,Low Stock Warning,Jasmine Rice stock is running low (33 units remaining),79-350-5841,44 mins ago,80
+ALT-1397,warning,Low Stock Warning,Digestive Biscuit stock is running low (72 units remaining),89-673-1543,2 hours ago,80
+ALT-0126,warning,Low Stock Warning,Sardines stock is running low (44 units remaining),13-844-2178,32 mins ago,79
+ALT-0146,warning,Low Stock Warning,Zucchini stock is running low (43 units remaining),80-988-4653,5 hours ago,79
+ALT-0148,warning,Low Stock Warning,Multigrain Bread stock is running low (56 units remaining),60-343-7973,31 mins ago,79
+ALT-0188,warning,Low Stock Warning,White Rice stock is running low (20 units remaining),29-896-7926,5 hours ago,79
+ALT-0235,warning,Low Stock Warning,Vegetable Oil stock is running low (57 units remaining),26-031-8070,45 mins ago,79
+ALT-0377,warning,Low Stock Warning,Zucchini stock is running low (59 units remaining),69-287-9113,2 hours ago,79
+ALT-0428,warning,Low Stock Warning,Digestive Biscuit stock is running low (77 units remaining),41-538-3129,49 mins ago,79
+ALT-0437,warning,Low Stock Warning,Papaya stock is running low (59 units remaining),87-199-2743,3 hours ago,79
+ALT-0544,warning,Low Stock Warning,Whipped Cream stock is running low (76 units remaining),73-567-6194,3 hours ago,79
+ALT-0615,warning,Low Stock Warning,Tilapia stock is running low (85 units remaining),60-343-3288,4 hours ago,79
+ALT-0651,warning,Low Stock Warning,Egg (Goose) stock is running low (43 units remaining),51-761-6320,1 hour ago,79
+ALT-0721,warning,Low Stock Warning,Watermelon stock is running low (27 units remaining),11-766-8738,4 hours ago,79
+ALT-0744,warning,Low Stock Warning,Sesame Oil stock is running low (15 units remaining),06-858-5680,2 hours ago,79
+ALT-0775,warning,Low Stock Warning,Butter stock is running low (48 units remaining),44-305-1866,5 hours ago,79
+ALT-0889,warning,Low Stock Warning,Sesame Oil stock is running low (39 units remaining),60-311-5701,2 hours ago,79
+ALT-0896,warning,Low Stock Warning,Kiwi stock is running low (38 units remaining),82-948-2298,4 hours ago,79
+ALT-0965,warning,Low Stock Warning,Short Grain Rice stock is running low (64 units remaining),02-484-0206,4 hours ago,79
+ALT-0985,warning,Low Stock Warning,Asparagus stock is running low (46 units remaining),40-902-1995,3 hours ago,79
+ALT-1010,warning,Low Stock Warning,Pomegranate stock is running low (81 units remaining),42-175-1648,54 mins ago,79
+ALT-1088,warning,Low Stock Warning,Anchovies stock is running low (44 units remaining),66-312-5511,2 hours ago,79
+ALT-1229,warning,Low Stock Warning,Tomato stock is running low (32 units remaining),99-048-8310,4 hours ago,79
+ALT-1290,warning,Low Stock Warning,Whole Wheat Flour stock is running low (39 units remaining),89-922-4773,42 mins ago,79
+ALT-1309,warning,Low Stock Warning,Wild Rice stock is running low (72 units remaining),06-655-5498,5 hours ago,79
+ALT-1348,warning,Low Stock Warning,Whole Wheat Flour stock is running low (86 units remaining),87-104-0187,1 hour ago,79
+ALT-0090,warning,Low Stock Warning,Carrot stock is running low (51 units remaining),11-581-9869,5 hours ago,78
+ALT-0111,warning,Low Stock Warning,Onion stock is running low (35 units remaining),88-746-9468,2 hours ago,78
+ALT-0115,warning,Low Stock Warning,Arborio Rice stock is running low (20 units remaining),39-232-5341,3 hours ago,78
+ALT-0215,warning,Low Stock Warning,Pineapple stock is running low (55 units remaining),43-703-9939,5 hours ago,78
+ALT-0233,warning,Low Stock Warning,Garlic stock is running low (76 units remaining),83-917-7384,38 mins ago,78
+ALT-0328,warning,Low Stock Warning,White Bread stock is running low (56 units remaining),31-627-6025,3 hours ago,78
+ALT-0482,warning,Low Stock Warning,Gouda Cheese stock is running low (67 units remaining),81-578-7404,30 mins ago,78
+ALT-0495,warning,Low Stock Warning,Green Beans stock is running low (31 units remaining),17-002-4721,2 hours ago,78
+ALT-0521,warning,Low Stock Warning,Sour Cream stock is running low (43 units remaining),08-213-2058,3 hours ago,78
+ALT-0618,warning,Low Stock Warning,Cheddar Cheese stock is running low (21 units remaining),60-456-8169,45 mins ago,78
+ALT-0624,warning,Low Stock Warning,Peas stock is running low (12 units remaining),38-924-3007,3 hours ago,78
+ALT-0698,warning,Low Stock Warning,Cottage Cheese stock is running low (68 units remaining),82-678-8097,3 hours ago,78
+ALT-0827,warning,Low Stock Warning,Plum stock is running low (64 units remaining),45-194-4094,5 hours ago,78
+ALT-0877,warning,Low Stock Warning,Apricot stock is running low (73 units remaining),61-582-7399,3 hours ago,78
+ALT-1016,warning,Low Stock Warning,Brown Rice stock is running low (39 units remaining),84-151-2114,4 hours ago,78
+ALT-1023,warning,Low Stock Warning,Broccoli stock is running low (47 units remaining),19-021-5024,1 hour ago,78
+ALT-1057,warning,Low Stock Warning,Onion stock is running low (20 units remaining),07-679-1199,1 hour ago,78
+ALT-1166,warning,Low Stock Warning,Cabbage stock is running low (24 units remaining),75-927-9108,2 hours ago,78
+ALT-1185,warning,Low Stock Warning,Pomegranate stock is running low (65 units remaining),28-986-8001,59 mins ago,78
+ALT-1287,warning,Low Stock Warning,Haddock stock is running low (67 units remaining),91-426-3204,3 hours ago,78
+ALT-1311,warning,Low Stock Warning,Green Beans stock is running low (31 units remaining),24-975-4231,3 hours ago,78
+ALT-1359,warning,Low Stock Warning,Vegetable Oil stock is running low (41 units remaining),23-395-3157,44 mins ago,78
+ALT-1403,warning,Low Stock Warning,Peanut Oil stock is running low (21 units remaining),87-903-3486,1 hour ago,78
+ALT-1417,warning,Low Stock Warning,Potato stock is running low (42 units remaining),38-390-2115,1 hour ago,78
+ALT-0003,warning,Low Stock Warning,Arabica Coffee stock is running low (45 units remaining),40-681-9981,2 hours ago,77
+ALT-0029,warning,Low Stock Warning,Arabica Coffee stock is running low (55 units remaining),48-414-6162,3 hours ago,77
+ALT-0039,warning,Low Stock Warning,Raw Sugar stock is running low (31 units remaining),40-795-0753,1 hour ago,77
+ALT-0069,warning,Low Stock Warning,Long Grain Rice stock is running low (67 units remaining),90-230-9767,2 hours ago,77
+ALT-0101,warning,Low Stock Warning,Mozzarella Cheese stock is running low (45 units remaining),87-762-1317,3 hours ago,77
+ALT-0135,warning,Low Stock Warning,Chocolate Biscuit stock is running low (75 units remaining),82-395-5070,2 hours ago,77
+ALT-0208,warning,Low Stock Warning,Sour Cream stock is running low (11 units remaining),51-459-5630,4 hours ago,77
+ALT-0237,warning,Low Stock Warning,Whipped Cream stock is running low (92 units remaining),03-149-9760,5 hours ago,77
+ALT-0390,warning,Low Stock Warning,Pear stock is running low (41 units remaining),19-214-5762,3 hours ago,77
+ALT-0513,warning,Low Stock Warning,Zucchini stock is running low (52 units remaining),29-823-6004,4 hours ago,77
+ALT-0540,warning,Low Stock Warning,Orange stock is running low (84 units remaining),43-670-8544,1 hour ago,77
+ALT-0574,warning,Low Stock Warning,Yogurt stock is running low (76 units remaining),40-997-2786,1 hour ago,77
+ALT-0751,warning,Low Stock Warning,Digestive Biscuit stock is running low (34 units remaining),34-291-4939,2 hours ago,77
+ALT-0950,warning,Low Stock Warning,Sushi Rice stock is running low (78 units remaining),93-571-7294,4 hours ago,77
+ALT-1020,warning,Low Stock Warning,Sour Cream stock is running low (22 units remaining),02-034-6209,1 hour ago,77
+ALT-1049,warning,Low Stock Warning,Robusta Coffee stock is running low (20 units remaining),37-064-7275,3 hours ago,77
+ALT-1143,warning,Low Stock Warning,Whole Wheat Bread stock is running low (36 units remaining),17-274-6898,1 hour ago,77
+ALT-1214,warning,Low Stock Warning,Tilapia stock is running low (56 units remaining),26-456-1992,2 hours ago,77
+ALT-1387,warning,Low Stock Warning,White Sugar stock is running low (29 units remaining),99-894-4351,2 hours ago,77
+ALT-1389,warning,Low Stock Warning,Cucumber stock is running low (60 units remaining),63-168-6018,1 hour ago,77
+ALT-1392,warning,Low Stock Warning,Bell Pepper stock is running low (89 units remaining),13-900-9016,2 hours ago,77
+ALT-1426,warning,Low Stock Warning,Plum stock is running low (22 units remaining),63-936-0145,3 hours ago,77
+ALT-0033,warning,Low Stock Warning,Trout stock is running low (49 units remaining),66-627-9752,39 mins ago,76
+ALT-0095,warning,Low Stock Warning,Ricotta Cheese stock is running low (51 units remaining),55-697-5242,3 hours ago,76
+ALT-0103,warning,Low Stock Warning,Broccoli stock is running low (73 units remaining),81-844-2979,1 hour ago,76
+ALT-0139,warning,Low Stock Warning,Palm Oil stock is running low (43 units remaining),82-243-3180,3 hours ago,76
+ALT-0241,warning,Low Stock Warning,Egg (Turkey) stock is running low (44 units remaining),24-364-3341,5 hours ago,76
+ALT-0318,warning,Low Stock Warning,Peach stock is running low (40 units remaining),08-703-1382,1 hour ago,76
+ALT-0440,warning,Low Stock Warning,Blueberries stock is running low (53 units remaining),00-440-9568,4 hours ago,76
+ALT-0458,warning,Low Stock Warning,Kiwi stock is running low (47 units remaining),49-311-3063,5 hours ago,76
+ALT-0460,warning,Low Stock Warning,Coconut Sugar stock is running low (20 units remaining),04-277-5245,41 mins ago,76
+ALT-0478,warning,Low Stock Warning,Tilapia stock is running low (59 units remaining),08-725-8156,5 hours ago,76
+ALT-0526,warning,Low Stock Warning,Swiss Cheese stock is running low (70 units remaining),45-402-0421,2 hours ago,76
+ALT-0610,warning,Low Stock Warning,Cottage Cheese stock is running low (67 units remaining),98-909-9395,5 hours ago,76
+ALT-0620,warning,Low Stock Warning,Butter Biscuit stock is running low (22 units remaining),99-420-3592,5 hours ago,76
+ALT-0628,warning,Low Stock Warning,Yogurt stock is running low (92 units remaining),34-131-8805,4 hours ago,76
+ALT-0732,warning,Low Stock Warning,Peach stock is running low (73 units remaining),74-430-8245,5 hours ago,76
+ALT-0840,warning,Low Stock Warning,Almond Flour stock is running low (37 units remaining),37-567-3218,2 hours ago,76
+ALT-0856,warning,Low Stock Warning,Egg (Duck) stock is running low (41 units remaining),47-866-6589,3 hours ago,76
+ALT-1041,warning,Low Stock Warning,Egg (Goose) stock is running low (65 units remaining),00-842-9790,3 hours ago,76
+ALT-1047,warning,Low Stock Warning,Jasmine Rice stock is running low (26 units remaining),68-732-5919,1 hour ago,76
+ALT-1120,warning,Low Stock Warning,Blueberries stock is running low (40 units remaining),01-026-2772,3 hours ago,76
+ALT-1169,warning,Low Stock Warning,Butter Biscuit stock is running low (74 units remaining),65-780-5622,3 hours ago,76
+ALT-1254,warning,Low Stock Warning,Halibut stock is running low (35 units remaining),83-568-3475,4 hours ago,76
+ALT-1319,warning,Low Stock Warning,Mango stock is running low (53 units remaining),63-918-8253,2 hours ago,76
+ALT-1334,warning,Low Stock Warning,White Rice stock is running low (80 units remaining),21-809-7115,41 mins ago,76
+ALT-1380,warning,Low Stock Warning,Brown Rice stock is running low (44 units remaining),69-578-7930,5 hours ago,76
+ALT-0056,warning,Low Stock Warning,Pineapple stock is running low (48 units remaining),70-612-2531,4 hours ago,75
+ALT-0341,warning,Low Stock Warning,White Tea stock is running low (20 units remaining),78-689-8958,2 hours ago,75
+ALT-0348,warning,Low Stock Warning,Digestive Biscuit stock is running low (97 units remaining),16-354-8122,2 hours ago,75
+ALT-0351,warning,Low Stock Warning,Lemon stock is running low (90 units remaining),44-476-0390,3 hours ago,75
+ALT-0561,warning,Low Stock Warning,Kale stock is running low (61 units remaining),73-942-0508,3 hours ago,75
+ALT-0582,warning,Low Stock Warning,Apple stock is running low (43 units remaining),17-022-9721,4 hours ago,75
+ALT-0797,warning,Low Stock Warning,Basmati Rice stock is running low (26 units remaining),77-777-4536,1 hour ago,75
+ALT-0814,warning,Low Stock Warning,Greek Yogurt stock is running low (39 units remaining),17-253-5688,5 hours ago,75
+ALT-0879,warning,Low Stock Warning,Whole Wheat Flour stock is running low (41 units remaining),42-674-3917,5 hours ago,75
+ALT-0929,warning,Low Stock Warning,Raw Sugar stock is running low (72 units remaining),44-782-1395,2 hours ago,75
+ALT-0948,warning,Low Stock Warning,Green Tea stock is running low (24 units remaining),51-000-8113,4 hours ago,75
+ALT-1012,warning,Low Stock Warning,White Bread stock is running low (61 units remaining),56-657-4387,5 hours ago,75
+ALT-1025,warning,Low Stock Warning,Jasmine Rice stock is running low (20 units remaining),07-846-4804,1 hour ago,75
+ALT-1038,warning,Low Stock Warning,Greek Yogurt stock is running low (28 units remaining),32-270-1385,3 hours ago,75
+ALT-1131,warning,Low Stock Warning,Mackerel stock is running low (45 units remaining),33-670-6797,3 hours ago,75
+ALT-1399,warning,Low Stock Warning,Cream stock is running low (62 units remaining),56-937-8675,1 hour ago,75
+ALT-1433,warning,Low Stock Warning,White Sugar stock is running low (38 units remaining),09-618-2842,5 hours ago,75
+ALT-0046,warning,Low Stock Warning,Cucumber stock is running low (19 units remaining),76-340-4432,4 hours ago,74
+ALT-0075,warning,Low Stock Warning,Sourdough Bread stock is running low (41 units remaining),70-854-6891,4 hours ago,74
+ALT-0129,warning,Low Stock Warning,Bread Flour stock is running low (21 units remaining),20-022-3173,3 hours ago,74
+ALT-0178,warning,Low Stock Warning,Plum stock is running low (20 units remaining),15-907-3681,2 hours ago,74
+ALT-0284,warning,Low Stock Warning,Sourdough Bread stock is running low (30 units remaining),53-080-8252,41 mins ago,74
+ALT-0304,warning,Low Stock Warning,Lime stock is running low (21 units remaining),51-462-0747,1 hour ago,74
+ALT-0323,warning,Low Stock Warning,Strawberries stock is running low (31 units remaining),87-675-1506,5 hours ago,74
+ALT-0356,warning,Low Stock Warning,Bread Flour stock is running low (62 units remaining),99-137-1730,2 hours ago,74
+ALT-0369,warning,Low Stock Warning,Peach stock is running low (15 units remaining),11-745-3025,2 hours ago,74
+ALT-0421,warning,Low Stock Warning,Halibut stock is running low (40 units remaining),00-119-8780,5 hours ago,74
+ALT-0580,warning,Low Stock Warning,Coconut Oil stock is running low (33 units remaining),35-299-0889,1 hour ago,74
+ALT-0811,warning,Low Stock Warning,Peas stock is running low (48 units remaining),30-964-2694,2 hours ago,74
+ALT-0817,warning,Low Stock Warning,Sardines stock is running low (30 units remaining),51-934-9117,4 hours ago,74
+ALT-0822,warning,Low Stock Warning,Jasmine Rice stock is running low (17 units remaining),46-622-3434,2 hours ago,74
+ALT-0887,warning,Low Stock Warning,Grapes stock is running low (25 units remaining),91-417-0366,1 hour ago,74
+ALT-0909,warning,Low Stock Warning,Buttermilk stock is running low (39 units remaining),06-068-6793,3 hours ago,74
+ALT-0938,warning,Low Stock Warning,Cherry stock is running low (57 units remaining),74-404-0582,5 hours ago,74
+ALT-1028,warning,Low Stock Warning,Tilapia stock is running low (46 units remaining),52-797-6961,1 hour ago,74
+ALT-1045,warning,Low Stock Warning,Vegetable Oil stock is running low (23 units remaining),92-837-8839,1 hour ago,74
+ALT-1172,warning,Low Stock Warning,Bread Flour stock is running low (54 units remaining),45-250-4679,2 hours ago,74
+ALT-1283,warning,Low Stock Warning,Brown Rice stock is running low (46 units remaining),89-335-0155,57 mins ago,74
+ALT-1337,warning,Low Stock Warning,Apricot stock is running low (90 units remaining),04-637-8815,5 hours ago,74
+ALT-1350,warning,Low Stock Warning,Black Tea stock is running low (35 units remaining),85-806-8672,1 hour ago,74
+ALT-1362,warning,Low Stock Warning,Haddock stock is running low (61 units remaining),46-083-7058,4 hours ago,74
+ALT-1401,warning,Low Stock Warning,Apple stock is running low (44 units remaining),14-836-2894,1 hour ago,74
+ALT-1429,warning,Low Stock Warning,Cheddar Cheese stock is running low (36 units remaining),22-778-3553,3 hours ago,74
+ALT-0012,warning,Low Stock Warning,Egg (Goose) stock is running low (44 units remaining),39-629-5554,5 hours ago,73
+ALT-0020,warning,Low Stock Warning,Rye Bread stock is running low (26 units remaining),75-094-1179,2 hours ago,73
+ALT-0050,warning,Low Stock Warning,Olive Oil stock is running low (47 units remaining),04-240-2226,3 hours ago,73
+ALT-0167,warning,Low Stock Warning,Cod stock is running low (23 units remaining),61-827-4098,3 hours ago,73
+ALT-0286,warning,Low Stock Warning,White Tea stock is running low (36 units remaining),14-681-7035,2 hours ago,73
+ALT-0417,warning,Low Stock Warning,Palm Oil stock is running low (35 units remaining),62-795-7801,1 hour ago,73
+ALT-0452,warning,Low Stock Warning,Greek Yogurt stock is running low (26 units remaining),55-631-7937,1 hour ago,73
+ALT-0596,warning,Low Stock Warning,Coconut stock is running low (56 units remaining),20-325-1965,2 hours ago,73
+ALT-0636,warning,Low Stock Warning,Cheddar Cheese stock is running low (31 units remaining),92-995-8689,5 hours ago,73
+ALT-0644,warning,Low Stock Warning,Haddock stock is running low (75 units remaining),60-550-4771,5 hours ago,73
+ALT-0692,warning,Low Stock Warning,Egg (Quail) stock is running low (29 units remaining),76-623-7844,4 hours ago,73
+ALT-0758,warning,Low Stock Warning,Sourdough Bread stock is running low (71 units remaining),94-697-2396,3 hours ago,73
+ALT-0764,warning,Low Stock Warning,White Sugar stock is running low (13 units remaining),40-003-7322,2 hours ago,73
+ALT-0780,warning,Low Stock Warning,Milk stock is running low (13 units remaining),20-405-4865,1 hour ago,73
+ALT-0838,warning,Low Stock Warning,Bread Flour stock is running low (87 units remaining),15-169-8058,1 hour ago,73
+ALT-0894,warning,Low Stock Warning,Peanut Oil stock is running low (21 units remaining),76-584-4790,1 hour ago,73
+ALT-0920,warning,Low Stock Warning,Sushi Rice stock is running low (10 units remaining),42-495-7698,5 hours ago,73
+ALT-0967,warning,Low Stock Warning,Bell Pepper stock is running low (49 units remaining),08-226-5155,3 hours ago,73
+ALT-0973,warning,Low Stock Warning,Egg (Chicken) stock is running low (22 units remaining),81-573-0943,4 hours ago,73
+ALT-1112,warning,Low Stock Warning,Black Rice stock is running low (30 units remaining),65-854-9364,5 hours ago,73
+ALT-1114,warning,Low Stock Warning,Papaya stock is running low (97 units remaining),60-747-8704,57 mins ago,73
+ALT-1145,warning,Low Stock Warning,Vegetable Oil stock is running low (51 units remaining),79-569-8856,1 hour ago,73
+ALT-1325,warning,Low Stock Warning,Parmesan Cheese stock is running low (52 units remaining),67-984-5368,5 hours ago,73
+ALT-1375,warning,Low Stock Warning,Green Beans stock is running low (42 units remaining),79-494-2472,1 hour ago,73
+ALT-1414,warning,Low Stock Warning,Sour Cream stock is running low (29 units remaining),34-538-1180,4 hours ago,73
+ALT-0035,warning,Low Stock Warning,Green Beans stock is running low (81 units remaining),78-614-4402,55 mins ago,72
+ALT-0193,warning,Low Stock Warning,Bread Flour stock is running low (34 units remaining),04-542-3863,2 hours ago,72
+ALT-0202,warning,Low Stock Warning,Orange stock is running low (15 units remaining),51-572-5497,5 hours ago,72
+ALT-0272,warning,Low Stock Warning,Cheddar Cheese stock is running low (40 units remaining),18-199-5799,4 hours ago,72
+ALT-0313,warning,Low Stock Warning,Mushrooms stock is running low (51 units remaining),60-285-3783,4 hours ago,72
+ALT-0493,warning,Low Stock Warning,Broccoli stock is running low (30 units remaining),37-246-0018,4 hours ago,72
+ALT-0511,warning,Low Stock Warning,Strawberries stock is running low (16 units remaining),03-043-9933,1 hour ago,72
+ALT-0537,warning,Low Stock Warning,Bell Pepper stock is running low (75 units remaining),34-110-1040,2 hours ago,72
+ALT-0676,warning,Low Stock Warning,Plum stock is running low (26 units remaining),43-910-2342,3 hours ago,72
+ALT-0726,warning,Low Stock Warning,Sourdough Bread stock is running low (22 units remaining),62-100-2245,5 hours ago,72
+ALT-0824,warning,Low Stock Warning,Cauliflower stock is running low (34 units remaining),47-843-8207,2 hours ago,72
+ALT-0830,warning,Low Stock Warning,Papaya stock is running low (24 units remaining),56-213-0577,2 hours ago,72
+ALT-0846,warning,Low Stock Warning,Grapes stock is running low (38 units remaining),65-527-9488,1 hour ago,72
+ALT-0859,warning,Low Stock Warning,Avocado Oil stock is running low (53 units remaining),90-343-9640,2 hours ago,72
+ALT-0885,warning,Low Stock Warning,Eggplant stock is running low (49 units remaining),63-162-9244,5 hours ago,72
+ALT-0907,warning,Low Stock Warning,Tuna stock is running low (16 units remaining),73-010-8323,5 hours ago,72
+ALT-0931,warning,Low Stock Warning,Mozzarella Cheese stock is running low (36 units remaining),12-828-1063,3 hours ago,72
+ALT-1069,warning,Low Stock Warning,Whole Wheat Flour stock is running low (38 units remaining),86-978-6666,1 hour ago,72
+ALT-1074,warning,Low Stock Warning,Bread Flour stock is running low (71 units remaining),84-624-0201,3 hours ago,72
+ALT-1076,warning,Low Stock Warning,Haddock stock is running low (98 units remaining),45-634-0679,3 hours ago,72
+ALT-1106,warning,Low Stock Warning,Whole Wheat Flour stock is running low (59 units remaining),57-101-0060,5 hours ago,72
+ALT-1225,warning,Low Stock Warning,Peach stock is running low (47 units remaining),13-673-7016,3 hours ago,72
+ALT-1408,warning,Low Stock Warning,Carrot stock is running low (61 units remaining),34-709-9237,5 hours ago,72
+ALT-1452,warning,Low Stock Warning,Avocado Oil stock is running low (30 units remaining),86-692-2312,4 hours ago,72
+ALT-0048,warning,Low Stock Warning,Pineapple stock is running low (18 units remaining),38-732-7667,4 hours ago,71
+ALT-0117,warning,Low Stock Warning,Potato stock is running low (28 units remaining),12-239-9399,1 hour ago,71
+ALT-0158,warning,Low Stock Warning,Lemon stock is running low (63 units remaining),64-478-4745,3 hours ago,71
+ALT-0334,warning,Low Stock Warning,Canola Oil stock is running low (46 units remaining),48-193-1199,1 hour ago,71
+ALT-0396,warning,Low Stock Warning,Bread Flour stock is running low (70 units remaining),10-034-7654,3 hours ago,71
+ALT-0409,warning,Low Stock Warning,Robusta Coffee stock is running low (42 units remaining),61-801-8665,5 hours ago,71
+ALT-0648,warning,Low Stock Warning,Anchovies stock is running low (60 units remaining),08-114-3922,2 hours ago,71
+ALT-0659,warning,Low Stock Warning,White Sugar stock is running low (27 units remaining),40-683-0283,2 hours ago,71
+ALT-0666,warning,Low Stock Warning,Tilapia stock is running low (30 units remaining),46-255-3073,1 hour ago,71
+ALT-0680,warning,Low Stock Warning,Pomegranate stock is running low (59 units remaining),76-401-7083,1 hour ago,71
+ALT-1051,warning,Low Stock Warning,Mozzarella Cheese stock is running low (55 units remaining),43-193-9915,5 hours ago,71
+ALT-1061,warning,Low Stock Warning,Corn Oil stock is running low (32 units remaining),36-383-3677,2 hours ago,71
+ALT-1233,warning,Low Stock Warning,Orange stock is running low (36 units remaining),63-874-9747,46 mins ago,71
+ALT-1274,warning,Low Stock Warning,Ricotta Cheese stock is running low (64 units remaining),49-579-4325,1 hour ago,71
+ALT-1279,warning,Low Stock Warning,Peanut Oil stock is running low (38 units remaining),11-891-8213,5 hours ago,71
+ALT-1298,warning,Low Stock Warning,Corn Oil stock is running low (28 units remaining),44-368-7112,3 hours ago,71
+ALT-0060,warning,Low Stock Warning,Short Grain Rice stock is running low (60 units remaining),43-893-5408,4 hours ago,70
+ALT-0066,warning,Low Stock Warning,Butter stock is running low (51 units remaining),43-693-2092,4 hours ago,70
+ALT-0082,warning,Low Stock Warning,Green Coffee stock is running low (62 units remaining),36-918-2937,48 mins ago,70
+ALT-0231,warning,Low Stock Warning,Eggplant stock is running low (31 units remaining),48-957-6116,2 hours ago,70
+ALT-0257,warning,Low Stock Warning,Mango stock is running low (89 units remaining),10-002-6494,4 hours ago,70
+ALT-0300,warning,Low Stock Warning,Black Rice stock is running low (68 units remaining),70-587-1204,39 mins ago,70
+ALT-0455,warning,Low Stock Warning,Blueberries stock is running low (28 units remaining),84-272-0790,1 hour ago,70
+ALT-0499,warning,Low Stock Warning,White Sugar stock is running low (14 units remaining),22-319-1377,3 hours ago,70
+ALT-0546,warning,Low Stock Warning,Sesame Oil stock is running low (77 units remaining),83-573-4586,1 hour ago,70
+ALT-0653,warning,Low Stock Warning,Bread Flour stock is running low (25 units remaining),55-803-3964,2 hours ago,70
+ALT-0734,warning,Low Stock Warning,Carrot stock is running low (18 units remaining),68-636-4774,2 hours ago,70
+ALT-1064,warning,Low Stock Warning,Evaporated Milk stock is running low (70 units remaining),96-209-1739,2 hours ago,70
+ALT-1100,warning,Low Stock Warning,Digestive Biscuit stock is running low (40 units remaining),47-441-7682,5 hours ago,70
+ALT-1204,warning,Low Stock Warning,Asparagus stock is running low (34 units remaining),82-931-7126,4 hours ago,70
+ALT-1250,warning,Low Stock Warning,Pomegranate stock is running low (22 units remaining),71-015-9181,4 hours ago,70
+ALT-1271,warning,Low Stock Warning,Whole Wheat Flour stock is running low (60 units remaining),44-634-8292,2 hours ago,70
+ALT-1436,warning,Low Stock Warning,Green Tea stock is running low (64 units remaining),55-680-0982,31 mins ago,70
+ALT-0005,warning,Low Stock Warning,Black Rice stock is running low (30 units remaining),06-955-3428,2 hours ago,69
+ALT-0062,warning,Low Stock Warning,Mango stock is running low (24 units remaining),11-316-8405,2 hours ago,69
+ALT-0217,warning,Low Stock Warning,Cod stock is running low (31 units remaining),88-069-5486,43 mins ago,69
+ALT-0224,warning,Low Stock Warning,Short Grain Rice stock is running low (53 units remaining),19-967-0632,3 hours ago,69
+ALT-0359,warning,Low Stock Warning,Blueberries stock is running low (23 units remaining),32-933-0329,2 hours ago,69
+ALT-0388,warning,Low Stock Warning,Rice Flour stock is running low (31 units remaining),22-895-6595,3 hours ago,69
+ALT-0414,warning,Low Stock Warning,Buttermilk stock is running low (52 units remaining),83-763-5038,2 hours ago,69
+ALT-0446,warning,Low Stock Warning,Tuna stock is running low (25 units remaining),94-020-6982,5 hours ago,69
+ALT-0480,warning,Low Stock Warning,Grapes stock is running low (22 units remaining),15-679-3935,1 hour ago,69
+ALT-0503,warning,Low Stock Warning,Long Grain Rice stock is running low (69 units remaining),22-083-3347,2 hours ago,69
+ALT-0638,warning,Low Stock Warning,Butter stock is running low (36 units remaining),43-164-5984,4 hours ago,69
+ALT-0707,warning,Low Stock Warning,Cauliflower stock is running low (87 units remaining),71-436-5841,3 hours ago,69
+ALT-0792,warning,Low Stock Warning,Green Coffee stock is running low (29 units remaining),74-305-1263,1 hour ago,69
+ALT-0794,warning,Low Stock Warning,Grapes stock is running low (37 units remaining),53-151-5726,2 hours ago,69
+ALT-0809,warning,Low Stock Warning,Egg (Turkey) stock is running low (39 units remaining),10-218-2680,5 hours ago,69
+ALT-0835,warning,Low Stock Warning,Chocolate Biscuit stock is running low (37 units remaining),76-476-9996,2 hours ago,69
+ALT-0911,warning,Low Stock Warning,Lemon stock is running low (59 units remaining),56-054-8664,5 hours ago,69
+ALT-0991,warning,Low Stock Warning,Buttermilk stock is running low (69 units remaining),97-093-4278,3 hours ago,69
+ALT-1096,warning,Low Stock Warning,Apricot stock is running low (55 units remaining),34-369-7712,1 hour ago,69
+ALT-1155,warning,Low Stock Warning,Onion stock is running low (50 units remaining),05-425-0746,1 hour ago,69
+ALT-1174,warning,Low Stock Warning,Palm Oil stock is running low (44 units remaining),45-317-9731,3 hours ago,69
+ALT-1198,warning,Low Stock Warning,Pomegranate stock is running low (17 units remaining),47-221-2470,3 hours ago,69
+ALT-1445,warning,Low Stock Warning,Parmesan Cheese stock is running low (38 units remaining),28-146-2641,2 hours ago,69
+ALT-0001,warning,Low Stock Warning,Sushi Rice stock is running low (22 units remaining),29-205-1132,3 hours ago,68
+ALT-0199,warning,Low Stock Warning,Tuna stock is running low (25 units remaining),87-791-5803,2 hours ago,68
+ALT-0255,warning,Low Stock Warning,Swiss Cheese stock is running low (50 units remaining),97-040-3822,3 hours ago,68
+ALT-0306,warning,Low Stock Warning,Pomegranate stock is running low (92 units remaining),90-492-0564,1 hour ago,68
+ALT-0320,warning,Low Stock Warning,White Tea stock is running low (50 units remaining),65-282-0419,4 hours ago,68
+ALT-0598,warning,Low Stock Warning,Ricotta Cheese stock is running low (49 units remaining),76-090-4411,3 hours ago,68
+ALT-0782,warning,Low Stock Warning,Cabbage stock is running low (62 units remaining),79-428-8753,1 hour ago,68
+ALT-0953,warning,Low Stock Warning,Spinach stock is running low (45 units remaining),74-818-3306,1 hour ago,68
+ALT-1003,warning,Low Stock Warning,Oatmeal Biscuit stock is running low (28 units remaining),69-834-2874,5 hours ago,68
+ALT-1352,warning,Low Stock Warning,Green Beans stock is running low (26 units remaining),54-281-3746,46 mins ago,68
+ALT-0183,warning,Low Stock Warning,Sourdough Bread stock is running low (34 units remaining),75-029-9003,2 hours ago,67
+ALT-0196,warning,Low Stock Warning,Black Rice stock is running low (79 units remaining),90-737-0044,2 hours ago,67
+ALT-0296,warning,Low Stock Warning,Sunflower Oil stock is running low (88 units remaining),01-439-6231,1 hour ago,67
+ALT-0532,warning,Low Stock Warning,Coconut stock is running low (16 units remaining),21-718-6746,4 hours ago,67
+ALT-0700,warning,Low Stock Warning,Corn Oil stock is running low (70 units remaining),21-693-8216,38 mins ago,67
+ALT-0705,warning,Low Stock Warning,Green Tea stock is running low (39 units remaining),32-987-5559,2 hours ago,67
+ALT-0085,warning,Low Stock Warning,Sourdough Bread stock is running low (59 units remaining),69-468-5468,47 mins ago,66
+ALT-0206,warning,Low Stock Warning,Tuna stock is running low (58 units remaining),44-538-3366,3 hours ago,66
+ALT-0282,warning,Low Stock Warning,White Sugar stock is running low (24 units remaining),38-417-4656,53 mins ago,66
+ALT-0686,warning,Low Stock Warning,Watermelon stock is running low (51 units remaining),21-993-5632,2 hours ago,66
+ALT-0901,warning,Low Stock Warning,Coconut Oil stock is running low (54 units remaining),52-029-2382,3 hours ago,66
+ALT-0164,warning,Low Stock Warning,Arabica Coffee stock is running low (62 units remaining),31-969-4614,4 hours ago,65
+ALT-0435,warning,Low Stock Warning,Heavy Cream stock is running low (57 units remaining),39-315-3936,4 hours ago,65
+ALT-0464,warning,Low Stock Warning,Milk stock is running low (74 units remaining),89-602-6755,4 hours ago,65
+ALT-0549,warning,Low Stock Warning,Coconut Sugar stock is running low (51 units remaining),02-895-7781,4 hours ago,65
+ALT-0476,warning,Low Stock Warning,Butter Biscuit stock is running low (33 units remaining),65-759-3721,59 mins ago,64
+ALT-1458,warning,High Demand Detected,Fruits & Vegetables category showing 40% increase,,19 hours ago,55
+ALT-1456,info,System Maintenance,Scheduled backup completed successfully,,1 day ago,25
+ALT-1457,info,Inventory Sync,All warehouse locations synchronized,,1 day ago,20

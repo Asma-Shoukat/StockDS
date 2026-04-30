@@ -1,0 +1,8 @@
+1. Build (after code changes):
+cmake --build build --config Release
+2. Run the backend:
+.\build\Release\main.exe
+then refresh the page 
+// FINAALEE:
+cmake --build build --config Release
+.\build\Release\main.exe

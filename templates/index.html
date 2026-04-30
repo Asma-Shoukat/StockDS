@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>StockFlow Risk Engine - Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        /* ============================================
+           STOCKFLOW - DARK THEME DASHBOARD
+           Modern glassmorphism design
+           ============================================ */
+        :root {
+            --bg-primary: #0a0a0f;
+            --bg-secondary: #12121a;
+            --bg-card: rgba(255, 255, 255, 0.03);
+            --bg-card-hover: rgba(255, 255, 255, 0.06);
+            --border-color: rgba(255, 255, 255, 0.08);
+            --text-primary: #ffffff;
+            --text-secondary: #a0a0a0;
+            --text-muted: #6b6b6b;
+            --accent-blue: #3b82f6;
+            --accent-purple: #8b5cf6;
+            --accent-green: #10b981;
+            --accent-yellow: #f59e0b;
+            --accent-red: #ef4444;
+            --accent-cyan: #06b6d4;
+            --gradient-1: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+            --gradient-2: linear-gradient(135deg, #10b981 0%, #06b6d4 100%);
+            --gradient-3: linear-gradient(135deg, #f59e0b 0%, #ef4444 100%);
+            --sidebar-width: 280px;
+            --sidebar-collapsed: 70px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* === SIDEBAR NAVIGATION === */
+        .sidebar {
+            position: fixed;
+            left: 0;
+            top: 0;
+            height: 100vh;
+            width: var(--sidebar-collapsed);
+            background: var(--bg-secondary);
+            border-right: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+            transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            z-index: 1000;
+            overflow: hidden;
+        }
+
+        .sidebar:hover {
+            width: var(--sidebar-width);
+        }
+
+        .sidebar-nav {
+            flex: 1;
+            padding: 1.5rem 0.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .nav-item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.875rem 0.875rem;
+            border-radius: 12px;
+            text-decoration: none;
+            color: var(--text-secondary);
+            transition: all 0.2s ease;
+            position: relative;
+            overflow: hidden;
+            justify-content: flex-start;
+        }
+
+         /* .sidebar:not(:hover) .nav-item {
+            justify-content: center;
+            padding: 0.875rem 0;
+            width: 100%;
+        }
+
+        .sidebar:not(:hover) .nav-item .material-symbols-outlined {
+            margin: 0;
+        } */
+
+        .nav-item:hover {
+            background: var(--bg-card-hover);
+            color: var(--text-primary);
+        }
+
+        .nav-item.active {
+            background: var(--gradient-1);
+            color: white;
+        }
+
+        .nav-item .material-symbols-outlined {
+            font-size: 1.5rem;
+            flex-shrink: 0;
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+
+        .nav-item.active .material-symbols-outlined {
+            font-variation-settings: 'FILL' 1, 'wght' 500, 'GRAD' 0, 'opsz' 24;
+        }
+
+        .nav-item span:last-child {
+            white-space: nowrap;
+            opacity: 0;
+            transition: opacity 0.2s ease;
+        }
+
+        .sidebar:hover .nav-item span:last-child {
+            opacity: 1;
+        }
+
+        .sidebar-footer {
+            padding: 1rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .sidebar-footer .nav-item {
+            margin: 0;
+        }
+
+        /* === TOP HEADER === */
+        .top-header {
+            position: fixed;
+            top: 0;
+            left: var(--sidebar-collapsed);
+            right: 0;
+            height: 70px;
+            background: rgba(10, 10, 15, 0.8);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 100;
+            transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .sidebar:hover ~ .main-wrapper .top-header,
+        .sidebar:hover ~ .top-header {
+            left: var(--sidebar-width);
+        }
+
+        .header-brand {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .header-logo {
+            width: 42px;
+            height: 42px;
+            background: var(--gradient-1);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .header-logo .material-symbols-outlined {
+            font-size: 1.5rem;
+            color: white;
+        }
+
+        .header-title {
+            font-size: 1.5rem;
+            font-weight: 800;
+            background: var(--gradient-1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .header-right {
+            position: absolute;
+            right: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .status-indicator {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            border-radius: 20px;
+            font-size: 0.875rem;
+            color: var(--accent-green);
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            background: var(--accent-green);
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.4); }
+            50% { opacity: 0.8; box-shadow: 0 0 0 8px rgba(16, 185, 129, 0); }
+        }
+
+        /* === MAIN CONTENT === */
+        .main-wrapper {
+            margin-left: var(--sidebar-collapsed);
+            padding-top: 70px;
+            min-height: 100vh;
+            transition: margin-left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .sidebar:hover ~ .main-wrapper {
+            margin-left: var(--sidebar-width);
+        }
+
+        .main-content {
+            padding: 2rem;
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+
+        /* === PAGE HEADER === */
+        .page-header {
+            margin-bottom: 2rem;
+        }
+
+        .page-title {
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 0.5rem;
+        }
+
+        .page-subtitle {
+            color: var(--text-secondary);
+            font-size: 1rem;
+        }
+
+        /* === METRICS GRID === */
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        @media (max-width: 1200px) {
+            .metrics-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .metrics-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .metric-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 1.5rem;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .metric-card:hover {
+            background: var(--bg-card-hover);
+            transform: translateY(-4px);
+            border-color: rgba(255, 255, 255, 0.15);
+        }
+
+        .metric-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+        }
+
+        .metric-card.blue::before { background: var(--gradient-1); }
+        .metric-card.yellow::before { background: var(--gradient-3); }
+        .metric-card.green::before { background: var(--gradient-2); }
+        .metric-card.purple::before { background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%); }
+
+        .metric-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+
+        .metric-card.blue .metric-icon { background: rgba(59, 130, 246, 0.15); color: var(--accent-blue); }
+        .metric-card.yellow .metric-icon { background: rgba(245, 158, 11, 0.15); color: var(--accent-yellow); }
+        .metric-card.green .metric-icon { background: rgba(16, 185, 129, 0.15); color: var(--accent-green); }
+        .metric-card.purple .metric-icon { background: rgba(139, 92, 246, 0.15); color: var(--accent-purple); }
+
+        .metric-icon .material-symbols-outlined {
+            font-size: 1.5rem;
+        }
+
+        .metric-label {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+
+        .metric-value {
+            font-size: 2.25rem;
+            font-weight: 800;
+            line-height: 1;
+            margin-bottom: 0.75rem;
+        }
+
+        .metric-change {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.25rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.25rem 0.625rem;
+            border-radius: 6px;
+        }
+
+        .metric-change.positive {
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--accent-green);
+        }
+
+        .metric-change.negative {
+            background: rgba(239, 68, 68, 0.15);
+            color: var(--accent-red);
+        }
+
+        .metric-change .material-symbols-outlined {
+            font-size: 0.875rem;
+        }
+
+        /* === CHARTS SECTION === */
+        .charts-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        @media (max-width: 1024px) {
+            .charts-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .chart-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 1.5rem;
+        }
+
+        .chart-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .chart-title {
+            font-size: 1.125rem;
+            font-weight: 700;
+        }
+
+        .chart-subtitle {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-top: 0.25rem;
+        }
+
+        .chart-legend {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+
+        .legend-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+        }
+
+        .chart-container {
+            height: 280px;
+            position: relative;
+        }
+
+        .chart-container-small {
+            height: 220px;
+            position: relative;
+        }
+
+        /* === BOTTOM GRID === */
+        .bottom-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 1.5rem;
+        }
+
+        @media (max-width: 1200px) {
+            .bottom-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .bottom-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* === STATUS SUMMARY CARD === */
+        .status-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 1.5rem;
+        }
+
+        .status-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .status-item {
+            text-align: center;
+            padding: 1rem;
+            background: rgba(255, 255, 255, 0.02);
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+        }
+
+        .status-value {
+            font-size: 1.75rem;
+            font-weight: 800;
+            margin-bottom: 0.25rem;
+        }
+
+        .status-value.stocked { color: var(--accent-green); }
+        .status-value.low { color: var(--accent-yellow); }
+        .status-value.critical { color: var(--accent-red); }
+
+        .status-label {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* === ALERTS CARD === */
+        .alerts-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 1.5rem;
+        }
+
+        .alerts-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            max-height: 320px;
+            overflow-y: auto;
+        }
+
+        .alerts-list::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        .alerts-list::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        .alerts-list::-webkit-scrollbar-thumb {
+            background: var(--border-color);
+            border-radius: 2px;
+        }
+
+        .alert-item {
+            display: flex;
+            gap: 0.75rem;
+            padding: 0.875rem;
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid var(--border-color);
+            transition: all 0.2s ease;
+        }
+
+        .alert-item:hover {
+            background: rgba(255, 255, 255, 0.04);
+        }
+
+        .alert-item.critical {
+            border-left: 3px solid var(--accent-red);
+        }
+
+        .alert-item.warning {
+            border-left: 3px solid var(--accent-yellow);
+        }
+
+        .alert-item.info {
+            border-left: 3px solid var(--accent-blue);
+        }
+
+        .alert-icon {
+            width: 36px;
+            height: 36px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .alert-item.critical .alert-icon {
+            background: rgba(239, 68, 68, 0.15);
+            color: var(--accent-red);
+        }
+
+        .alert-item.warning .alert-icon {
+            background: rgba(245, 158, 11, 0.15);
+            color: var(--accent-yellow);
+        }
+
+        .alert-item.info .alert-icon {
+            background: rgba(59, 130, 246, 0.15);
+            color: var(--accent-blue);
+        }
+
+        .alert-content {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .alert-title {
+            font-weight: 600;
+            font-size: 0.8125rem;
+            margin-bottom: 0.25rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .alert-message {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            line-height: 1.4;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .alert-time {
+            font-size: 0.6875rem;
+            color: var(--text-muted);
+            margin-top: 0.375rem;
+        }
+
+        /* === SHIPMENTS CARD === */
+        .shipments-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 1.5rem;
+        }
+
+        .shipment-item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .shipment-item:last-child {
+            border-bottom: none;
+        }
+
+        .shipment-icon {
+            width: 40px;
+            height: 40px;
+            background: rgba(6, 182, 212, 0.15);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--accent-cyan);
+        }
+
+        .shipment-info {
+            flex: 1;
+        }
+
+        .shipment-name {
+            font-weight: 600;
+            font-size: 0.875rem;
+            margin-bottom: 0.125rem;
+        }
+
+        .shipment-supplier {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        .shipment-status {
+            font-size: 0.6875rem;
+            font-weight: 600;
+            padding: 0.25rem 0.5rem;
+            border-radius: 6px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .shipment-status.urgent {
+            background: rgba(239, 68, 68, 0.15);
+            color: var(--accent-red);
+        }
+
+        .shipment-status.high {
+            background: rgba(245, 158, 11, 0.15);
+            color: var(--accent-yellow);
+        }
+
+        .shipment-status.normal {
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--accent-green);
+        }
+
+        /* === SCROLLBAR === */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--bg-secondary);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--border-color);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgba(255, 255, 255, 0.15);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- SIDEBAR NAVIGATION -->
+    <aside class="sidebar">
+        <nav class="sidebar-nav">
+            <a href="/" class="nav-item active">
+                <span class="material-symbols-outlined">dashboard</span>
+                <span>Dashboard</span>
+            </a>
+            <a href="/inventory" class="nav-item">
+                <span class="material-symbols-outlined">inventory</span>
+                <span>Inventory</span>
+            </a>
+            <a href="/analysis" class="nav-item">
+                <span class="material-symbols-outlined">analytics</span>
+                <span>Analysis</span>
+            </a>
+            <a href="/settings" class="nav-item">
+                <span class="material-symbols-outlined">settings</span>
+                <span>Settings</span>
+            </a>
+        </nav>
+    </aside>
+
+    <!-- TOP HEADER -->
+    <header class="top-header">
+        <div class="header-brand">
+            <div class="header-logo">
+                <span class="material-symbols-outlined">inventory_2</span>
+            </div>
+            <span class="header-title">StockFlow Risk Engine</span>
+        </div>
+        <div class="header-right">
+            <div class="status-indicator">
+                <span class="status-dot"></span>
+                System Online
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <div class="main-wrapper">
+        <main class="main-content">
+            <!-- Page Header -->
+            <div class="page-header">
+                <h1 class="page-title">Dashboard Overview</h1>
+                <p class="page-subtitle">Real-time inventory monitoring and bottleneck detection</p>
+            </div>
+
+            <!-- METRICS CARDS -->
+            <div class="metrics-grid">
+                <div class="metric-card blue">
+                    <div class="metric-icon">
+                        <span class="material-symbols-outlined">inventory_2</span>
+                    </div>
+                    <div class="metric-label">Total SKUs</div>
+                    <div class="metric-value">{{total_skus}}</div>
+                    <span class="metric-change positive">
+                        <span class="material-symbols-outlined">trending_up</span>
+                        4.5% vs last month
+                    </span>
+                </div>
+
+                <div class="metric-card yellow">
+                    <div class="metric-icon">
+                        <span class="material-symbols-outlined">warning</span>
+                    </div>
+                    <div class="metric-label">Bottlenecks Found</div>
+                    <div class="metric-value">{{bottlenecks_found}}</div>
+                    <span class="metric-change negative">
+                        <span class="material-symbols-outlined">priority_high</span>
+                        Needs attention
+                    </span>
+                </div>
+
+                <div class="metric-card green">
+                    <div class="metric-icon">
+                        <span class="material-symbols-outlined">speed</span>
+                    </div>
+                    <div class="metric-label">Avg Flow Rate</div>
+                    <div class="metric-value">{{flow_rate}}/h</div>
+                    <span class="metric-change positive">
+                        <span class="material-symbols-outlined">trending_up</span>
+                        1.2% efficiency
+                    </span>
+                </div>
+
+                <div class="metric-card purple">
+                    <div class="metric-icon">
+                        <span class="material-symbols-outlined">local_shipping</span>
+                    </div>
+                    <div class="metric-label">Pending Shipments</div>
+                    <div class="metric-value">{{pending_shipments}}</div>
+                    <span class="metric-change positive">
+                        <span class="material-symbols-outlined">schedule</span>
+                        In transit
+                    </span>
+                </div>
+            </div>
+
+            <!-- CHARTS ROW -->
+            <div class="charts-grid">
+                <!-- Sales Trend Line Chart -->
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <div>
+                            <div class="chart-title">Sales Flow Trend</div>
+                            <div class="chart-subtitle">Daily transactions over the past week</div>
+                        </div>
+                        <div class="chart-legend">
+                            <div class="legend-item">
+                                <span class="legend-dot" style="background: #3b82f6;"></span>
+                                Sales
+                            </div>
+                            <div class="legend-item">
+                                <span class="legend-dot" style="background: #10b981;"></span>
+                                Restocks
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="salesChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Category Pie Chart -->
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <div>
+                            <div class="chart-title">Inventory by Category</div>
+                            <div class="chart-subtitle">Distribution across categories</div>
+                        </div>
+                    </div>
+                    <div class="chart-container-small">
+                        <canvas id="categoryChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BOTTOM SECTION -->
+            <div class="bottom-grid">
+                <!-- Inventory Status -->
+                <div class="status-card">
+                    <div class="chart-header">
+                        <div>
+                            <div class="chart-title">Inventory Status</div>
+                            <div class="chart-subtitle">Stock level distribution</div>
+                        </div>
+                    </div>
+                    <div class="status-grid">
+                        <div class="status-item">
+                            <div class="status-value stocked">{{stocked_count}}</div>
+                            <div class="status-label">Stocked</div>
+                        </div>
+                        <div class="status-item">
+                            <div class="status-value low">{{low_count}}</div>
+                            <div class="status-label">Low Stock</div>
+                        </div>
+                        <div class="status-item">
+                            <div class="status-value critical">{{critical_count}}</div>
+                            <div class="status-label">Critical</div>
+                        </div>
+                    </div>
+                    <div style="margin-top: 1.5rem;">
+                        <canvas id="statusChart" height="120"></canvas>
+                    </div>
+                </div>
+
+                <!-- Recent Alerts -->
+                <div class="alerts-card">
+                    <div class="chart-header">
+                        <div>
+                            <div class="chart-title">Recent Alerts</div>
+                            <div class="chart-subtitle">Priority-ranked notifications</div>
+                        </div>
+                    </div>
+                    <div class="alerts-list">
+                        {{#alerts}}
+                        {{#is_critical}}
+                        <div class="alert-item critical">
+                            <div class="alert-icon">
+                                <span class="material-symbols-outlined">error</span>
+                            </div>
+                            <div class="alert-content">
+                                <div class="alert-title">{{title}}</div>
+                                <div class="alert-message">{{message}}</div>
+                                <div class="alert-time">{{time_ago}}</div>
+                            </div>
+                        </div>
+                        {{/is_critical}}
+                        {{#is_warning}}
+                        <div class="alert-item warning">
+                            <div class="alert-icon">
+                                <span class="material-symbols-outlined">warning</span>
+                            </div>
+                            <div class="alert-content">
+                                <div class="alert-title">{{title}}</div>
+                                <div class="alert-message">{{message}}</div>
+                                <div class="alert-time">{{time_ago}}</div>
+                            </div>
+                        </div>
+                        {{/is_warning}}
+                        {{#is_info}}
+                        <div class="alert-item info">
+                            <div class="alert-icon">
+                                <span class="material-symbols-outlined">info</span>
+                            </div>
+                            <div class="alert-content">
+                                <div class="alert-title">{{title}}</div>
+                                <div class="alert-message">{{message}}</div>
+                                <div class="alert-time">{{time_ago}}</div>
+                            </div>
+                        </div>
+                        {{/is_info}}
+                        {{/alerts}}
+                    </div>
+                </div>
+
+                <!-- Incoming Shipments -->
+                <div class="shipments-card">
+                    <div class="chart-header">
+                        <div>
+                            <div class="chart-title">Incoming Shipments</div>
+                            <div class="chart-subtitle">Queue - First In, First Out</div>
+                        </div>
+                    </div>
+                    {{#shipments}}
+                    <div class="shipment-item">
+                        <div class="shipment-icon">
+                            <span class="material-symbols-outlined">local_shipping</span>
+                        </div>
+                        <div class="shipment-info">
+                            <div class="shipment-name">{{product_name}}</div>
+                            <div class="shipment-supplier">{{supplier}} • {{quantity}} units</div>
+                        </div>
+                        <span class="shipment-status {{priority}}">{{priority}}</span>
+                    </div>
+                    {{/shipments}}
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- CHART.JS SCRIPTS -->
+    <script>
+        // Chart.js Global Configuration for Dark Theme
+        Chart.defaults.color = '#a0a0a0';
+        Chart.defaults.borderColor = 'rgba(255, 255, 255, 0.08)';
+
+        // 1. SALES TREND LINE CHART
+        const salesCtx = document.getElementById('salesChart').getContext('2d');
+        new Chart(salesCtx, {
+            type: 'line',
+            data: {
+                labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+                datasets: [{
+                    label: 'Sales',
+                    data: [678, 675, 661, 693, 671, 700, 702],
+                    borderColor: '#3b82f6',
+                    backgroundColor: 'rgba(59, 130, 246, 0.1)',
+                    fill: true,
+                    tension: 0.4,
+                    borderWidth: 2,
+                    pointBackgroundColor: '#3b82f6',
+                    pointBorderColor: '#0a0a0f',
+                    pointBorderWidth: 2,
+                    pointRadius: 4,
+                    pointHoverRadius: 6
+                }, {
+                    label: 'Restocks',
+                    data: [45, 52, 38, 61, 55, 48, 42],
+                    borderColor: '#10b981',
+                    backgroundColor: 'rgba(16, 185, 129, 0.1)',
+                    fill: true,
+                    tension: 0.4,
+                    borderWidth: 2,
+                    pointBackgroundColor: '#10b981',
+                    pointBorderColor: '#0a0a0f',
+                    pointBorderWidth: 2,
+                    pointRadius: 4,
+                    pointHoverRadius: 6
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: false }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        grid: { color: 'rgba(255, 255, 255, 0.05)' },
+                        ticks: { padding: 10 }
+                    },
+                    x: {
+                        grid: { display: false },
+                        ticks: { padding: 10 }
+                    }
+                },
+                interaction: {
+                    intersect: false,
+                    mode: 'index'
+                }
+            }
+        });
+
+        // 2. CATEGORY DISTRIBUTION DOUGHNUT CHART
+        const categoryCtx = document.getElementById('categoryChart').getContext('2d');
+        new Chart(categoryCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Fruits & Veg', 'Grains', 'Dairy', 'Beverages', 'Seafood', 'Bakery'],
+                datasets: [{
+                    data: [28, 22, 18, 14, 10, 8],
+                    backgroundColor: [
+                        '#10b981',
+                        '#f59e0b',
+                        '#3b82f6',
+                        '#8b5cf6',
+                        '#06b6d4',
+                        '#ec4899'
+                    ],
+                    borderWidth: 0,
+                    hoverOffset: 10
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                cutout: '65%',
+                plugins: {
+                    legend: {
+                        position: 'right',
+                        labels: {
+                            boxWidth: 12,
+                            padding: 15,
+                            usePointStyle: true,
+                            pointStyle: 'circle'
+                        }
+                    }
+                }
+            }
+        });
+
+        // 3. STATUS BAR CHART
+        const statusCtx = document.getElementById('statusChart').getContext('2d');
+        const stockedVal = parseInt('{{stocked_count}}') || 0;
+        const lowVal = parseInt('{{low_count}}') || 0;
+        const criticalVal = parseInt('{{critical_count}}') || 0;
+        new Chart(statusCtx, {
+            type: 'bar',
+            data: {
+                labels: ['Stocked', 'Low Stock', 'Critical'],
+                datasets: [{
+                    data: [stockedVal, lowVal, criticalVal],
+                    backgroundColor: [
+                        'rgba(16, 185, 129, 0.8)',
+                        'rgba(245, 158, 11, 0.8)',
+                        'rgba(239, 68, 68, 0.8)'
+                    ],
+                    borderRadius: 8,
+                    borderSkipped: false
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                indexAxis: 'y',
+                plugins: {
+                    legend: { display: false }
+                },
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        grid: { color: 'rgba(255, 255, 255, 0.05)' }
+                    },
+                    y: {
+                        grid: { display: false }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>

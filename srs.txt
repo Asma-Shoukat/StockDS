@@ -1,0 +1,61 @@
+1. Introduction
+1.1 Purpose
+The purpose of the SmartInventory system is to simulate and optimize real-world retail logistics. Unlike standard inventory management systems that merely record stock, this application focuses on algorithmic decision-making. It simulates time-based supply chains, predicts demand trends, and provides automated budget optimization for restocking, demonstrating the practical application of advanced Data Structures in a business context.
+1.2 Scope
+The application is a Single Page Application (SPA) with a C++ backend and HTML/JS frontend. It serves three primary user roles:
+ * Monitoring: Real-time tracking of stock levels and incoming supply shipments.
+ * Management: Efficient searching and modification of inventory.
+ * Optimization: Algorithmic assistance for purchasing decisions under budget constraints.
+2. Technical Architecture
+2.1 Tech Stack
+ * Backend: C++ (using Crow framework) for high-performance logic and data structure implementation.
+ * Frontend: HTML5, CSS3, Vanilla JavaScript for dynamic visualization.
+
+ * Storage: In-memory volatility (simulated database using Hash Maps).
+2.2 System Flow
+ * User triggers an event (e.g., "Advance Day", "Search Item") on the Frontend.
+ * Frontend uses fetch() to send a request to the C++ Backend.
+ * C++ processes the logic (e.g., popping from a Stack, traversing a Trie).
+ * C++ returns the new state as a JSON object.
+ * Frontend re-renders the DOM to visualize the change.
+3. Data Structure Implementation Plan
+This section justifies the algorithmic choices.
+| Feature | Data Structure Used | Justification (Why this DS?) |
+|---|---|---|
+| Inventory Database | Hash Map (unordered_map) | Required for O(1) constant time access to product details by ID or Name. Essential for high-speed lookups in large inventories. |
+| Supply Chain Timeline | Queue (std::queue) | Simulates the "First-In, First-Out" (FIFO) nature of logistics. Shipments ordered 3 days ago must arrive before shipments ordered today. |
+| Risk & Shortage Alerts | Priority Queue (std::priority_queue) | A Max-Heap ensures that the item with the highest "Risk Score" (Low Stock + High Demand) is always accessible in O(1) time, prioritizing critical alerts. |
+| Demand Forecasting | Sliding Window (Array/Deque) | Analyzes the last K days of sales data to calculate a moving average, smoothing out outliers to predict future trends. |
+| Time Travel (Undo) | Stack (std::stack) | Stores "snapshots" of the entire shop state. Allows Last-In, First-Out (LIFO) restoration of previous days, enabling "Undo" functionality. |
+| Smart Search | Trie (Prefix Tree) | Enables O(L) autocomplete (where L is word length). More efficient and feature-rich than linear searching for string prefixes. |
+| Budget Optimizer | Dynamic Programming (Knapsack) | Solves the optimization problem: "Which items maximize risk reduction without exceeding budget B?" This is a classic 0/1 Knapsack implementation. |
+4. Functional Requirements
+4.1 Module 1: The Command Center (Simulation Dashboard)
+ * FR-01 Time Simulation: The system shall allow the user to "Advance Time" by 1 day. This triggers demand calculation and moves supply queues.
+ * FR-02 Supply Chain Visualization: The system shall display incoming shipments in a horizontal timeline. As days advance, items move from "Supplier" to "Warehouse."
+ * FR-03 Risk Dashboard: The system shall automatically rank and display the "Top 5 Critical Items" based on inventory levels using a Priority Queue.
+ * FR-04 Undo/History: The system shall allow the user to "Undo" the last simulation step, reverting all stock numbers and queue positions to the previous state.
+4.2 Module 2: The Warehouse (Inventory Management)
+ * FR-05 Smart Search: The system shall provide an autocomplete dropdown as the user types a product name.
+ * FR-06 Product Management: The user shall be able to view current stock, daily demand rate, and unit cost for all items.
+4.3 Module 3: The Manager’s Office (Budget Optimization)
+ * FR-07 Budget Input: The user shall be able to input a maximum budget (e.g., $500).
+ * FR-08 Auto-Restock Recommendation: The system shall calculate and display the optimal set of items to purchase that fits within the budget while maximizing the "Value" (defined as Risk Score reduction).
+ * FR-09 Visual Filling: The frontend shall animate the selection of items into a "virtual cart" to visualize the algorithm's choice.
+5. Non-Functional Requirements
+ * NFR-01 Performance: API responses for the "Next Day" simulation must complete in under 200ms for a dataset of up to 10,000 items.
+ * NFR-02 Usability: The "Critical Items" alert must be color-coded (Red) to immediately draw user attention.
+ * NFR-03 Accuracy: The Undo feature must restore the system to an exact previous state, including the position of trucks in the supply queue.
+6. User Interface Design (atleast these more can add)
+6.1 Page 1: Dashboard
+ * Top Bar: "Day Counter" (e.g., Day 45) and "Advance" / "Undo" buttons.
+ * Left Panel: "Critical Alerts" (The Priority Queue).
+ * Bottom Panel: "Supply Line" (The Queue visualization).
+6.2 Page 2: Inventory
+ * Center: Large Search Bar (The Trie visualization).
+ * Grid: Product cards showing details.
+6.3 Page 3: Optimizer
+ * Split Screen:
+   * Left: Available items to buy.
+   * Right: The "Optimized Cart" (Knapsack result).
+   * Footer: Budget Progress Bar.

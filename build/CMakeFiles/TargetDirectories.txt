@@ -1,0 +1,3 @@
+C:/Users/HP/Downloads/StockDS/StockDS/build/CMakeFiles/main.dir
+C:/Users/HP/Downloads/StockDS/StockDS/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/HP/Downloads/StockDS/StockDS/build/CMakeFiles/ZERO_CHECK.dir

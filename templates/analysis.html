@@ -1,0 +1,430 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>StockFlow Risk Engine - Analysis & Insights</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --bg-primary: #0a0a0f; --bg-secondary: #12121a; --bg-card: rgba(255, 255, 255, 0.03);
+            --bg-card-hover: rgba(255, 255, 255, 0.06); --border-color: rgba(255, 255, 255, 0.08);
+            --text-primary: #ffffff; --text-secondary: #a0a0a0; --text-muted: #6b6b6b;
+            --accent-blue: #3b82f6; --accent-purple: #8b5cf6; --accent-green: #10b981; 
+            --accent-yellow: #f59e0b; --accent-red: #ef4444; --accent-cyan: #06b6d4;
+            --gradient-1: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+            --gradient-2: linear-gradient(135deg, #10b981 0%, #06b6d4 100%);
+            --sidebar-width: 280px; --sidebar-collapsed: 70px;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Inter, sans-serif; background: var(--bg-primary); color: var(--text-primary); min-height: 100vh; overflow-x: hidden; }
+        .sidebar { position: fixed; left: 0; top: 0; height: 100vh; width: var(--sidebar-collapsed); background: var(--bg-secondary); border-right: 1px solid var(--border-color); display: flex; flex-direction: column; transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1); z-index: 1000; overflow: hidden; }
+        .sidebar:hover { width: var(--sidebar-width); }
+        .sidebar-nav { flex: 1; padding: 1.5rem 0.5rem; display: flex; flex-direction: column; gap: 0.5rem; }
+        .nav-item { display: flex; align-items: center; gap: 0.75rem; padding: 0.875rem; border-radius: 12px; text-decoration: none; color: var(--text-secondary); transition: all 0.2s; }
+        .nav-item:hover { background: var(--bg-card-hover); color: var(--text-primary); }
+        .nav-item.active { background: var(--gradient-1); color: white; }
+        .nav-item .material-symbols-outlined { font-size: 1.5rem; flex-shrink: 0; font-variation-settings: 'FILL' 0, 'wght' 400; }
+        .nav-item.active .material-symbols-outlined { font-variation-settings: 'FILL' 1, 'wght' 500; }
+        .nav-item span:last-child { white-space: nowrap; opacity: 0; transition: opacity 0.2s; }
+        .sidebar:hover .nav-item span:last-child { opacity: 1; }
+        .sidebar-footer { padding: 1rem; border-top: 1px solid var(--border-color); }
+        .top-header { position: fixed; top: 0; left: var(--sidebar-collapsed); right: 0; height: 70px; background: rgba(10, 10, 15, 0.8); backdrop-filter: blur(20px); border-bottom: 1px solid var(--border-color); display: flex; align-items: center; justify-content: center; z-index: 100; transition: left 0.3s; }
+        .sidebar:hover ~ .main-wrapper .top-header, .sidebar:hover ~ .top-header { left: var(--sidebar-width); }
+        .header-brand { display: flex; align-items: center; gap: 0.75rem; }
+        .header-logo { width: 42px; height: 42px; background: var(--gradient-1); border-radius: 12px; display: flex; align-items: center; justify-content: center; }
+        .header-logo .material-symbols-outlined { font-size: 1.5rem; color: white; }
+        .header-title { font-size: 1.5rem; font-weight: 800; background: var(--gradient-1); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .header-right { position: absolute; right: 1.5rem; display: flex; gap: 1rem; }
+        .status-indicator { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 20px; font-size: 0.875rem; color: var(--accent-green); }
+        .status-dot { width: 8px; height: 8px; background: var(--accent-green); border-radius: 50%; animation: pulse 2s infinite; }
+        @keyframes pulse { 0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.4); } 50% { opacity: 0.8; box-shadow: 0 0 0 8px rgba(16, 185, 129, 0); } }
+        .main-wrapper { margin-left: var(--sidebar-collapsed); padding-top: 70px; min-height: 100vh; transition: margin-left 0.3s; }
+        .sidebar:hover ~ .main-wrapper { margin-left: var(--sidebar-width); }
+        .main-content { padding: 2rem; max-width: 1600px; margin: 0 auto; }
+        .page-header { margin-bottom: 2rem; }
+        .page-title { font-size: 2rem; font-weight: 800; margin-bottom: 0.5rem; }
+        .page-subtitle { color: var(--text-secondary); font-size: 1rem; }
+        .ds-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-bottom: 1.5rem; }
+        .ds-grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; margin-bottom: 1.5rem; }
+        .ds-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 20px; padding: 1.5rem; position: relative; overflow: hidden; transition: all 0.3s; }
+        .ds-card:hover { background: var(--bg-card-hover); transform: translateY(-4px); }
+        .ds-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; }
+        .ds-card.blue::before { background: var(--gradient-1); }
+        .ds-card.green::before { background: var(--gradient-2); }
+        .ds-card.purple::before { background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%); }
+        .ds-card.yellow::before { background: linear-gradient(135deg, #f59e0b 0%, #ef4444 100%); }
+        .chart-full { margin-bottom: 1.5rem; }
+        .chart-centered { max-width: 500px; margin: 0 auto 1.5rem auto; }
+        .ds-header { display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem; }
+        .ds-icon { width: 48px; height: 48px; border-radius: 12px; display: flex; align-items: center; justify-content: center; }
+        .ds-card.blue .ds-icon { background: rgba(59, 130, 246, 0.15); color: var(--accent-blue); }
+        .ds-card.green .ds-icon { background: rgba(16, 185, 129, 0.15); color: var(--accent-green); }
+        .ds-card.purple .ds-icon { background: rgba(139, 92, 246, 0.15); color: var(--accent-purple); }
+        .ds-card.yellow .ds-icon { background: rgba(245, 158, 11, 0.15); color: var(--accent-yellow); }
+        .ds-title { font-size: 1.125rem; font-weight: 700; }
+        .ds-complexity { font-size: 0.75rem; color: var(--text-muted); font-family: 'Courier New', monospace; margin-top: 0.25rem; }
+        .ds-description { font-size: 0.875rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: 1rem; }
+        .ds-stats { display: flex; gap: 1.5rem; }
+        .ds-stat-item { flex: 1; }
+        .ds-stat-value { font-size: 1.5rem; font-weight: 800; }
+        .ds-stat-label { font-size: 0.75rem; color: var(--text-muted); margin-top: 0.25rem; }
+        .chart-grid { display: grid; grid-template-columns: 7fr 3fr; gap: 1.5rem; margin-bottom: 1.5rem; }
+        .chart-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 20px; padding: 1.5rem; }
+        .chart-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; }
+        .chart-title { font-size: 1.125rem; font-weight: 700; }
+        .chart-subtitle { font-size: 0.75rem; color: var(--text-muted); margin-top: 0.25rem; }
+        .chart-container { height: 350px; position: relative; }
+        .chart-container.pie { height: 320px; }
+        .insights-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+        .insight-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 20px; padding: 1.5rem; }
+        .insight-header { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem; }
+        .insight-icon { width: 40px; height: 40px; background: rgba(59, 130, 246, 0.15); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: var(--accent-blue); }
+        .insight-title { font-size: 1rem; font-weight: 600; }
+        .insight-value { font-size: 2rem; font-weight: 800; margin-bottom: 0.5rem; }
+        .insight-label { font-size: 0.875rem; color: var(--text-secondary); }
+        .badge { display: inline-flex; align-items: center; gap: 0.25rem; padding: 0.25rem 0.625rem; border-radius: 12px; font-size: 0.75rem; font-weight: 600; }
+        .badge.success { background: rgba(16, 185, 129, 0.15); color: var(--accent-green); }
+        .badge.warning { background: rgba(245, 158, 11, 0.15); color: var(--accent-yellow); }
+        ::-webkit-scrollbar { width: 8px; height: 8px; }
+        ::-webkit-scrollbar-track { background: var(--bg-secondary); }
+        ::-webkit-scrollbar-thumb { background: var(--border-color); border-radius: 4px; }
+        @media (max-width: 1200px) { .ds-grid { grid-template-columns: 1fr; } .ds-grid-2 { grid-template-columns: 1fr; } .chart-grid { grid-template-columns: 1fr; } .insights-grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <aside class="sidebar">
+        <nav class="sidebar-nav">
+            <a href="/" class="nav-item"><span class="material-symbols-outlined">dashboard</span><span>Dashboard</span></a>
+            <a href="/inventory" class="nav-item"><span class="material-symbols-outlined">inventory</span><span>Inventory</span></a>
+            <a href="/analysis" class="nav-item active"><span class="material-symbols-outlined">analytics</span><span>Analysis</span></a>
+            <a href="/settings" class="nav-item"><span class="material-symbols-outlined">settings</span><span>Settings</span></a>
+        </nav>
+        <div class="sidebar-footer">
+            <a href="#" class="nav-item"><span class="material-symbols-outlined">help</span><span>Help & Support</span></a>
+        </div>
+    </aside>
+    <header class="top-header">
+        <div class="header-brand">
+            <div class="header-logo"><span class="material-symbols-outlined">inventory_2</span></div>
+            <span class="header-title">StockFlow Risk Engine</span>
+        </div>
+        <div class="header-right">
+            <div class="status-indicator"><span class="status-dot"></span>System Online</div>
+        </div>
+    </header>
+    <div class="main-wrapper">
+        <main class="main-content">
+            <div class="page-header">
+                <h1 class="page-title">Data Structures & Analytics</h1>
+                <p class="page-subtitle">Advanced algorithmic insights and performance metrics</p>
+            </div>
+            <div class="ds-grid">
+                <div class="ds-card blue">
+                    <div class="ds-header">
+                        <div class="ds-icon"><span class="material-symbols-outlined">memory</span></div>
+                        <div>
+                            <div class="ds-title">Hash Map</div>
+                            <div class="ds-complexity">O(1) Lookup Time</div>
+                        </div>
+                    </div>
+                    <p class="ds-description">Lightning-fast product search using unordered_map. Enables instant SKU lookups from 990 products with constant time complexity.</p>
+                    <div class="ds-stats">
+                        <div class="ds-stat-item">
+                            <div class="ds-stat-value">990</div>
+                            <div class="ds-stat-label">Products Indexed</div>
+                        </div>
+                        <div class="ds-stat-item">
+                            <div class="ds-stat-value">&lt;1μs</div>
+                            <div class="ds-stat-label">Avg Lookup Time</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ds-card green">
+                    <div class="ds-header">
+                        <div class="ds-icon"><span class="material-symbols-outlined">sort</span></div>
+                        <div>
+                            <div class="ds-title">Priority Queue</div>
+                            <div class="ds-complexity">O(log n) Insert/Delete</div>
+                        </div>
+                    </div>
+                    <p class="ds-description">Risk-sorted alert system using max heap. Highest risk alerts (risk score 8-10) are processed first, ensuring critical issues get immediate attention.</p>
+                    <div class="ds-stats">
+                        <div class="ds-stat-item">
+                            <div class="ds-stat-value">1,458</div>
+                            <div class="ds-stat-label">Active Alerts</div>
+                        </div>
+                        <div class="ds-stat-item">
+                            <div class="ds-stat-value">465</div>
+                            <div class="ds-stat-label">High Priority</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ds-card purple">
+                    <div class="ds-header">
+                        <div class="ds-icon"><span class="material-symbols-outlined">queue</span></div>
+                        <div>
+                            <div class="ds-title">FIFO Queue</div>
+                            <div class="ds-complexity">O(1) Enqueue/Dequeue</div>
+                        </div>
+                    </div>
+                    <p class="ds-description">First-In-First-Out shipment processing. Ensures fair order fulfillment - shipments are processed in the exact order they arrive.</p>
+                    <div class="ds-stats">
+                        <div class="ds-stat-item">
+                            <div class="ds-stat-value">587</div>
+                            <div class="ds-stat-label">Pending Shipments</div>
+                        </div>
+                        <div class="ds-stat-item">
+                            <div class="ds-stat-value">24h</div>
+                            <div class="ds-stat-label">Avg Processing</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Second Row: Stack, Sliding Window, Trend Analysis -->
+            <div class="ds-grid">
+                <div class="ds-card yellow">
+                    <div class="ds-header">
+                        <div class="ds-icon"><span class="material-symbols-outlined">undo</span></div>
+                        <div>
+                            <div class="ds-title">Stack (LIFO)</div>
+                            <div class="ds-complexity">O(1) Push/Pop</div>
+                        </div>
+                    </div>
+                    <p class="ds-description">Undo/History tracking using Last-In-First-Out stack. Maintains system state snapshots for rollback capability.</p>
+                    <div class="ds-stats">
+                        <div class="ds-stat-item">
+                            <div class="ds-stat-value">50</div>
+                            <div class="ds-stat-label">History States</div>
+                        </div>
+                        <div class="ds-stat-item">
+                            <div class="ds-stat-value">100%</div>
+                            <div class="ds-stat-label">Rollback Success</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ds-card green">
+                    <div class="ds-header">
+                        <div class="ds-icon"><span class="material-symbols-outlined">trending_up</span></div>
+                        <div>
+                            <div class="ds-title">Sliding Window</div>
+                            <div class="ds-complexity">O(n) Time</div>
+                        </div>
+                    </div>
+                    <p class="ds-description">Demand forecasting using {{forecast_window}}-day sliding window algorithm. Predicts future demand by analyzing recent sales patterns.</p>
+                    <div class="ds-stats">
+                        <div class="ds-stat-item">
+                            <div class="ds-stat-value">{{forecast_window}}</div>
+                            <div class="ds-stat-label">Day Window</div>
+                        </div>
+                        <div class="ds-stat-item">
+                            <div class="ds-stat-value">{{moving_average}}</div>
+                            <div class="ds-stat-label">Avg Sales/Day</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ds-card purple">
+                    <div class="ds-header">
+                        <div class="ds-icon"><span class="material-symbols-outlined">assessment</span></div>
+                        <div>
+                            <div class="ds-title">Trend Analysis</div>
+                            <div class="ds-complexity">Pattern Recognition</div>
+                        </div>
+                    </div>
+                    <p class="ds-description">Analyzes sales patterns to identify trends. Compares first and second half of window data to determine if demand is increasing, decreasing, or stable.</p>
+                    <div class="ds-stats">
+                        <div class="ds-stat-item">
+                            <div class="ds-stat-value" style="text-transform: capitalize;">{{demand_trend}}</div>
+                            <div class="ds-stat-label">Current Trend</div>
+                        </div>
+                        <div class="ds-stat-item">
+                            <div class="ds-stat-value">31</div>
+                            <div class="ds-stat-label">Days Analyzed</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Charts Row: 70% Sliding Window + 30% Alert Distribution -->
+            <div class="chart-grid">
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <div>
+                            <div class="chart-title">Sliding Window Demand Forecast</div>
+                            <div class="chart-subtitle">Sales analysis using <span id="windowSize">{{forecast_window}}</span>-day sliding window (Moving Avg: {{moving_average}} units)</div>
+                        </div>
+                        <div class="chart-badge" style="background: rgba(16, 185, 129, 0.15); color: #10b981; padding: 0.375rem 0.75rem; border-radius: 20px; font-size: 0.75rem; font-weight: 600;">
+                            Trend: {{demand_trend}}
+                        </div>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="slidingWindowChart"></canvas>
+                    </div>
+                </div>
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <div>
+                            <div class="chart-title">Alert Distribution</div>
+                            <div class="chart-subtitle">By severity level</div>
+                        </div>
+                    </div>
+                    <div class="chart-container pie">
+                        <canvas id="alertsChart"></canvas>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="insights-grid">
+                <div class="insight-card">
+                    <div class="insight-header">
+                        <div class="insight-icon"><span class="material-symbols-outlined">speed</span></div>
+                        <div class="insight-title">Performance</div>
+                    </div>
+                    <div class="insight-value">O(1)</div>
+                    <div class="insight-label">Hash Map Lookups</div>
+                    <div style="margin-top: 1rem;"><span class="badge success">Optimal</span></div>
+                </div>
+                <div class="insight-card">
+                    <div class="insight-header">
+                        <div class="insight-icon"><span class="material-symbols-outlined">inventory_2</span></div>
+                        <div class="insight-title">Total Items</div>
+                    </div>
+                    <div class="insight-value">22,558</div>
+                    <div class="insight-label">Transactions Processed</div>
+                    <div style="margin-top: 1rem;"><span class="badge success">Active</span></div>
+                </div>
+                <div class="insight-card">
+                    <div class="insight-header">
+                        <div class="insight-icon"><span class="material-symbols-outlined">warning</span></div>
+                        <div class="insight-title">Bottlenecks</div>
+                    </div>
+                    <div class="insight-value">465</div>
+                    <div class="insight-label">Items Need Attention</div>
+                    <div style="margin-top: 1rem;"><span class="badge warning">Monitor</span></div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script>
+        Chart.defaults.color = '#a0a0a0';
+        Chart.defaults.borderColor = 'rgba(255, 255, 255, 0.08)';
+        
+        let slidingWindowChart = null;
+        
+        // Fetch and render sliding window chart based on settings
+        async function loadSlidingWindowChart() {
+            try {
+                const response = await fetch('/api/forecast');
+                const data = await response.json();
+                
+                const windowSize = data.window_size;
+                const dailyData = data.daily_data;
+                const movingAverage = data.moving_average;
+                const trend = data.trend;
+                
+                // Update display
+                document.getElementById('windowSize').textContent = windowSize;
+                
+                // Prepare chart data
+                const labels = dailyData.map(d => d.date);
+                const salesData = dailyData.map(d => d.total_quantity);
+                
+                // Calculate moving average line
+                const movingAvgLine = [];
+                for (let i = 0; i < salesData.length; i++) {
+                    if (i < windowSize - 1) {
+                        movingAvgLine.push(null);
+                    } else {
+                        let sum = 0;
+                        for (let j = i - windowSize + 1; j <= i; j++) {
+                            sum += salesData[j];
+                        }
+                        movingAvgLine.push(Math.round(sum / windowSize));
+                    }
+                }
+                
+                const ctx = document.getElementById('slidingWindowChart').getContext('2d');
+                
+                if (slidingWindowChart) {
+                    slidingWindowChart.destroy();
+                }
+                
+                slidingWindowChart = new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: labels,
+                        datasets: [
+                            {
+                                label: 'Daily Sales',
+                                data: salesData,
+                                borderColor: '#3b82f6',
+                                backgroundColor: 'rgba(59, 130, 246, 0.1)',
+                                fill: true,
+                                tension: 0.4,
+                                borderWidth: 2
+                            },
+                            {
+                                label: `${windowSize}-Day Moving Average`,
+                                data: movingAvgLine,
+                                borderColor: '#10b981',
+                                backgroundColor: 'transparent',
+                                fill: false,
+                                tension: 0.4,
+                                borderWidth: 3,
+                                borderDash: [5, 5]
+                            }
+                        ]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: {
+                                display: true,
+                                position: 'top',
+                                labels: { boxWidth: 12, padding: 15, usePointStyle: true }
+                            }
+                        },
+                        scales: {
+                            y: { beginAtZero: true, grid: { color: 'rgba(255, 255, 255, 0.05)' } },
+                            x: { grid: { display: false } }
+                        }
+                    }
+                });
+            } catch (error) {
+                console.error('Error loading sliding window chart:', error);
+            }
+        }
+        
+        // Load chart on page load
+        document.addEventListener('DOMContentLoaded', loadSlidingWindowChart);
+        
+        const alertCtx = document.getElementById('alertsChart').getContext('2d');
+        new Chart(alertCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Critical', 'Warning', 'Info'],
+                datasets: [{
+                    data: [465, 588, 405],
+                    backgroundColor: ['#ef4444', '#f59e0b', '#3b82f6'],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                cutout: '65%',
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: { boxWidth: 12, padding: 15, usePointStyle: true }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

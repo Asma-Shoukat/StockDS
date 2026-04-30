@@ -1,0 +1,588 @@
+shipment_id,product_id,product_name,quantity,supplier,expected_date,status,priority
+SHP-00043,66-993-4234,Cucumber,100,Gigazoom,2025-12-26,arriving_today,urgent
+SHP-00079,70-149-6756,Heavy Cream,97,Skynoodle,2025-12-26,arriving_today,urgent
+SHP-00105,76-325-9093,Sesame Oil,56,Feedbug,2025-12-26,arriving_today,urgent
+SHP-00114,06-706-6490,Green Tea,85,Tanoodle,2025-12-26,arriving_today,urgent
+SHP-00117,83-704-6367,Arabica Coffee,12,Feedmix,2025-12-26,arriving_today,urgent
+SHP-00124,63-822-5278,Pomegranate,1,Kamba,2025-12-26,arriving_today,urgent
+SHP-00169,92-791-0606,Short Grain Rice,2,Photobean,2025-12-26,arriving_today,urgent
+SHP-00170,84-629-1532,Arabica Coffee,25,Chatterpoint,2025-12-26,arriving_today,urgent
+SHP-00182,59-857-6577,Evaporated Milk,77,Blognation,2025-12-26,arriving_today,urgent
+SHP-00228,37-666-3902,Cauliflower,60,Meevee,2025-12-26,arriving_today,urgent
+SHP-00231,65-644-1394,Pear,36,Lazz,2025-12-26,arriving_today,urgent
+SHP-00259,28-505-8317,Watermelon,94,Digitube,2025-12-26,arriving_today,urgent
+SHP-00303,37-606-0510,Milk,86,Jabbercube,2025-12-26,arriving_today,urgent
+SHP-00311,21-013-3508,Cabbage,49,Meevee,2025-12-26,arriving_today,urgent
+SHP-00313,62-816-8794,Rice Flour,81,Photobug,2025-12-26,arriving_today,urgent
+SHP-00322,10-626-8536,Coconut Sugar,74,Lazz,2025-12-26,arriving_today,urgent
+SHP-00356,76-070-1411,Evaporated Milk,78,Realcube,2025-12-26,arriving_today,urgent
+SHP-00369,48-289-0604,Vegetable Oil,71,Browseblab,2025-12-26,arriving_today,urgent
+SHP-00376,87-391-9658,Corn Oil,13,Centizu,2025-12-26,arriving_today,urgent
+SHP-00383,35-031-1497,Green Coffee,20,Linklinks,2025-12-26,arriving_today,urgent
+SHP-00407,50-329-3145,Milk,48,Jatri,2025-12-26,arriving_today,urgent
+SHP-00498,27-269-5260,Pineapple,65,Rhyloo,2025-12-26,arriving_today,urgent
+SHP-00503,58-946-5152,Bread Flour,7,Avaveo,2025-12-26,arriving_today,urgent
+SHP-00513,39-913-2999,Evaporated Milk,97,Centimia,2025-12-26,arriving_today,urgent
+SHP-00520,42-134-9798,Canola Oil,87,Omba,2025-12-26,arriving_today,urgent
+SHP-00531,47-548-6500,Onion,37,Devpulse,2025-12-26,arriving_today,urgent
+SHP-00575,29-377-7040,Short Grain Rice,15,Brightdog,2025-12-26,arriving_today,urgent
+SHP-00583,43-851-9440,Lime,19,Camido,2025-12-26,arriving_today,urgent
+SHP-00002,40-681-9981,Arabica Coffee,2,Feedmix,2025-12-27,in_transit,high
+SHP-00007,42-220-9305,White Sugar,6,Zooxo,2025-12-27,in_transit,high
+SHP-00012,55-936-2406,Bread Flour,88,Mynte,2025-12-27,in_transit,urgent
+SHP-00022,76-340-4432,Cucumber,72,Brainverse,2025-12-27,in_transit,high
+SHP-00026,70-612-2531,Pineapple,39,Flipbug,2025-12-27,in_transit,high
+SHP-00028,43-893-5408,Short Grain Rice,85,Snaptags,2025-12-27,in_transit,high
+SHP-00032,05-334-2923,Bread Flour,71,Browsezoom,2025-12-27,in_transit,urgent
+SHP-00038,36-918-2937,Green Coffee,18,Kwinu,2025-12-27,in_transit,high
+SHP-00041,11-581-9869,Carrot,98,Avaveo,2025-12-27,in_transit,high
+SHP-00045,81-844-2979,Broccoli,46,Realblab,2025-12-27,in_transit,high
+SHP-00046,26-010-9519,Trout,96,Blogtag,2025-12-27,in_transit,high
+SHP-00049,88-746-9468,Onion,74,Skiba,2025-12-27,in_transit,high
+SHP-00052,12-239-9399,Potato,27,Tagtune,2025-12-27,in_transit,high
+SHP-00059,82-243-3180,Palm Oil,80,Zooxo,2025-12-27,in_transit,high
+SHP-00060,11-733-1756,Rice Flour,53,Mynte,2025-12-27,in_transit,high
+SHP-00076,19-047-4239,Peach,73,Quire,2025-12-27,in_transit,high
+SHP-00082,04-542-3863,Bread Flour,45,Eidel,2025-12-27,in_transit,high
+SHP-00091,43-703-9939,Pineapple,35,Bubblemix,2025-12-27,in_transit,high
+SHP-00094,73-561-2867,Sourdough Bread,98,Eayo,2025-12-27,in_transit,urgent
+SHP-00095,19-967-0632,Short Grain Rice,54,Yombu,2025-12-27,in_transit,high
+SHP-00097,48-957-6116,Eggplant,9,Topicstorm,2025-12-27,in_transit,high
+SHP-00100,03-149-9760,Whipped Cream,93,Yotz,2025-12-27,in_transit,high
+SHP-00109,97-040-3822,Swiss Cheese,73,Gevee,2025-12-27,in_transit,high
+SHP-00113,58-182-6781,Oatmeal Biscuit,22,Pixope,2025-12-27,in_transit,high
+SHP-00115,18-199-5799,Cheddar Cheese,40,Jayo,2025-12-27,in_transit,high
+SHP-00116,00-357-2313,Avocado Oil,23,Quamba,2025-12-27,in_transit,urgent
+SHP-00120,53-080-8252,Sourdough Bread,21,Thoughtstorm,2025-12-27,in_transit,high
+SHP-00123,84-198-7276,Peanut Oil,65,Eidel,2025-12-27,in_transit,high
+SHP-00128,97-710-2449,Rye Bread,80,Tanoodle,2025-12-27,in_transit,urgent
+SHP-00130,90-492-0564,Pomegranate,56,Shuffledrive,2025-12-27,in_transit,high
+SHP-00134,00-215-7434,Egg (Goose),74,Quatz,2025-12-27,in_transit,urgent
+SHP-00139,72-066-4597,Broccoli,52,Zoovu,2025-12-27,in_transit,high
+SHP-00144,79-400-6216,Mozzarella Cheese,13,Devpoint,2025-12-27,in_transit,urgent
+SHP-00146,78-689-8958,White Tea,43,Chatterbridge,2025-12-27,in_transit,high
+SHP-00147,57-562-2358,Black Coffee,76,Quamba,2025-12-27,in_transit,high
+SHP-00153,99-137-1730,Bread Flour,23,Skyndu,2025-12-27,in_transit,high
+SHP-00156,61-607-7622,Egg (Duck),25,Zoonoodle,2025-12-27,in_transit,high
+SHP-00158,29-017-6255,Bell Pepper,17,Eimbee,2025-12-27,in_transit,high
+SHP-00162,22-895-6595,Rice Flour,69,Topicblab,2025-12-27,in_transit,high
+SHP-00179,28-824-9017,Trout,17,Flipbug,2025-12-27,in_transit,urgent
+SHP-00180,56-668-5370,Vegetable Oil,21,Vimbo,2025-12-27,in_transit,high
+SHP-00184,87-199-2743,Papaya,100,Demivee,2025-12-27,in_transit,high
+SHP-00186,07-074-1196,Plum,62,Skajo,2025-12-27,in_transit,urgent
+SHP-00189,84-272-0790,Blueberries,44,Eidel,2025-12-27,in_transit,high
+SHP-00190,49-311-3063,Kiwi,53,Talane,2025-12-27,in_transit,high
+SHP-00192,89-602-6755,Milk,26,BlogXS,2025-12-27,in_transit,high
+SHP-00194,83-716-2177,Halibut,26,Linktype,2025-12-27,in_transit,high
+SHP-00195,56-635-6764,Sourdough Bread,62,Avamba,2025-12-27,in_transit,urgent
+SHP-00198,08-725-8156,Tilapia,10,Flipopia,2025-12-27,in_transit,high
+SHP-00201,74-943-9034,White Bread,34,Tagfeed,2025-12-27,in_transit,high
+SHP-00203,37-246-0018,Broccoli,76,Skilith,2025-12-27,in_transit,high
+SHP-00213,94-525-6925,Rye Bread,63,Kwilith,2025-12-27,in_transit,high
+SHP-00215,67-512-9754,Egg (Turkey),83,DabZ,2025-12-27,in_transit,urgent
+SHP-00216,45-402-0421,Swiss Cheese,72,Quinu,2025-12-27,in_transit,high
+SHP-00218,21-718-6746,Coconut,12,Eamia,2025-12-27,in_transit,high
+SHP-00221,43-670-8544,Orange,22,Camido,2025-12-27,in_transit,high
+SHP-00229,73-942-0508,Kale,94,Brightbean,2025-12-27,in_transit,high
+SHP-00230,27-881-1177,Green Tea,99,Skalith,2025-12-27,in_transit,high
+SHP-00239,88-183-5781,Whole Wheat Bread,3,Lazz,2025-12-27,in_transit,urgent
+SHP-00244,20-325-1965,Coconut,13,Katz,2025-12-27,in_transit,high
+SHP-00248,45-172-7012,Papaya,12,Brightbean,2025-12-27,in_transit,urgent
+SHP-00250,71-074-6292,Sourdough Bread,49,Plajo,2025-12-27,in_transit,high
+SHP-00251,98-909-9395,Cottage Cheese,92,Feedfire,2025-12-27,in_transit,high
+SHP-00252,41-735-9837,Robusta Coffee,78,Devpulse,2025-12-27,in_transit,urgent
+SHP-00265,60-550-4771,Haddock,87,Kwimbee,2025-12-27,in_transit,high
+SHP-00266,88-951-9038,Black Coffee,5,Youfeed,2025-12-27,in_transit,urgent
+SHP-00270,40-683-0283,White Sugar,78,Topicshots,2025-12-27,in_transit,high
+SHP-00280,92-551-8504,Raw Sugar,33,Livepath,2025-12-27,in_transit,urgent
+SHP-00284,26-134-9069,Whipped Cream,8,Devcast,2025-12-27,in_transit,urgent
+SHP-00288,82-678-8097,Cottage Cheese,58,Feedmix,2025-12-27,in_transit,high
+SHP-00291,32-987-5559,Green Tea,100,Zoovu,2025-12-27,in_transit,high
+SHP-00307,12-046-2988,Corn Oil,66,Youbridge,2025-12-27,in_transit,urgent
+SHP-00312,94-697-2396,Sourdough Bread,44,Zoomlounge,2025-12-27,in_transit,high
+SHP-00319,44-305-1866,Butter,86,Jayo,2025-12-27,in_transit,high
+SHP-00325,53-151-5726,Grapes,62,Flipopia,2025-12-27,in_transit,high
+SHP-00331,30-964-2694,Peas,55,Edgeclub,2025-12-27,in_transit,high
+SHP-00332,17-253-5688,Greek Yogurt,39,Shufflester,2025-12-27,in_transit,high
+SHP-00335,72-810-9753,Sesame Oil,15,Yotz,2025-12-27,in_transit,urgent
+SHP-00337,46-622-3434,Jasmine Rice,74,Topdrive,2025-12-27,in_transit,high
+SHP-00357,61-582-7399,Apricot,74,Topiczoom,2025-12-27,in_transit,high
+SHP-00360,63-162-9244,Eggplant,65,Vimbo,2025-12-27,in_transit,high
+SHP-00361,91-417-0366,Grapes,100,Riffwire,2025-12-27,in_transit,high
+SHP-00362,60-311-5701,Sesame Oil,97,Shuffledrive,2025-12-27,in_transit,high
+SHP-00363,22-266-9291,Sardines,59,Vinder,2025-12-27,in_transit,high
+SHP-00364,76-584-4790,Peanut Oil,80,Twitterwire,2025-12-27,in_transit,high
+SHP-00372,56-054-8664,Lemon,69,Centimia,2025-12-27,in_transit,high
+SHP-00375,83-727-0814,Basmati Rice,64,Yodo,2025-12-27,in_transit,urgent
+SHP-00378,12-828-1063,Mozzarella Cheese,85,Buzzdog,2025-12-27,in_transit,high
+SHP-00379,53-667-4109,Onion,42,Voolith,2025-12-27,in_transit,urgent
+SHP-00380,74-404-0582,Cherry,59,Jabbersphere,2025-12-27,in_transit,high
+SHP-00384,51-000-8113,Green Tea,35,Vidoo,2025-12-27,in_transit,high
+SHP-00389,60-198-7050,Green Tea,54,Photobug,2025-12-27,in_transit,high
+SHP-00396,86-273-9377,White Rice,20,Eimbee,2025-12-27,in_transit,urgent
+SHP-00399,88-304-2855,Pineapple,33,Brainverse,2025-12-27,in_transit,high
+SHP-00402,03-441-4252,Yogurt,93,Wordpedia,2025-12-27,in_transit,urgent
+SHP-00411,19-854-3663,Watermelon,11,Dabjam,2025-12-27,in_transit,urgent
+SHP-00421,72-970-0239,Sesame Oil,21,Divanoodle,2025-12-27,in_transit,high
+SHP-00423,32-270-1385,Greek Yogurt,23,Quaxo,2025-12-27,in_transit,high
+SHP-00432,57-394-4703,White Tea,36,Agivu,2025-12-27,in_transit,high
+SHP-00436,96-209-1739,Evaporated Milk,75,Miboo,2025-12-27,in_transit,high
+SHP-00445,53-710-7630,Rice Flour,71,Livetube,2025-12-27,in_transit,urgent
+SHP-00456,85-835-3445,Egg (Goose),37,Gigashots,2025-12-27,in_transit,high
+SHP-00459,80-039-1261,Strawberries,12,Skimia,2025-12-27,in_transit,urgent
+SHP-00460,48-427-0551,Arabica Coffee,77,Jetpulse,2025-12-27,in_transit,urgent
+SHP-00468,00-534-9775,Black Coffee,23,Tagpad,2025-12-27,in_transit,high
+SHP-00471,05-425-0746,Onion,90,Gabspot,2025-12-27,in_transit,high
+SHP-00481,45-317-9731,Palm Oil,78,Wordware,2025-12-27,in_transit,high
+SHP-00486,27-495-1912,Potato,88,Thoughtbridge,2025-12-27,in_transit,high
+SHP-00493,24-143-4957,Canola Oil,63,Katz,2025-12-27,in_transit,urgent
+SHP-00501,99-048-8310,Tomato,73,Demimbu,2025-12-27,in_transit,high
+SHP-00502,63-874-9747,Orange,90,Oloo,2025-12-27,in_transit,high
+SHP-00507,33-378-1365,Egg (Goose),1,Tagchat,2025-12-27,in_transit,high
+SHP-00509,14-115-8371,Chocolate Biscuit,70,Yakitri,2025-12-27,in_transit,high
+SHP-00510,83-568-3475,Halibut,70,Camimbo,2025-12-27,in_transit,high
+SHP-00516,80-020-8041,Black Rice,26,Wordware,2025-12-27,in_transit,urgent
+SHP-00522,11-891-8213,Peanut Oil,47,Tagopia,2025-12-27,in_transit,high
+SHP-00526,89-922-4773,Whole Wheat Flour,64,Mudo,2025-12-27,in_transit,high
+SHP-00527,74-234-0628,Almond Flour,92,Shuffledrive,2025-12-27,in_transit,urgent
+SHP-00536,24-975-4231,Green Beans,28,Jayo,2025-12-27,in_transit,high
+SHP-00540,57-167-0669,Haddock,78,Rhybox,2025-12-27,in_transit,urgent
+SHP-00541,67-984-5368,Parmesan Cheese,34,Yakidoo,2025-12-27,in_transit,high
+SHP-00550,45-050-4720,Black Rice,43,Voonder,2025-12-27,in_transit,urgent
+SHP-00551,87-104-0187,Whole Wheat Flour,78,Rhyloo,2025-12-27,in_transit,high
+SHP-00562,21-650-9319,White Bread,95,Jazzy,2025-12-27,in_transit,high
+SHP-00563,99-894-4351,White Sugar,54,Devpoint,2025-12-27,in_transit,high
+SHP-00565,13-900-9016,Bell Pepper,94,Meetz,2025-12-27,in_transit,high
+SHP-00567,56-937-8675,Cream,14,Trilith,2025-12-27,in_transit,high
+SHP-00576,82-231-4245,Wild Rice,80,Kayveo,2025-12-27,in_transit,high
+SHP-00579,22-778-3553,Cheddar Cheese,49,Quaxo,2025-12-27,in_transit,high
+SHP-00580,37-610-1999,Halibut,65,Wikizz,2025-12-27,in_transit,urgent
+SHP-00581,09-618-2842,White Sugar,17,Yambee,2025-12-27,in_transit,high
+SHP-00587,28-044-4102,Papaya,83,Yakijo,2025-12-27,in_transit,high
+SHP-00004,71-594-6552,Long Grain Rice,62,Brightbean,2025-12-28,in_transit,urgent
+SHP-00006,51-469-4611,Long Grain Rice,91,Fivebridge,2025-12-28,in_transit,high
+SHP-00008,75-094-1179,Rye Bread,31,Vitz,2025-12-28,in_transit,high
+SHP-00013,82-041-7211,Swiss Cheese,26,Reallinks,2025-12-28,in_transit,high
+SHP-00016,66-627-9752,Trout,48,Jabbertype,2025-12-28,in_transit,high
+SHP-00017,78-614-4402,Green Beans,28,Gigazoom,2025-12-28,in_transit,high
+SHP-00029,11-316-8405,Mango,51,Twitternation,2025-12-28,in_transit,high
+SHP-00031,90-230-9767,Long Grain Rice,32,Voonyx,2025-12-28,in_transit,high
+SHP-00033,70-854-6891,Sourdough Bread,90,Flashspan,2025-12-28,in_transit,high
+SHP-00047,65-464-5070,Heavy Cream,73,Ntags,2025-12-28,in_transit,urgent
+SHP-00054,70-815-4015,Butter Biscuit,61,Ozu,2025-12-28,in_transit,high
+SHP-00055,13-844-2178,Sardines,48,Browsetype,2025-12-28,in_transit,high
+SHP-00057,82-395-5070,Chocolate Biscuit,17,Vidoo,2025-12-28,in_transit,high
+SHP-00062,60-343-7973,Multigrain Bread,23,Zoombox,2025-12-28,in_transit,high
+SHP-00066,62-509-0666,Almond Flour,7,Brainverse,2025-12-28,in_transit,urgent
+SHP-00069,31-969-4614,Arabica Coffee,6,Voomm,2025-12-28,in_transit,high
+SHP-00071,61-827-4098,Cod,87,Devbug,2025-12-28,in_transit,high
+SHP-00080,29-896-7926,White Rice,56,Centidel,2025-12-28,in_transit,high
+SHP-00083,90-737-0044,Black Rice,97,Bubblemix,2025-12-28,in_transit,high
+SHP-00086,28-840-6096,Pomegranate,48,Flipopia,2025-12-28,in_transit,urgent
+SHP-00087,44-538-3366,Tuna,96,Realbridge,2025-12-28,in_transit,high
+SHP-00088,51-459-5630,Sour Cream,4,Skyvu,2025-12-28,in_transit,high
+SHP-00089,42-887-6557,Long Grain Rice,19,Geba,2025-12-28,in_transit,high
+SHP-00093,74-845-3299,Green Tea,26,Oyoyo,2025-12-28,in_transit,high
+SHP-00107,53-446-8243,Orange,4,Skipfire,2025-12-28,in_transit,high
+SHP-00108,98-235-2711,Asparagus,7,Devpoint,2025-12-28,in_transit,high
+SHP-00110,10-002-6494,Mango,62,Meevee,2025-12-28,in_transit,high
+SHP-00125,01-439-6231,Sunflower Oil,17,Skidoo,2025-12-28,in_transit,high
+SHP-00132,73-118-1117,Olive Oil,55,Layo,2025-12-28,in_transit,high
+SHP-00138,87-675-1506,Strawberries,7,Skalith,2025-12-28,in_transit,high
+SHP-00145,80-072-8774,Tuna,41,Viva,2025-12-28,in_transit,high
+SHP-00152,44-476-0390,Lemon,56,Flashspan,2025-12-28,in_transit,high
+SHP-00154,32-933-0329,Blueberries,54,Linklinks,2025-12-28,in_transit,high
+SHP-00160,34-928-2775,Coconut,25,Browseblab,2025-12-28,in_transit,high
+SHP-00161,57-394-1587,Bread Flour,41,Roomm,2025-12-28,in_transit,high
+SHP-00163,19-214-5762,Pear,75,Gigashots,2025-12-28,in_transit,high
+SHP-00164,00-963-2193,Milk,33,Thoughtsphere,2025-12-28,in_transit,high
+SHP-00173,30-591-7275,Brown Rice,41,Oyondu,2025-12-28,in_transit,urgent
+SHP-00174,83-763-5038,Buttermilk,54,Jatri,2025-12-28,in_transit,high
+SHP-00187,94-020-6982,Tuna,27,Thoughtstorm,2025-12-28,in_transit,high
+SHP-00188,55-631-7937,Greek Yogurt,90,Avamba,2025-12-28,in_transit,high
+SHP-00197,65-759-3721,Butter Biscuit,67,Vipe,2025-12-28,in_transit,high
+SHP-00199,15-679-3935,Grapes,87,Jabbersphere,2025-12-28,in_transit,high
+SHP-00202,86-330-0214,Arabica Coffee,63,Jayo,2025-12-28,in_transit,high
+SHP-00204,17-002-4721,Green Beans,5,Omba,2025-12-28,in_transit,high
+SHP-00208,22-083-3347,Long Grain Rice,58,Yodoo,2025-12-28,in_transit,high
+SHP-00214,08-213-2058,Sour Cream,14,Babblestorm,2025-12-28,in_transit,high
+SHP-00226,02-895-7781,Coconut Sugar,76,Tagchat,2025-12-28,in_transit,high
+SHP-00236,19-672-8982,Butter,67,Meembee,2025-12-28,in_transit,urgent
+SHP-00237,35-299-0889,Coconut Oil,79,Gevee,2025-12-28,in_transit,high
+SHP-00242,27-757-4489,Egg (Goose),68,Abatz,2025-12-28,in_transit,high
+SHP-00249,30-996-2526,Green Beans,39,Izio,2025-12-28,in_transit,high
+SHP-00255,99-420-3592,Butter Biscuit,94,Quatz,2025-12-28,in_transit,high
+SHP-00256,38-924-3007,Peas,11,Photolist,2025-12-28,in_transit,high
+SHP-00258,34-131-8805,Yogurt,28,Eimbee,2025-12-28,in_transit,high
+SHP-00261,92-995-8689,Cheddar Cheese,94,Wordify,2025-12-28,in_transit,high
+SHP-00264,11-922-3342,Black Coffee,32,Gabspot,2025-12-28,in_transit,high
+SHP-00267,08-114-3922,Anchovies,36,Camido,2025-12-28,in_transit,high
+SHP-00271,83-553-9523,Buttermilk,70,Zoombox,2025-12-28,in_transit,high
+SHP-00272,46-255-3073,Tilapia,8,Vinder,2025-12-28,in_transit,high
+SHP-00276,83-321-7887,Egg (Duck),72,Yombu,2025-12-28,in_transit,high
+SHP-00278,21-633-8696,Coconut Sugar,73,Topiclounge,2025-12-28,in_transit,high
+SHP-00299,62-100-2245,Sourdough Bread,73,Meevee,2025-12-28,in_transit,high
+SHP-00308,95-356-1566,Grapes,77,Rhynyx,2025-12-28,in_transit,urgent
+SHP-00310,35-621-2546,Swiss Cheese,41,Skiptube,2025-12-28,in_transit,high
+SHP-00320,20-405-4865,Milk,98,Centimia,2025-12-28,in_transit,high
+SHP-00321,79-428-8753,Cabbage,95,Skivee,2025-12-28,in_transit,high
+SHP-00324,74-305-1263,Green Coffee,48,Photobean,2025-12-28,in_transit,high
+SHP-00328,97-300-7511,Egg (Duck),61,Katz,2025-12-28,in_transit,high
+SHP-00348,13-144-2169,Eggplant,11,Blogpad,2025-12-28,in_transit,high
+SHP-00349,47-866-6589,Egg (Duck),69,Dynazzy,2025-12-28,in_transit,high
+SHP-00350,90-343-9640,Avocado Oil,100,Dabtype,2025-12-28,in_transit,high
+SHP-00358,42-674-3917,Whole Wheat Flour,47,Pixonyx,2025-12-28,in_transit,high
+SHP-00359,05-899-1428,Avocado Oil,10,Dabjam,2025-12-28,in_transit,urgent
+SHP-00365,82-948-2298,Kiwi,94,Topdrive,2025-12-28,in_transit,high
+SHP-00374,42-495-7698,Sushi Rice,29,Latz,2025-12-28,in_transit,high
+SHP-00377,44-782-1395,Raw Sugar,68,Flipopia,2025-12-28,in_transit,high
+SHP-00386,74-818-3306,Spinach,98,Eabox,2025-12-28,in_transit,high
+SHP-00390,95-262-6208,Black Tea,90,Devshare,2025-12-28,in_transit,urgent
+SHP-00391,02-484-0206,Short Grain Rice,91,Quatz,2025-12-28,in_transit,high
+SHP-00392,08-226-5155,Bell Pepper,15,Zava,2025-12-28,in_transit,high
+SHP-00400,40-902-1995,Asparagus,20,Zoomzone,2025-12-28,in_transit,high
+SHP-00401,50-329-3360,Wild Rice,66,Topdrive,2025-12-28,in_transit,urgent
+SHP-00403,97-093-4278,Buttermilk,89,Twitterlist,2025-12-28,in_transit,high
+SHP-00414,05-720-8792,Carrot,36,Linkbridge,2025-12-28,in_transit,high
+SHP-00417,02-034-6209,Sour Cream,3,Yodel,2025-12-28,in_transit,high
+SHP-00429,68-732-5919,Jasmine Rice,24,Eimbee,2025-12-28,in_transit,high
+SHP-00442,93-014-4256,Green Beans,41,BlogXS,2025-12-28,in_transit,urgent
+SHP-00443,24-989-3302,Coconut,16,Eazzy,2025-12-28,in_transit,high
+SHP-00446,66-312-5511,Anchovies,76,Skipfire,2025-12-28,in_transit,high
+SHP-00453,92-152-5820,Black Tea,53,Jaloo,2025-12-28,in_transit,high
+SHP-00457,66-716-8221,Cheddar Cheese,35,LiveZ,2025-12-28,in_transit,high
+SHP-00461,02-575-1980,Plum,32,Yambee,2025-12-28,in_transit,urgent
+SHP-00462,33-670-6797,Mackerel,64,Wikido,2025-12-28,in_transit,high
+SHP-00464,06-340-6856,Wild Rice,12,Podcat,2025-12-28,in_transit,high
+SHP-00469,94-355-3070,Tilapia,80,Jabbercube,2025-12-28,in_transit,urgent
+SHP-00472,88-807-8431,Haddock,43,Eire,2025-12-28,in_transit,urgent
+SHP-00479,65-780-5622,Butter Biscuit,41,InnoZ,2025-12-28,in_transit,high
+SHP-00480,45-250-4679,Bread Flour,81,Dazzlesphere,2025-12-28,in_transit,high
+SHP-00490,89-388-3239,Grapes,43,Centizu,2025-12-28,in_transit,high
+SHP-00491,82-931-7126,Asparagus,18,Vitz,2025-12-28,in_transit,high
+SHP-00500,85-212-2729,Egg (Turkey),79,Browsecat,2025-12-28,in_transit,high
+SHP-00508,71-015-9181,Pomegranate,55,Tagopia,2025-12-28,in_transit,high
+SHP-00511,79-884-8810,Cucumber,29,Dabtype,2025-12-28,in_transit,urgent
+SHP-00517,44-634-8292,Whole Wheat Flour,64,Quatz,2025-12-28,in_transit,high
+SHP-00529,44-368-7112,Corn Oil,71,Devbug,2025-12-28,in_transit,high
+SHP-00533,16-187-5729,Black Tea,84,Zoombeat,2025-12-28,in_transit,high
+SHP-00535,06-655-5498,Wild Rice,52,Kayveo,2025-12-28,in_transit,high
+SHP-00548,58-005-5343,Cucumber,87,Youbridge,2025-12-28,in_transit,high
+SHP-00558,68-436-1268,Egg (Duck),74,Aivee,2025-12-28,in_transit,high
+SHP-00561,69-578-7930,Brown Rice,31,Flipbug,2025-12-28,in_transit,high
+SHP-00568,14-836-2894,Apple,92,Jabbersphere,2025-12-28,in_transit,high
+SHP-00572,34-538-1180,Sour Cream,80,Voonder,2025-12-28,in_transit,high
+SHP-00574,38-390-2115,Potato,54,Rhyzio,2025-12-28,in_transit,high
+SHP-00578,63-936-0145,Plum,72,Thoughtbeat,2025-12-28,in_transit,high
+SHP-00582,55-680-0982,Green Tea,28,Jetpulse,2025-12-28,in_transit,high
+SHP-00584,14-331-3739,Avocado Oil,27,Voolith,2025-12-28,in_transit,urgent
+SHP-00585,28-146-2641,Parmesan Cheese,66,BlogXS,2025-12-28,in_transit,high
+SHP-00001,29-205-1132,Sushi Rice,70,Jaxnation,2025-12-29,processing,high
+SHP-00003,06-955-3428,Black Rice,83,Vinder,2025-12-29,processing,high
+SHP-00018,40-795-0753,Raw Sugar,80,Mydo,2025-12-29,processing,high
+SHP-00023,38-732-7667,Pineapple,22,Photojam,2025-12-29,processing,high
+SHP-00030,43-693-2092,Butter,70,Kayveo,2025-12-29,processing,high
+SHP-00042,55-697-5242,Ricotta Cheese,88,Shufflebeat,2025-12-29,processing,high
+SHP-00044,87-762-1317,Mozzarella Cheese,75,Dazzlesphere,2025-12-29,processing,high
+SHP-00051,39-232-5341,Arborio Rice,74,Feedmix,2025-12-29,processing,high
+SHP-00053,75-080-4909,Corn Oil,15,Tagopia,2025-12-29,processing,high
+SHP-00061,80-988-4653,Zucchini,85,Livetube,2025-12-29,processing,high
+SHP-00067,64-478-4745,Lemon,94,Mydo,2025-12-29,processing,high
+SHP-00073,36-636-4873,Black Rice,74,Wikivu,2025-12-29,processing,high
+SHP-00074,98-556-5323,Pomegranate,2,Dynabox,2025-12-29,processing,high
+SHP-00085,51-572-5497,Orange,88,Kanoodle,2025-12-29,processing,high
+SHP-00092,88-069-5486,Cod,19,Buzzshare,2025-12-29,processing,high
+SHP-00096,71-085-4290,Cucumber,72,Eire,2025-12-29,processing,high
+SHP-00103,24-364-3341,Egg (Turkey),63,Topiclounge,2025-12-29,processing,high
+SHP-00111,87-097-5691,Robusta Coffee,97,Photofeed,2025-12-29,processing,high
+SHP-00119,38-417-4656,White Sugar,2,Dazzlesphere,2025-12-29,processing,high
+SHP-00127,70-587-1204,Black Rice,97,Reallinks,2025-12-29,processing,high
+SHP-00129,51-462-0747,Lime,32,Vinder,2025-12-29,processing,high
+SHP-00133,60-285-3783,Mushrooms,95,Youfeed,2025-12-29,processing,high
+SHP-00136,08-703-1382,Peach,7,Wikizz,2025-12-29,processing,high
+SHP-00140,31-627-6025,White Bread,64,Ozu,2025-12-29,processing,high
+SHP-00157,11-745-3025,Peach,21,Oyoloo,2025-12-29,processing,high
+SHP-00166,10-034-7654,Bread Flour,92,Zava,2025-12-29,processing,high
+SHP-00168,94-190-5193,Carrot,50,Quinu,2025-12-29,processing,high
+SHP-00171,68-977-2498,Grapes,41,Skinix,2025-12-29,processing,high
+SHP-00175,62-795-7801,Palm Oil,84,Buzzshare,2025-12-29,processing,high
+SHP-00185,00-440-9568,Blueberries,25,Kamba,2025-12-29,processing,high
+SHP-00191,04-277-5245,Coconut Sugar,21,Bubblebox,2025-12-29,processing,high
+SHP-00206,22-319-1377,White Sugar,93,Skyba,2025-12-29,processing,high
+SHP-00207,57-903-6434,Tomato,15,Shuffledrive,2025-12-29,processing,high
+SHP-00210,03-043-9933,Strawberries,76,Yombu,2025-12-29,processing,high
+SHP-00223,73-567-6194,Whipped Cream,85,Yakitri,2025-12-29,processing,high
+SHP-00232,04-293-6969,Peach,24,Linktype,2025-12-29,processing,high
+SHP-00240,09-101-1740,Sushi Rice,54,Talane,2025-12-29,processing,high
+SHP-00241,98-445-7372,Cod,52,Roombo,2025-12-29,processing,high
+SHP-00247,09-622-7119,Haddock,99,Youtags,2025-12-29,processing,high
+SHP-00253,60-343-3288,Tilapia,66,Vipe,2025-12-29,processing,high
+SHP-00262,43-164-5984,Butter,35,Shuffletag,2025-12-29,processing,high
+SHP-00268,51-761-6320,Egg (Goose),85,Youopia,2025-12-29,processing,high
+SHP-00273,99-543-5039,Lemon,20,Livetube,2025-12-29,processing,high
+SHP-00277,43-910-2342,Plum,90,Feedspan,2025-12-29,processing,high
+SHP-00282,21-993-5632,Watermelon,85,Innotype,2025-12-29,processing,high
+SHP-00289,21-693-8216,Corn Oil,85,Twinte,2025-12-29,processing,high
+SHP-00292,71-436-5841,Cauliflower,94,Dynabox,2025-12-29,processing,high
+SHP-00293,51-583-6029,Digestive Biscuit,91,Kanoodle,2025-12-29,processing,high
+SHP-00304,36-296-9609,Sunflower Oil,14,Photofeed,2025-12-29,processing,high
+SHP-00306,06-858-5680,Sesame Oil,57,Miboo,2025-12-29,processing,high
+SHP-00315,40-003-7322,White Sugar,79,Wordtune,2025-12-29,processing,high
+SHP-00323,14-489-8669,All-Purpose Flour,68,Wikibox,2025-12-29,processing,high
+SHP-00326,77-777-4536,Basmati Rice,46,Skidoo,2025-12-29,processing,high
+SHP-00330,10-218-2680,Egg (Turkey),57,Quinu,2025-12-29,processing,high
+SHP-00339,45-194-4094,Plum,69,Devcast,2025-12-29,processing,high
+SHP-00340,56-213-0577,Papaya,52,Kwinu,2025-12-29,processing,high
+SHP-00342,76-476-9996,Chocolate Biscuit,82,Photobean,2025-12-29,processing,high
+SHP-00344,37-567-3218,Almond Flour,34,Trilia,2025-12-29,processing,high
+SHP-00345,92-455-2959,Robusta Coffee,57,Katz,2025-12-29,processing,high
+SHP-00368,52-029-2382,Coconut Oil,69,Brightdog,2025-12-29,processing,high
+SHP-00371,06-068-6793,Buttermilk,68,Twitterbeat,2025-12-29,processing,high
+SHP-00382,58-229-1358,Cream,2,Bubblebox,2025-12-29,processing,high
+SHP-00385,93-571-7294,Sushi Rice,7,Quire,2025-12-29,processing,high
+SHP-00394,81-573-0943,Egg (Chicken),2,Topiclounge,2025-12-29,processing,high
+SHP-00412,42-175-1648,Pomegranate,15,Browsetype,2025-12-29,processing,high
+SHP-00415,84-151-2114,Brown Rice,54,Avamm,2025-12-29,processing,high
+SHP-00428,92-837-8839,Vegetable Oil,32,Yoveo,2025-12-29,processing,high
+SHP-00430,37-064-7275,Robusta Coffee,45,Skiptube,2025-12-29,processing,high
+SHP-00439,86-978-6666,Whole Wheat Flour,28,Dabjam,2025-12-29,processing,high
+SHP-00441,45-634-0679,Haddock,34,Rhybox,2025-12-29,processing,high
+SHP-00448,34-369-7712,Apricot,40,Fivebridge,2025-12-29,processing,high
+SHP-00451,77-959-1018,Lettuce,65,Gigabox,2025-12-29,processing,high
+SHP-00452,57-101-0060,Whole Wheat Flour,86,Topicstorm,2025-12-29,processing,high
+SHP-00454,65-854-9364,Black Rice,96,BlogXS,2025-12-29,processing,high
+SHP-00458,01-026-2772,Blueberries,47,Buzzbean,2025-12-29,processing,high
+SHP-00466,17-274-6898,Whole Wheat Bread,92,Photobug,2025-12-29,processing,high
+SHP-00467,79-569-8856,Vegetable Oil,86,Digitube,2025-12-29,processing,high
+SHP-00484,68-973-8812,Sweet Potato,45,Yodo,2025-12-29,processing,high
+SHP-00488,77-937-1108,White Sugar,21,Twimm,2025-12-29,processing,high
+SHP-00489,47-221-2470,Pomegranate,44,Teklist,2025-12-29,processing,high
+SHP-00499,13-673-7016,Peach,57,Youfeed,2025-12-29,processing,high
+SHP-00512,19-377-5021,Mackerel,90,Skynoodle,2025-12-29,processing,high
+SHP-00515,40-630-1431,Cherry,21,Voomm,2025-12-29,processing,high
+SHP-00525,91-426-3204,Haddock,4,Geba,2025-12-29,processing,high
+SHP-00538,25-522-6043,Gouda Cheese,75,Kazu,2025-12-29,processing,high
+SHP-00546,21-809-7115,White Rice,50,Tagcat,2025-12-29,processing,high
+SHP-00547,04-637-8815,Apricot,62,Zoonder,2025-12-29,processing,high
+SHP-00552,85-806-8672,Black Tea,87,Kare,2025-12-29,processing,high
+SHP-00553,54-281-3746,Green Beans,52,Viva,2025-12-29,processing,high
+SHP-00556,23-395-3157,Vegetable Oil,50,Tagtune,2025-12-29,processing,high
+SHP-00557,46-083-7058,Haddock,40,Devshare,2025-12-29,processing,high
+SHP-00564,63-168-6018,Cucumber,81,Bubblemix,2025-12-29,processing,high
+SHP-00005,39-629-5554,Egg (Goose),17,Muxo,2025-12-30,processing,high
+SHP-00014,48-414-6162,Arabica Coffee,84,Skivee,2025-12-30,processing,high
+SHP-00019,02-508-3777,Egg (Quail),81,Realpoint,2025-12-30,processing,normal
+SHP-00020,79-741-0770,Mushrooms,39,Photospace,2025-12-30,processing,high
+SHP-00021,16-499-5059,Pear,5,Centizu,2025-12-30,processing,normal
+SHP-00024,04-240-2226,Olive Oil,73,Kamba,2025-12-30,processing,high
+SHP-00027,26-161-6692,Zucchini,26,Kare,2025-12-30,processing,high
+SHP-00036,40-751-8635,Pineapple,84,Yamia,2025-12-30,processing,high
+SHP-00040,69-468-5468,Sourdough Bread,6,Vinte,2025-12-30,processing,high
+SHP-00048,07-970-9352,Bell Pepper,72,Tagtune,2025-12-30,processing,normal
+SHP-00056,20-022-3173,Bread Flour,65,Mydeo,2025-12-30,processing,high
+SHP-00058,14-305-5348,Cheese,2,Shuffledrive,2025-12-30,processing,high
+SHP-00063,67-710-5120,Bread Flour,18,Skynoodle,2025-12-30,processing,high
+SHP-00065,55-522-8242,Whipped Cream,40,Feedbug,2025-12-30,processing,high
+SHP-00077,15-907-3681,Plum,21,Brainsphere,2025-12-30,processing,high
+SHP-00078,75-029-9003,Sourdough Bread,86,Eadel,2025-12-30,processing,high
+SHP-00084,87-791-5803,Tuna,96,Meemm,2025-12-30,processing,high
+SHP-00098,83-917-7384,Garlic,20,Tavu,2025-12-30,processing,high
+SHP-00099,26-031-8070,Vegetable Oil,23,Trudeo,2025-12-30,processing,high
+SHP-00104,80-374-5711,Herbal Tea,81,Browsecat,2025-12-30,processing,high
+SHP-00106,30-429-2162,Black Rice,76,Npath,2025-12-30,processing,high
+SHP-00112,46-931-6897,Cream,26,Meevee,2025-12-30,processing,high
+SHP-00121,14-681-7035,White Tea,57,Voolith,2025-12-30,processing,high
+SHP-00137,65-282-0419,White Tea,91,Feedbug,2025-12-30,processing,high
+SHP-00142,15-762-1058,Lime,91,Tazz,2025-12-30,processing,high
+SHP-00143,48-193-1199,Canola Oil,92,Omba,2025-12-30,processing,high
+SHP-00150,16-354-8122,Digestive Biscuit,96,BlogXS,2025-12-30,processing,high
+SHP-00155,99-561-4871,Haddock,93,Buzzdog,2025-12-30,processing,high
+SHP-00159,69-287-9113,Zucchini,24,Jaxspan,2025-12-30,processing,high
+SHP-00172,61-801-8665,Robusta Coffee,17,Demivee,2025-12-30,processing,high
+SHP-00177,57-861-4379,Swiss Cheese,51,Feedmix,2025-12-30,processing,normal
+SHP-00178,00-119-8780,Halibut,78,Jaxspan,2025-12-30,processing,high
+SHP-00181,41-538-3129,Digestive Biscuit,65,Devshare,2025-12-30,processing,high
+SHP-00183,39-315-3936,Heavy Cream,72,Yata,2025-12-30,processing,high
+SHP-00193,93-342-8794,Bread Flour,86,Realblab,2025-12-30,processing,high
+SHP-00200,81-578-7404,Gouda Cheese,98,Rhyloo,2025-12-30,processing,high
+SHP-00205,47-802-5023,Cod,45,Buzzster,2025-12-30,processing,high
+SHP-00209,39-768-8205,Egg (Turkey),29,Gigabox,2025-12-30,processing,high
+SHP-00211,29-823-6004,Zucchini,87,Trudeo,2025-12-30,processing,high
+SHP-00212,71-999-2404,Mango,28,Meezzy,2025-12-30,processing,high
+SHP-00217,93-166-3169,White Tea,66,Viva,2025-12-30,processing,high
+SHP-00219,47-663-5703,Basmati Rice,40,Kanoodle,2025-12-30,processing,high
+SHP-00220,34-110-1040,Bell Pepper,27,Leenti,2025-12-30,processing,high
+SHP-00224,83-573-4586,Sesame Oil,82,Thoughtbeat,2025-12-30,processing,high
+SHP-00233,40-997-2786,Yogurt,41,Browsecat,2025-12-30,processing,high
+SHP-00238,17-022-9721,Apple,99,Chatterpoint,2025-12-30,processing,high
+SHP-00245,76-090-4411,Ricotta Cheese,18,Shufflester,2025-12-30,processing,high
+SHP-00254,60-456-8169,Cheddar Cheese,72,Oyoba,2025-12-30,processing,high
+SHP-00257,52-123-8039,Pomegranate,66,Browsebug,2025-12-30,processing,high
+SHP-00269,55-803-3964,Bread Flour,36,Demizz,2025-12-30,processing,high
+SHP-00275,35-529-2933,Broccoli,18,Jabbersphere,2025-12-30,processing,normal
+SHP-00279,76-401-7083,Pomegranate,87,Meeveo,2025-12-30,processing,high
+SHP-00285,76-623-7844,Egg (Quail),88,Vinte,2025-12-30,processing,high
+SHP-00294,96-334-2593,White Tea,58,Rhycero,2025-12-30,processing,normal
+SHP-00295,58-219-0241,Avocado Oil,81,Twitterwire,2025-12-30,processing,normal
+SHP-00297,11-766-8738,Watermelon,43,Jabbersphere,2025-12-30,processing,high
+SHP-00298,15-796-3130,Rye Bread,78,Kwilith,2025-12-30,processing,high
+SHP-00300,33-440-2588,Bell Pepper,43,Tagpad,2025-12-30,processing,normal
+SHP-00301,74-430-8245,Peach,77,Ainyx,2025-12-30,processing,high
+SHP-00302,68-636-4774,Carrot,77,Gevee,2025-12-30,processing,high
+SHP-00309,34-291-4939,Digestive Biscuit,27,Eimbee,2025-12-30,processing,high
+SHP-00317,50-942-2409,Peas,68,Meedoo,2025-12-30,processing,high
+SHP-00333,31-608-1445,Papaya,29,Ntag,2025-12-30,processing,normal
+SHP-00334,51-934-9117,Sardines,4,Linklinks,2025-12-30,processing,high
+SHP-00338,47-843-8207,Cauliflower,26,Cogilith,2025-12-30,processing,high
+SHP-00343,15-169-8058,Bread Flour,28,Feedfire,2025-12-30,processing,high
+SHP-00346,65-527-9488,Grapes,39,Layo,2025-12-30,processing,high
+SHP-00347,07-389-5740,Egg (Quail),69,Skimia,2025-12-30,processing,high
+SHP-00353,15-562-3712,Cauliflower,15,Yakitri,2025-12-30,processing,high
+SHP-00370,73-010-8323,Tuna,89,Tagcat,2025-12-30,processing,high
+SHP-00373,95-449-1286,Egg (Chicken),70,Realfire,2025-12-30,processing,high
+SHP-00397,98-499-2220,Parmesan Cheese,45,Skidoo,2025-12-30,processing,normal
+SHP-00409,69-834-2874,Oatmeal Biscuit,81,Skajo,2025-12-30,processing,high
+SHP-00410,27-474-0056,Spinach,40,Feedfish,2025-12-30,processing,normal
+SHP-00413,56-657-4387,White Bread,45,Meevee,2025-12-30,processing,high
+SHP-00418,19-021-5024,Broccoli,86,Rhyzio,2025-12-30,processing,high
+SHP-00419,07-846-4804,Jasmine Rice,73,Tagcat,2025-12-30,processing,high
+SHP-00420,52-797-6961,Tilapia,88,Plajo,2025-12-30,processing,high
+SHP-00422,03-940-0630,Sunflower Oil,75,Skibox,2025-12-30,processing,high
+SHP-00425,00-842-9790,Egg (Goose),4,Oba,2025-12-30,processing,high
+SHP-00431,43-193-9915,Mozzarella Cheese,6,Roodel,2025-12-30,processing,high
+SHP-00433,07-679-1199,Onion,61,Wikizz,2025-12-30,processing,high
+SHP-00434,36-383-3677,Corn Oil,23,Centizu,2025-12-30,processing,high
+SHP-00440,84-624-0201,Bread Flour,30,Skaboo,2025-12-30,processing,high
+SHP-00444,73-117-6105,Brown Rice,77,Skipfire,2025-12-30,processing,high
+SHP-00449,47-441-7682,Digestive Biscuit,24,Vimbo,2025-12-30,processing,high
+SHP-00455,60-747-8704,Papaya,71,Twitterwire,2025-12-30,processing,high
+SHP-00475,60-327-4114,Egg (Turkey),23,Katz,2025-12-30,processing,normal
+SHP-00476,13-409-9040,White Tea,42,Jazzy,2025-12-30,processing,normal
+SHP-00477,75-927-9108,Cabbage,17,Topdrive,2025-12-30,processing,high
+SHP-00483,15-905-7750,Apricot,52,Skinix,2025-12-30,processing,high
+SHP-00485,28-986-8001,Pomegranate,4,Kwideo,2025-12-30,processing,high
+SHP-00487,44-480-9446,Sunflower Oil,13,Aibox,2025-12-30,processing,normal
+SHP-00494,26-456-1992,Tilapia,87,Geba,2025-12-30,processing,high
+SHP-00497,00-366-9496,Grapes,28,Kimia,2025-12-30,processing,high
+SHP-00504,65-867-4029,Peach,50,Livepath,2025-12-30,processing,high
+SHP-00505,24-478-8277,Multigrain Bread,40,Bubblebox,2025-12-30,processing,normal
+SHP-00506,20-031-0532,Mango,92,Oyoloo,2025-12-30,processing,high
+SHP-00519,49-579-4325,Ricotta Cheese,62,Eadel,2025-12-30,processing,high
+SHP-00524,89-335-0155,Brown Rice,47,Fivebridge,2025-12-30,processing,high
+SHP-00532,12-342-4482,Trout,90,Topicblab,2025-12-30,processing,high
+SHP-00539,63-918-8253,Mango,23,Devpulse,2025-12-30,processing,high
+SHP-00544,79-350-5841,Jasmine Rice,89,Gabvine,2025-12-30,processing,high
+SHP-00545,48-789-9187,Peach,95,Browsetype,2025-12-30,processing,high
+SHP-00554,35-257-9312,Parmesan Cheese,48,Photospace,2025-12-30,processing,high
+SHP-00559,79-494-2472,Green Beans,18,Kanoodle,2025-12-30,processing,high
+SHP-00566,89-673-1543,Digestive Biscuit,1,Lajo,2025-12-30,processing,high
+SHP-00569,87-903-3486,Peanut Oil,39,Twitterbeat,2025-12-30,processing,high
+SHP-00570,34-709-9237,Carrot,99,Gigaclub,2025-12-30,processing,high
+SHP-00586,86-692-2312,Avocado Oil,52,Dazzlesphere,2025-12-30,processing,high
+SHP-00037,02-920-4829,White Bread,84,Skyble,2025-12-31,processing,normal
+SHP-00068,35-835-5591,Tilapia,73,Fiveclub,2025-12-31,processing,normal
+SHP-00090,58-063-8633,Bell Pepper,88,Skimia,2025-12-31,processing,normal
+SHP-00101,53-680-5293,Cheddar Cheese,97,Demizz,2025-12-31,processing,normal
+SHP-00118,01-144-5960,Trout,99,Zazio,2025-12-31,processing,normal
+SHP-00165,76-459-2392,Palm Oil,67,Fivebridge,2025-12-31,processing,normal
+SHP-00167,24-972-6969,Cheese,32,Twitterbeat,2025-12-31,processing,normal
+SHP-00196,10-249-7928,Black Rice,75,Voomm,2025-12-31,processing,normal
+SHP-00243,51-069-0489,Bread Flour,50,Oloo,2025-12-31,processing,normal
+SHP-00327,03-061-1344,Trout,76,Izio,2025-12-31,processing,normal
+SHP-00393,47-581-0363,Parmesan Cheese,88,Tagpad,2025-12-31,processing,normal
+SHP-00398,50-930-4751,Salmon,29,Abata,2025-12-31,processing,normal
+SHP-00404,01-820-5784,Egg (Duck),77,Skipfire,2025-12-31,processing,normal
+SHP-00416,53-930-2215,Egg (Goose),32,Gabvine,2025-12-31,processing,normal
+SHP-00514,46-911-1159,Onion,100,Voolia,2025-12-31,processing,normal
+SHP-00521,84-546-7624,Cherry,100,Gigazoom,2025-12-31,processing,normal
+SHP-00549,67-382-4435,Green Beans,74,Fivespan,2025-12-31,processing,normal
+SHP-00560,96-961-2193,Jasmine Rice,11,Babbleset,2025-12-31,processing,normal
+SHP-00015,76-854-0095,White Sugar,82,Mydeo,2026-01-01,processing,normal
+SHP-00070,50-364-5828,Coconut,92,Mydo,2026-01-01,processing,normal
+SHP-00081,84-075-7647,Canola Oil,58,Mydeo,2026-01-01,processing,normal
+SHP-00126,47-554-5780,Haddock,65,Babbleopia,2026-01-01,processing,normal
+SHP-00314,33-507-9886,Pineapple,16,Quinu,2026-01-01,processing,normal
+SHP-00329,02-888-9412,Cauliflower,69,Photobug,2026-01-01,processing,normal
+SHP-00352,80-227-6886,Garlic,31,Layo,2026-01-01,processing,normal
+SHP-00354,10-137-9759,Watermelon,17,Trupe,2026-01-01,processing,normal
+SHP-00367,74-132-5528,Cauliflower,98,Vinder,2026-01-01,processing,normal
+SHP-00424,85-510-2915,White Bread,38,Mybuzz,2026-01-01,processing,normal
+SHP-00465,82-711-0772,Egg (Goose),52,Skyble,2026-01-01,processing,normal
+SHP-00473,77-377-1659,Almond Flour,91,Thoughtblab,2026-01-01,processing,normal
+SHP-00518,19-610-2236,Whole Wheat Bread,9,Mybuzz,2026-01-01,processing,normal
+SHP-00528,15-846-7959,Zucchini,11,Vidoo,2026-01-01,processing,normal
+SHP-00102,49-861-7823,Coconut,27,Skippad,2026-01-02,processing,normal
+SHP-00122,96-503-7712,White Bread,82,Twitterbridge,2026-01-02,processing,normal
+SHP-00235,13-980-8804,Sweet Potato,32,Photospace,2026-01-02,processing,normal
+SHP-00260,41-594-5069,Egg (Duck),41,Blogtags,2026-01-02,processing,normal
+SHP-00286,88-977-0175,Chocolate Biscuit,26,Yodo,2026-01-02,processing,normal
+SHP-00287,43-153-8268,Vegetable Oil,19,Abata,2026-01-02,processing,normal
+SHP-00305,56-894-3733,Yogurt,13,Skinte,2026-01-02,processing,normal
+SHP-00395,41-526-4036,Whipped Cream,87,Flashset,2026-01-02,processing,normal
+SHP-00405,61-317-9944,White Bread,71,Skivee,2026-01-02,processing,normal
+SHP-00408,02-559-8196,Mango,49,Jaxnation,2026-01-02,processing,normal
+SHP-00426,49-377-9731,Lime,68,Livefish,2026-01-02,processing,normal
+SHP-00438,56-875-3717,Brown Rice,15,Youtags,2026-01-02,processing,normal
+SHP-00478,30-806-3823,Jasmine Rice,3,Topicware,2026-01-02,processing,normal
+SHP-00492,61-680-9496,Apple,17,Wikido,2026-01-02,processing,normal
+SHP-00542,77-827-0820,Sesame Oil,8,Youopia,2026-01-02,processing,normal
+SHP-00543,27-387-0428,Halibut,68,Camido,2026-01-02,processing,normal
+SHP-00573,98-148-0940,Egg (Chicken),18,Babblestorm,2026-01-02,processing,normal
+SHP-00064,49-891-4927,Cottage Cheese,1,Midel,2026-01-03,processing,normal
+SHP-00141,77-013-1553,Canola Oil,66,Yodo,2026-01-03,processing,normal
+SHP-00149,48-461-3742,Kiwi,50,Zooveo,2026-01-03,processing,normal
+SHP-00176,98-575-4736,Cucumber,15,Flashset,2026-01-03,processing,normal
+SHP-00283,23-265-8144,Yogurt,56,Jaxnation,2026-01-03,processing,normal
+SHP-00316,95-090-2788,Sesame Oil,58,Dabtype,2026-01-03,processing,normal
+SHP-00336,53-146-9979,Powdered Sugar,27,Skidoo,2026-01-03,processing,normal
+SHP-00474,99-961-0767,Heavy Cream,30,Tambee,2026-01-03,processing,normal
+SHP-00009,11-073-0189,Plum,76,Voomm,2026-01-04,processing,normal
+SHP-00035,91-105-7317,Orange,71,Devshare,2026-01-04,processing,normal
+SHP-00222,12-439-8428,Eggplant,33,Ainyx,2026-01-04,processing,normal
+SHP-00234,91-553-1774,Feta Cheese,80,Demivee,2026-01-04,processing,normal
+SHP-00246,01-703-8441,Raw Sugar,89,Cogilith,2026-01-04,processing,normal
+SHP-00296,88-401-3700,Cauliflower,24,Jabberstorm,2026-01-04,processing,normal
+SHP-00388,90-128-7973,Black Rice,7,Shuffletag,2026-01-04,processing,normal
+SHP-00496,38-617-7226,Mushrooms,62,Bluezoom,2026-01-04,processing,normal
+SHP-00523,03-597-9488,Buttermilk,74,Wordpedia,2026-01-04,processing,normal
+SHP-00537,98-652-9569,Butter Biscuit,23,Ooba,2026-01-04,processing,normal
+SHP-00555,63-897-8088,Zucchini,33,Skibox,2026-01-04,processing,normal
+SHP-00011,39-449-0772,Feta Cheese,15,Youfeed,2026-01-05,processing,normal
+SHP-00072,87-698-0944,Banana,59,Vinder,2026-01-05,processing,normal
+SHP-00075,97-772-2336,Pineapple,69,Rooxo,2026-01-05,processing,normal
+SHP-00135,68-734-1585,Greek Yogurt,11,Meeveo,2026-01-05,processing,normal
+SHP-00227,89-181-4523,Wild Rice,64,Devbug,2026-01-05,processing,normal
+SHP-00318,11-604-6002,Canola Oil,27,Kimia,2026-01-05,processing,normal
+SHP-00351,01-018-6418,Chocolate Biscuit,100,Chatterbridge,2026-01-05,processing,normal
+SHP-00406,86-672-4191,Egg (Goose),61,Einti,2026-01-05,processing,normal
+SHP-00435,42-907-6946,Coconut Oil,6,Bluejam,2026-01-05,processing,normal
+SHP-00530,03-833-3577,Cucumber,25,Kanoodle,2026-01-05,processing,normal
+SHP-00025,79-136-9840,Herbal Tea,75,Pixonyx,2026-01-06,processing,normal
+SHP-00039,68-761-6907,Zucchini,62,Brainverse,2026-01-06,processing,normal
+SHP-00131,30-832-5429,Multigrain Bread,46,Topicshots,2026-01-06,processing,normal
+SHP-00148,56-191-6497,Bread Flour,68,Bubblebox,2026-01-06,processing,normal
+SHP-00274,99-033-5661,Rice Flour,21,Zava,2026-01-06,processing,normal
+SHP-00281,76-264-0748,Eggplant,63,Roombo,2026-01-06,processing,normal
+SHP-00290,81-268-5905,Mackerel,36,Kazio,2026-01-06,processing,normal
+SHP-00341,78-956-4737,Sushi Rice,60,Photobug,2026-01-06,processing,normal
+SHP-00381,01-839-6534,Short Grain Rice,76,Tanoodle,2026-01-06,processing,normal
+SHP-00450,32-676-1026,Salmon,12,Buzzshare,2026-01-06,processing,normal
+SHP-00534,64-109-7362,Anchovies,96,Voolia,2026-01-06,processing,normal
+SHP-00571,13-962-6263,Sweet Potato,28,Trupe,2026-01-06,processing,normal
+SHP-00034,46-520-1819,Short Grain Rice,78,Katz,2026-01-07,processing,normal
+SHP-00225,12-798-9401,Cream,77,Thoughtblab,2026-01-07,processing,normal
+SHP-00355,10-445-0741,Anchovies,39,Mybuzz,2026-01-07,processing,normal
+SHP-00366,17-395-1121,Plum,74,Lajo,2026-01-07,processing,normal
+SHP-00463,86-257-4613,Jasmine Rice,60,Kwilith,2026-01-07,processing,normal
+SHP-00470,13-888-0149,Lime,65,Shufflebeat,2026-01-07,processing,normal
+SHP-00495,62-998-7250,Evaporated Milk,10,Photobug,2026-01-07,processing,normal
+SHP-00010,22-621-2774,Strawberries,16,Babblestorm,2026-01-08,processing,normal
+SHP-00050,06-336-5482,Sardines,15,Voolia,2026-01-08,processing,normal
+SHP-00151,76-954-1442,Arabica Coffee,99,Mynte,2026-01-08,processing,normal
+SHP-00263,84-269-9130,Long Grain Rice,80,Flashspan,2026-01-08,processing,normal
+SHP-00387,66-854-5736,Kiwi,11,Vitz,2026-01-08,processing,normal
+SHP-00427,96-682-8546,Egg (Chicken),24,Kaymbo,2026-01-08,processing,normal
+SHP-00437,08-637-9335,Lettuce,14,Meemm,2026-01-08,processing,normal
+SHP-00447,31-255-9616,Tuna,9,Centimia,2026-01-08,processing,normal
+SHP-00482,41-131-3841,Almond Flour,31,Camido,2026-01-08,processing,normal
+SHP-00577,70-005-5970,Apple,80,Skaboo,2026-01-08,processing,normal
