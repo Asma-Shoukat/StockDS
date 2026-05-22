@@ -1,8 +1,13 @@
 <div align="center">
 
-<img src="docs/screenshots/banner.png" alt="StockFlow Risk Engine" width="100%"/>
+<img src="docs/screenshots/banner.png" alt="StockFlow" width="100%"/>
 
 <br/>
+
+# ⬡ &nbsp; S T O C K F L O W
+
+### *Supply Chain Risk Engine · Powered by Data Structures*
+
 <br/>
 
 <a href="https://github.com/Asma-Shoukat/StockDS"><img src="https://img.shields.io/badge/⭐_Star_This_Repo-181717?style=for-the-badge&logo=github" alt="Star"/></a>
@@ -30,7 +35,7 @@
 
 <br/>
 
-*A real-time supply chain risk engine demonstrating the practical power of classic Data Structures.*
+*A real-time supply chain risk engine demonstrating the practical power of classic Data Structures.*  
 *Built with a high-performance **C++ backend** (Crow) and a premium **glassmorphism web frontend**.*
 
 </div>
@@ -183,25 +188,14 @@ Analyzes the last **K days** of sales. Smooths outliers to predict future demand
 
 <br/>
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│           CLIENT  (Frontend — HTML5 / Chart.js / JS)        │
-└──────────────────────┬──────────────────────────────────────┘
-                       │  Fetch API  ↕  JSON Responses
-┌──────────────────────▼──────────────────────────────────────┐
-│          SERVER  (Crow C++ — Port 8080 — 8 Threads)         │
-│   REST Router  →  Simulation Controller  →  API Handlers    │
-└──────────┬──────────────────────────────────────┬───────────┘
-           │  CSV Load at Startup                 │  In-Memory
-┌──────────▼──────────┐              ┌────────────▼──────────┐
-│   data/ (Files)     │              │   DSA Core Engine     │
-│  inventory.csv      │              │  unordered_map  O(1)  │
-│  alerts.csv         │              │  priority_queue Heap  │
-│  shipments.csv      │              │  queue          FIFO  │
-│  daily_sales.csv    │              │  stack          LIFO  │
-│  settings.cfg       │              │  Sliding Window  O(K) │
-└─────────────────────┘              └───────────────────────┘
-```
+The system follows a clean **3-layer architecture**: a browser-based frontend communicates with a multithreaded **Crow C++ HTTP server** over REST/JSON, which delegates all logic to the **DSA Core Engine** backed by CSV-loaded data files.
+
+| Layer | Role |
+|:---|:---|
+| 🌐 **Frontend** | HTML5 + Chart.js — fetches JSON via Fetch API |
+| ⚙️ **Server** | Crow (C++17) — port 8080 · 8 threads · REST routing |
+| 🧠 **DSA Core** | `unordered_map`, `priority_queue`, `queue`, `stack`, Sliding Window |
+| 💾 **Data** | CSV files loaded at startup — `inventory.csv`, `alerts.csv`, `shipments.csv` |
 
 ### &nbsp; Tech Stack
 
@@ -443,7 +437,7 @@ StockDS/
 
 <br/>
 
-*StockFlow proves that Data Structures are not academic abstractions —*
+*StockFlow proves that Data Structures are not academic abstractions —*  
 *they are engineering decisions with measurable, real-world impact.*
 
 <br/>
