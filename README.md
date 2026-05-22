@@ -1,8 +1,4 @@
-<div align="center">
 
-<img src="docs/screenshots/banner.png" alt="StockFlow" width="100%"/>
-
-<br/>
 
 # ⬡ &nbsp; S T O C K F L O W
 
